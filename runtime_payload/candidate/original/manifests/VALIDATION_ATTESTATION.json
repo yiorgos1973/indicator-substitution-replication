@@ -1,0 +1,17 @@
+{
+  "clean_rebuild_attestation": "files/validation/clean_rebuild/FULL_REBUILD_STATUS.json",
+  "clean_rebuild_attestation_sha256": "16ebe0cfbe2504e4ae8610cc67365bbe961dd588f0cf32ae6ca51896f07aa809",
+  "clean_rebuild_comparison": "files/validation/clean_rebuild/PRODUCTION_REBUILD_COMPARISON.csv",
+  "clean_rebuild_comparison_sha256": "debb8a4e26682822e2a78ef67db6a0c1ea71d88d4eefd3403ae066478d5b8903",
+  "clean_rebuild_status": "PASS",
+  "display_only_reporting_validation": "files/validation/clean_rebuild/DISPLAY_REPORTING_PASS.json",
+  "empirical_run_complete": true,
+  "independent_validation_report": "files/validation/phase_b/INDEPENDENT_VALIDATION.md",
+  "independent_validation_status": "PASS",
+  "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+  "rebuilt_independent_validation": "files/validation/clean_rebuild/rebuild_validation/VALIDATION_STATUS.json",
+  "reporting_validation_status": "PASS",
+  "run_id": "phase_b_20260930_13fb5775_v2",
+  "schema_version": "1.0",
+  "status": "PASS"
+}

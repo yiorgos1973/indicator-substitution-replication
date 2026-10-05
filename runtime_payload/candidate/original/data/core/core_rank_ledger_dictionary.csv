@@ -1,0 +1,14 @@
+column_name,observed_serialized_type,nullable_observed,description,units_or_format,source_csv,dictionary_status
+iso3,text,false,Serialized field `iso3`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+canonical_economy_name,text,false,Serialized field `canonical_economy_name`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+niq_qnw,number,false,Serialized field `niq_qnw`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+hlo,number,false,Serialized field `hlo`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+rank_qnw,number,false,Serialized field `rank_qnw`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+rank_hlo,number,false,Serialized field `rank_hlo`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+rank_displacement_hlo_minus_qnw,number,false,Serialized field `rank_displacement_hlo_minus_qnw`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+absolute_rank_displacement,number,false,Serialized field `absolute_rank_displacement`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+normalized_absolute_rank_displacement,number,false,Serialized field `normalized_absolute_rank_displacement`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+top_qnw,boolean,false,Serialized field `top_qnw`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+top_hlo,boolean,false,Serialized field `top_hlo`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+bottom_qnw,boolean,false,Serialized field `bottom_qnw`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined
+bottom_hlo,boolean,false,Serialized field `bottom_hlo`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_rank_ledger.csv,schema_audited_semantics_source_defined

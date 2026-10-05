@@ -1,0 +1,9 @@
+column_name,observed_serialized_type,nullable_observed,description,units_or_format,source_csv,dictionary_status
+section,text,false,Serialized field `section`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+scenario,text,false,Serialized field `scenario`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+metric,text,false,Serialized field `metric`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+estimate,number,false,Serialized field `estimate`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+lower,number,true,Serialized field `lower`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+upper,number,true,Serialized field `upper`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+interval_or_test,text,false,Serialized field `interval_or_test`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined
+n_economies,integer,false,Serialized field `n_economies`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_GDP_CONTRAST_source.csv,schema_audited_semantics_source_defined

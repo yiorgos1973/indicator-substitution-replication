@@ -1,0 +1,4039 @@
+{
+  "job_summaries": [
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 2.942091015256665e-15,
+        "mae": 7.768410797840264,
+        "mse": 110.08619449472673,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.492196838352143
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.11969767690597333,
+        "mae": 5.78889191464086,
+        "mse": 51.97366438853578,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.20927627356143
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.35691874804344303,
+        "mae": 5.933662898767555,
+        "mse": 64.22291173902723,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.013919873509295
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4081651738523712,
+        "mae": 5.728193909171189,
+        "mse": 61.7954319320099,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.861007055842776
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M1__ols__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.009066008738942963,
+        "mae": 5.605703776981787,
+        "mse": 48.45576780979392,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.961017728018937
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M2__ols__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1948279482024523,
+        "mae": 6.0174569725911375,
+        "mse": 65.0873602820525,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.067673783814794
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M3__ols__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.07507197386836859,
+        "mae": 5.642317193858019,
+        "mse": 58.828676601399486,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.669985436844029
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M1__lasso__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.08469068391715442,
+        "mae": 5.702043106498177,
+        "mse": 50.377353060728055,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.097700547411679
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M2__lasso__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.19744505044972682,
+        "mae": 5.778269763196779,
+        "mse": 60.47782000058166,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.776748677987586
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__HLO_to_P__primary_5y__M3__lasso__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.189974338664619,
+        "mae": 5.218441348934988,
+        "mse": 48.83725424396494,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.98836563467918
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 6.061817714453355e-14,
+        "mae": 63.97243503082028,
+        "mse": 5682.208626213241,
+        "mse_improvement_vs_m0": null,
+        "rmse": 75.38042601506866
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.05756432142529772,
+        "mae": 38.75408016615279,
+        "mse": 2408.480858542958,
+        "mse_improvement_vs_m0": null,
+        "rmse": 49.07627592373893
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.7380278180478279,
+        "mae": 28.099586183516077,
+        "mse": 1299.3421473946669,
+        "mse_improvement_vs_m0": null,
+        "rmse": 36.04638882599291
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5315974129589955,
+        "mae": 26.649757660176768,
+        "mse": 1130.5237107859452,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.62326145373088
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M1__ols__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.0027843503956331284,
+        "mae": 38.66817131726702,
+        "mse": 2399.5998704502085,
+        "mse_improvement_vs_m0": null,
+        "rmse": 48.985710880319054
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M2__ols__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.116902578881136,
+        "mae": 31.691502237034552,
+        "mse": 1421.0689735751084,
+        "mse_improvement_vs_m0": null,
+        "rmse": 37.697068501079876
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M3__ols__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5946213183088962,
+        "mae": 28.551197349619493,
+        "mse": 1256.0980954206227,
+        "mse_improvement_vs_m0": null,
+        "rmse": 35.44147422752929
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M1__lasso__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.046386073234873156,
+        "mae": 38.71009913790661,
+        "mse": 2405.34681069616,
+        "mse_improvement_vs_m0": null,
+        "rmse": 49.044335153982466
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M2__lasso__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4740305817696541,
+        "mae": 28.765038462078085,
+        "mse": 1305.5753947468609,
+        "mse_improvement_vs_m0": null,
+        "rmse": 36.13274684751854
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY__P_to_HLO__primary_5y__M3__lasso__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.18830199603594222,
+        "mae": 26.775896335480674,
+        "mse": 1143.6845758643085,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.81840587408443
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 53,
+      "predicted_cell_count": 53,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__alternative_10y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 7.771561172376096e-15,
+        "mae": 7.659378647303587,
+        "mse": 105.57388802921315,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.274915475526461
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__alternative_10y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.01962967136238558,
+        "mae": 5.762926698407027,
+        "mse": 49.72928615779486,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.051899471617194
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__alternative_10y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.03395059395499411,
+        "mae": 5.516169952392955,
+        "mse": 54.25690158884044,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.365928426806796
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__alternative_10y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.12310228224796604,
+        "mae": 5.534736330253337,
+        "mse": 50.92444504533836,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.136136562968674
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__primary_5y_matched__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 7.771561172376096e-15,
+        "mae": 7.659378647303587,
+        "mse": 105.57388802921315,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.274915475526461
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__primary_5y_matched__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.01962967136238558,
+        "mae": 5.762926698407027,
+        "mse": 49.72928615779486,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.051899471617194
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__primary_5y_matched__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10185120709426654,
+        "mae": 5.716194753150271,
+        "mse": 58.72623651407854,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.663304542694264
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__HLO_to_P__primary_5y_matched__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.025907635462118273,
+        "mae": 5.765619740438975,
+        "mse": 58.6619962493191,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.659111975243547
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__alternative_10y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 3.9968028886505635e-15,
+        "mae": 63.2101249484127,
+        "mse": 5556.842485446921,
+        "mse_improvement_vs_m0": null,
+        "rmse": 74.54423173825673
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__alternative_10y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.07648216052718171,
+        "mae": 39.62624503717593,
+        "mse": 2506.5976525962983,
+        "mse_improvement_vs_m0": null,
+        "rmse": 50.06593305428651
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__alternative_10y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.1396550935957381,
+        "mae": 27.010437510071668,
+        "mse": 1096.4795134233207,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.113132038865196
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__alternative_10y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.6621796982521806,
+        "mae": 23.970563738933084,
+        "mse": 1005.2285035049722,
+        "mse_improvement_vs_m0": null,
+        "rmse": 31.705338722445028
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__primary_5y_matched__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 3.9968028886505635e-15,
+        "mae": 63.2101249484127,
+        "mse": 5556.842485446921,
+        "mse_improvement_vs_m0": null,
+        "rmse": 74.54423173825673
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__primary_5y_matched__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.07648216052718171,
+        "mae": 39.62624503717593,
+        "mse": 2506.5976525962983,
+        "mse_improvement_vs_m0": null,
+        "rmse": 50.06593305428651
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__primary_5y_matched__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.214986914528076,
+        "mae": 26.537119564917028,
+        "mse": 1204.4768788308813,
+        "mse_improvement_vs_m0": null,
+        "rmse": 34.70557417520824
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S10__P_to_HLO__primary_5y_matched__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4386076908206391,
+        "mae": 26.11843278369996,
+        "mse": 1125.5685423034245,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.54949392022813
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 48,
+      "predicted_cell_count": 48,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__alternative_12y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -2.609024107869118e-15,
+        "mae": 8.614589915784514,
+        "mse": 122.09155158830234,
+        "mse_improvement_vs_m0": null,
+        "rmse": 11.049504585650089
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__alternative_12y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.010717450007707296,
+        "mae": 6.07386488284628,
+        "mse": 53.02060877612769,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.281525168268505
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__alternative_12y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.15805064917695386,
+        "mae": 5.951972869970001,
+        "mse": 56.35860206526105,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.507236646413982
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__alternative_12y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.0906185957753512,
+        "mae": 5.850871853720429,
+        "mse": 52.9700414792183,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.278052038781964
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__primary_5y_matched__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -2.609024107869118e-15,
+        "mae": 8.614589915784514,
+        "mse": 122.09155158830234,
+        "mse_improvement_vs_m0": null,
+        "rmse": 11.049504585650089
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__primary_5y_matched__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.010717450007707296,
+        "mae": 6.07386488284628,
+        "mse": 53.02060877612769,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.281525168268505
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__primary_5y_matched__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4408345296086637,
+        "mae": 6.521444803290349,
+        "mse": 73.92035539456644,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.597694772121562
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__HLO_to_P__primary_5y_matched__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5408623162847446,
+        "mae": 6.455708994401191,
+        "mse": 69.50824486420164,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.33716047969581
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__alternative_12y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.4654943925052066e-14,
+        "mae": 64.87535715909091,
+        "mse": 5791.428525593279,
+        "mse_improvement_vs_m0": null,
+        "rmse": 76.10143576564951
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__alternative_12y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.05849426044723394,
+        "mae": 39.08497221731737,
+        "mse": 2444.6480109653317,
+        "mse_improvement_vs_m0": null,
+        "rmse": 49.44338187225194
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__alternative_12y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3716794889627916,
+        "mae": 24.754756014111948,
+        "mse": 997.5087882788774,
+        "mse_improvement_vs_m0": null,
+        "rmse": 31.583362523310868
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__alternative_12y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.7138104532422678,
+        "mae": 26.684488213650063,
+        "mse": 1146.1110716651099,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.85426223779083
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__primary_5y_matched__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.4654943925052066e-14,
+        "mae": 64.87535715909091,
+        "mse": 5791.428525593279,
+        "mse_improvement_vs_m0": null,
+        "rmse": 76.10143576564951
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__primary_5y_matched__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.05849426044723394,
+        "mae": 39.08497221731737,
+        "mse": 2444.6480109653317,
+        "mse_improvement_vs_m0": null,
+        "rmse": 49.44338187225194
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__primary_5y_matched__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.1712952766250995,
+        "mae": 25.75979013617268,
+        "mse": 1151.847491227473,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.93887875619159
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S12__P_to_HLO__primary_5y_matched__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3392720358655762,
+        "mae": 25.543361402140523,
+        "mse": 1060.916338271597,
+        "mse_improvement_vs_m0": null,
+        "rmse": 32.57171070532828
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 42,
+      "predicted_cell_count": 42,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__HLO_to_P__four_year_preceding_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -4.218847493575595e-15,
+        "mae": 8.132036502624468,
+        "mse": 113.63354053247895,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.65990340164858
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__HLO_to_P__four_year_preceding_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.016537387535909442,
+        "mae": 6.046830410941178,
+        "mse": 54.968226718158974,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.414056023403045
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__HLO_to_P__four_year_preceding_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.2018619681001309,
+        "mae": 6.685305388350297,
+        "mse": 79.56374848302859,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.919851371128814
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__HLO_to_P__four_year_preceding_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.19985930295692222,
+        "mae": 6.43328632158601,
+        "mse": 72.1572821879713,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.494544260169071
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__P_to_HLO__four_year_preceding_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 4.973799150320701e-14,
+        "mae": 59.21831139204546,
+        "mse": 4776.458331655494,
+        "mse_improvement_vs_m0": null,
+        "rmse": 69.11192611738942
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__P_to_HLO__four_year_preceding_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.17384253482031098,
+        "mae": 35.58676973521129,
+        "mse": 2184.0040760179572,
+        "mse_improvement_vs_m0": null,
+        "rmse": 46.73332939153765
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__P_to_HLO__four_year_preceding_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.8280760739044783,
+        "mae": 29.137675589665246,
+        "mse": 1225.182407102148,
+        "mse_improvement_vs_m0": null,
+        "rmse": 35.002605718748256
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "S4__P_to_HLO__four_year_preceding_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.6138795736514184,
+        "mae": 26.876573881548815,
+        "mse": 1056.7808141885662,
+        "mse_improvement_vs_m0": null,
+        "rmse": 32.508165346395145
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 49,
+      "predicted_cell_count": 49,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__assessment_specific_5y_fixed__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -4.6629367034256575e-15,
+        "mae": 8.013867406583703,
+        "mse": 115.60713466933689,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.752075830709941
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__assessment_specific_5y_fixed__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.012126565824647897,
+        "mae": 5.778770284143138,
+        "mse": 50.9500166304029,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.137928034829358
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__assessment_specific_5y_fixed__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5496347715406619,
+        "mae": 6.4274166439620295,
+        "mse": 70.98044732076241,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.424989455231525
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__assessment_specific_5y_fixed__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4152982363482379,
+        "mae": 6.109677302586837,
+        "mse": 65.64722026754023,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.102297221624262
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__primary_5y_matched__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -4.6629367034256575e-15,
+        "mae": 8.013867406583703,
+        "mse": 115.60713466933689,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.752075830709941
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__primary_5y_matched__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.012126565824647897,
+        "mae": 5.778770284143138,
+        "mse": 50.9500166304029,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.137928034829358
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__primary_5y_matched__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5557335972247242,
+        "mae": 6.244382945910894,
+        "mse": 71.78922792606467,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.472852407900463
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__HLO_to_P__primary_5y_matched__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.30747387218040934,
+        "mae": 6.027427197831286,
+        "mse": 65.21361327662959,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.07549461498363
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__assessment_specific_5y_fixed__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -1.5765166949677223e-14,
+        "mae": 64.21833261111111,
+        "mse": 5779.426854494362,
+        "mse_improvement_vs_m0": null,
+        "rmse": 76.02254175239317
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__assessment_specific_5y_fixed__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1152913141242154,
+        "mae": 38.79335083947251,
+        "mse": 2441.205225728533,
+        "mse_improvement_vs_m0": null,
+        "rmse": 49.40855417565397
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__assessment_specific_5y_fixed__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.8542218235504284,
+        "mae": 26.206179722880602,
+        "mse": 1195.2785702510637,
+        "mse_improvement_vs_m0": null,
+        "rmse": 34.57280101830142
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__assessment_specific_5y_fixed__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5460581335770631,
+        "mae": 25.773358910170522,
+        "mse": 1082.763132952554,
+        "mse_improvement_vs_m0": null,
+        "rmse": 32.90536632454582
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__primary_5y_matched__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -1.5765166949677223e-14,
+        "mae": 64.21833261111111,
+        "mse": 5779.426854494362,
+        "mse_improvement_vs_m0": null,
+        "rmse": 76.02254175239317
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__primary_5y_matched__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1152913141242154,
+        "mae": 38.79335083947251,
+        "mse": 2441.205225728533,
+        "mse_improvement_vs_m0": null,
+        "rmse": 49.40855417565397
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__primary_5y_matched__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.7033563365322144,
+        "mae": 27.02544147328876,
+        "mse": 1259.0915683672308,
+        "mse_improvement_vs_m0": null,
+        "rmse": 35.48368031035156
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SA5__P_to_HLO__primary_5y_matched__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5506973641724805,
+        "mae": 24.96139267062044,
+        "mse": 1048.4436415044183,
+        "mse_improvement_vs_m0": null,
+        "rmse": 32.379679453392036
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__HLO_to_P__restricted_primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 3.1086244689504383e-15,
+        "mae": 7.894836899786388,
+        "mse": 103.19637766708577,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.158561791271724
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__HLO_to_P__restricted_primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.17276465334845195,
+        "mae": 5.392957168326999,
+        "mse": 43.4904965857725,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.594732487809684
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__HLO_to_P__restricted_primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.9181758071769226,
+        "mae": 6.954660621164045,
+        "mse": 71.40644572271734,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.450233471491622
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__HLO_to_P__restricted_primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.6886285479487604,
+        "mae": 5.770895819853954,
+        "mse": 58.21134380330466,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.629635889300659
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__P_to_HLO__restricted_primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -1.8207657603852567e-14,
+        "mae": 62.67215535573123,
+        "mse": 5654.914018849134,
+        "mse_improvement_vs_m0": null,
+        "rmse": 75.19916235470401
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__P_to_HLO__restricted_primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5619894115164025,
+        "mae": 36.925642278190374,
+        "mse": 2387.8594630351945,
+        "mse_improvement_vs_m0": null,
+        "rmse": 48.865728921558045
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__P_to_HLO__restricted_primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.2965439776857708,
+        "mae": 25.730213480915655,
+        "mse": 1379.05149913253,
+        "mse_improvement_vs_m0": null,
+        "rmse": 37.13558265508338
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCC__P_to_HLO__restricted_primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.955662824780722,
+        "mae": 23.956573081715405,
+        "mse": 1116.9947180483011,
+        "mse_improvement_vs_m0": null,
+        "rmse": 33.421470913894574
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 29,
+      "predicted_cell_count": 29,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__HLO_to_P__restricted_primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -1.6209256159527285e-14,
+        "mae": 8.102436060473835,
+        "mse": 113.96815591068277,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.67558691176662
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__HLO_to_P__restricted_primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.0184948583950576,
+        "mae": 5.934742513898639,
+        "mse": 53.035675227429316,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.282559661783027
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__HLO_to_P__restricted_primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4383999354389183,
+        "mae": 6.626051932896029,
+        "mse": 74.01426866848709,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.603154576577541
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__HLO_to_P__restricted_primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3510796751557128,
+        "mae": 6.200872705656007,
+        "mse": 67.70481897979072,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.228293807332765
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__P_to_HLO__restricted_primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": -1.234568003383174e-13,
+        "mae": 67.4418494858871,
+        "mse": 6108.053739956616,
+        "mse_improvement_vs_m0": null,
+        "rmse": 78.15403853900716
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__P_to_HLO__restricted_primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.03450874184727848,
+        "mae": 41.32640942596453,
+        "mse": 2704.1607487402757,
+        "mse_improvement_vs_m0": null,
+        "rmse": 52.00154563799307
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__P_to_HLO__restricted_primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.9876448537843596,
+        "mae": 27.716818056129938,
+        "mse": 1263.1561455971723,
+        "mse_improvement_vs_m0": null,
+        "rmse": 35.54090805814016
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "SCOMP__P_to_HLO__restricted_primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": -0.12477342107935963,
+        "mae": 26.16336470226809,
+        "mse": 1061.8291325600094,
+        "mse_improvement_vs_m0": null,
+        "rmse": 32.585719764338634
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 45,
+      "predicted_cell_count": 45,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__HLO_to_P__restricted_primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 8.548717289613705e-15,
+        "mae": 8.287471117829003,
+        "mse": 116.54055694871502,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.795395173346598
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__HLO_to_P__restricted_primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 9.866227410680606e-05,
+        "mae": 5.556004505524384,
+        "mse": 47.29641195320913,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.8772386866539055
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__HLO_to_P__restricted_primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4679284589345245,
+        "mae": 6.260307817352129,
+        "mse": 76.4201828912077,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.74186381106499
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__HLO_to_P__restricted_primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4354003648699082,
+        "mae": 5.947487454981223,
+        "mse": 67.89215064412159,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.239669328566626
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__P_to_HLO__restricted_primary_5y__M0__reference__none",
+      "metrics": {
+        "bias_pred_minus_observed": 1.1857181902996672e-13,
+        "mae": 63.24889001782529,
+        "mse": 5570.285775260162,
+        "mse_improvement_vs_m0": null,
+        "rmse": 74.6343471550476
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__P_to_HLO__restricted_primary_5y__M1__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.08475926088595284,
+        "mae": 36.30006625150387,
+        "mse": 2154.026769963621,
+        "mse_improvement_vs_m0": null,
+        "rmse": 46.41149394238049
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__P_to_HLO__restricted_primary_5y__M2__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.9250025840357607,
+        "mae": 26.158348437374823,
+        "mse": 1279.1173050480984,
+        "mse_improvement_vs_m0": null,
+        "rmse": 35.76474947553944
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "STERM__P_to_HLO__restricted_primary_5y__M3__ridge__none",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4490224335637209,
+        "mae": 25.226628514078204,
+        "mse": 1085.810721069709,
+        "mse_improvement_vs_m0": null,
+        "rmse": 32.951642160440336
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 44,
+      "predicted_cell_count": 44,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__AUS",
+      "metrics": {
+        "bias_pred_minus_observed": -7.077671781985373e-15,
+        "mae": 7.807778952606468,
+        "mse": 111.76173066157747,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.571742082626566
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__AUS",
+      "metrics": {
+        "bias_pred_minus_observed": 0.12322201097531058,
+        "mae": 5.883053880967928,
+        "mse": 52.274463875578824,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.230108151029197
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__AUS",
+      "metrics": {
+        "bias_pred_minus_observed": 0.16387566902318496,
+        "mae": 5.882747785973081,
+        "mse": 62.64425114687515,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.914812135918019
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__AUS",
+      "metrics": {
+        "bias_pred_minus_observed": 0.15210681091638423,
+        "mae": 5.617395518548188,
+        "mse": 58.878881927619645,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.67325758251472
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__AUT",
+      "metrics": {
+        "bias_pred_minus_observed": -9.020562075079397e-15,
+        "mae": 7.6853154374728225,
+        "mse": 109.04008249883807,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.442225936017573
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__AUT",
+      "metrics": {
+        "bias_pred_minus_observed": 0.18007041080792596,
+        "mae": 5.768817483761676,
+        "mse": 52.42282718220892,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.2403609842471885
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__AUT",
+      "metrics": {
+        "bias_pred_minus_observed": 0.16624412216770526,
+        "mae": 5.749235302373433,
+        "mse": 62.584470523843386,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.91103473155335
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__AUT",
+      "metrics": {
+        "bias_pred_minus_observed": 0.33066358392962136,
+        "mae": 5.617343224683334,
+        "mse": 60.74795572534394,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.794097492676362
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__BHR",
+      "metrics": {
+        "bias_pred_minus_observed": -7.743805596760467e-15,
+        "mae": 7.882667543412702,
+        "mse": 112.92099607544485,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.626429130966095
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__BHR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1009045418708524,
+        "mae": 5.766638956529166,
+        "mse": 51.071074696054716,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.146402920074876
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__BHR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.03784500328196106,
+        "mae": 5.522380187735856,
+        "mse": 60.52023387866998,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.779475167302096
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__BHR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3044944632167836,
+        "mae": 5.625883066488225,
+        "mse": 60.813925991092,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.79832841005635
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__BRA",
+      "metrics": {
+        "bias_pred_minus_observed": -5.856426454897701e-15,
+        "mae": 7.944887982712983,
+        "mse": 113.159181859104,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.63763046261262
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__BRA",
+      "metrics": {
+        "bias_pred_minus_observed": -0.05450415030266745,
+        "mae": 5.955304140718812,
+        "mse": 54.11428523085274,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.356241243383249
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__BRA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3652874615756021,
+        "mae": 6.0371106185055075,
+        "mse": 65.80132812317414,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.111801780318238
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__BRA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.132816828069921,
+        "mae": 5.501009865174697,
+        "mse": 57.909148024003684,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.609806043783487
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__CHL",
+      "metrics": {
+        "bias_pred_minus_observed": -2.248201624865942e-15,
+        "mae": 7.720112812691379,
+        "mse": 110.17318679116894,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.496341590819581
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__CHL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.13440161212506557,
+        "mae": 5.706818814103494,
+        "mse": 49.56200893797064,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.0400290438300495
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__CHL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.15366375395032228,
+        "mae": 5.639140644031852,
+        "mse": 59.02946080748668,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.6830632437515884
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__CHL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4763408019524718,
+        "mae": 5.688115720159414,
+        "mse": 61.42396760605715,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.837344423084719
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__COL",
+      "metrics": {
+        "bias_pred_minus_observed": -1.4960255256823984e-14,
+        "mae": 7.910404199518711,
+        "mse": 113.05946394154537,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.63294239340858
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__COL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.03249272207364895,
+        "mae": 5.7182421404193935,
+        "mse": 49.77178044769126,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.054911795883154
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__COL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.42901782162989466,
+        "mae": 6.193136751768194,
+        "mse": 69.57397584441277,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.341101596576603
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__COL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.32234389989315976,
+        "mae": 5.980237263654932,
+        "mse": 65.13235830366143,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.070462087369064
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__CRI",
+      "metrics": {
+        "bias_pred_minus_observed": -1.4405143744511406e-14,
+        "mae": 7.9556426492096755,
+        "mse": 113.19096567705591,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.639124290892362
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__CRI",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10486585309082727,
+        "mae": 5.830997525298097,
+        "mse": 51.12967533911546,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.1505017543607
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__CRI",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4234278975788486,
+        "mae": 6.097841387932915,
+        "mse": 67.57602158050462,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.22046358671484
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__CRI",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4253022516505746,
+        "mae": 5.8469143492292295,
+        "mse": 63.59864503150421,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.974875863078009
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__DEU",
+      "metrics": {
+        "bias_pred_minus_observed": -3.497202527569243e-15,
+        "mae": 7.738580464475022,
+        "mse": 110.24533338731145,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.499777777996611
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__DEU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.04823484675199202,
+        "mae": 5.981315593502262,
+        "mse": 55.03192029196953,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.418350240583787
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__DEU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.34476366147170157,
+        "mae": 6.03412663506832,
+        "mse": 66.09349815483365,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.129790781738091
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__DEU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3356439312599896,
+        "mae": 5.739771759388326,
+        "mse": 61.50392248995742,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.842443655516909
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__EGY",
+      "metrics": {
+        "bias_pred_minus_observed": -1.4016565685892601e-14,
+        "mae": 7.967230351842465,
+        "mse": 113.20583227063813,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.639822943575618
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__EGY",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10186594018180026,
+        "mae": 5.540592115543872,
+        "mse": 47.46075460816352,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.889176627737419
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__EGY",
+      "metrics": {
+        "bias_pred_minus_observed": 0.435301029426139,
+        "mae": 5.98377811296676,
+        "mse": 68.20201971085167,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.258451411181861
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__EGY",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4453880628369002,
+        "mae": 5.6574503967876195,
+        "mse": 62.050699800032824,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.877226656637019
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__ESP",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1934897514720433e-14,
+        "mae": 7.910349610524982,
+        "mse": 112.96058678813509,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.628291809511776
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__ESP",
+      "metrics": {
+        "bias_pred_minus_observed": 0.01575514338265377,
+        "mae": 5.955515993926227,
+        "mse": 53.843125116869146,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.337787481037397
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__ESP",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3890545635942482,
+        "mae": 5.940468589296786,
+        "mse": 65.14004920081467,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.070938557616126
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__ESP",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3818847185362919,
+        "mae": 5.749110560222728,
+        "mse": 61.17425952804182,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.821397543153131
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__FIN",
+      "metrics": {
+        "bias_pred_minus_observed": -1.329492071988625e-14,
+        "mae": 7.720595001177084,
+        "mse": 109.96814988869431,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.486569977294497
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__FIN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.052521723748036056,
+        "mae": 5.876248304869111,
+        "mse": 53.24778540798306,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.297108016740815
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__FIN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.35812639537593294,
+        "mae": 6.087915383451236,
+        "mse": 66.22607782288156,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.137940637709368
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__FIN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4101269464434048,
+        "mae": 5.890326134617627,
+        "mse": 63.81510337336596,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.988435602379602
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__GHA",
+      "metrics": {
+        "bias_pred_minus_observed": -1.3572476476042539e-14,
+        "mae": 7.209371685960485,
+        "mse": 94.68524834689977,
+        "mse_improvement_vs_m0": null,
+        "rmse": 9.730634529510384
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__GHA",
+      "metrics": {
+        "bias_pred_minus_observed": -0.03810182720429557,
+        "mae": 5.5525190730739515,
+        "mse": 50.48569071837077,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.105328332904171
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__GHA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.0865871989527499,
+        "mae": 6.29818640211754,
+        "mse": 70.7763099649817,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.412865740339715
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__GHA",
+      "metrics": {
+        "bias_pred_minus_observed": -0.16113676023769952,
+        "mae": 5.67641261318434,
+        "mse": 58.21046096609553,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.629578033292243
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__HRV",
+      "metrics": {
+        "bias_pred_minus_observed": -1.3156142841808105e-14,
+        "mae": 7.978004594080336,
+        "mse": 113.21213949830012,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.640119336656902
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__HRV",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10123199456992779,
+        "mae": 5.714648424474459,
+        "mse": 50.56302107729467,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.110767966773678
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__HRV",
+      "metrics": {
+        "bias_pred_minus_observed": 0.15749017040044583,
+        "mae": 5.7221489666931795,
+        "mse": 60.63673815400389,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.7869594935381485
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__HRV",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4173784330248201,
+        "mae": 5.778346336737609,
+        "mse": 61.89541343033204,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.867363817082063
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__IDN",
+      "metrics": {
+        "bias_pred_minus_observed": -2.581268532253489e-15,
+        "mae": 7.7079407864952705,
+        "mse": 110.07650424744128,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.491735044664503
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__IDN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.13533046181362554,
+        "mae": 5.71990250578502,
+        "mse": 51.112924393189736,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.149330345786921
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__IDN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.35626534614117705,
+        "mae": 6.043273519347116,
+        "mse": 67.15086989298351,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.19456343516746
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__IDN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.2508653823499838,
+        "mae": 5.649393783409201,
+        "mse": 59.60267971493269,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.720277178633724
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__IRN",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1796119636642288e-14,
+        "mae": 7.597948694799676,
+        "mse": 108.84000611191139,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.432641377518515
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__IRN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10549158988594377,
+        "mae": 5.612627327344948,
+        "mse": 49.26858364656492,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.019158328928399
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__IRN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1333928316371412,
+        "mae": 5.741710045990292,
+        "mse": 62.06242052339584,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.877970584065153
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__IRN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.481712977565089,
+        "mae": 5.814047703786713,
+        "mse": 64.7243688302014,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.04514566867508
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__ISL",
+      "metrics": {
+        "bias_pred_minus_observed": -1.2628786905111156e-14,
+        "mae": 7.720628750360153,
+        "mse": 109.96898189812785,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.486609647456506
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__ISL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.0638682992489144,
+        "mae": 5.761658723667965,
+        "mse": 52.531594162519,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.247868249528202
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__ISL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3687534072781963,
+        "mae": 5.916651092094758,
+        "mse": 63.489999360423866,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.96806120461081
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__ISL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4142191010661523,
+        "mae": 5.742135986707032,
+        "mse": 62.35780795479482,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.89669601509358
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__ITA",
+      "metrics": {
+        "bias_pred_minus_observed": -6.827871601444713e-15,
+        "mae": 7.954362804085796,
+        "mse": 113.17713751003858,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.63847439767745
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__ITA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.05952967563095972,
+        "mae": 5.738877266997311,
+        "mse": 52.0313037643079,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.213272749890156
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__ITA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.08990207615706597,
+        "mae": 5.659015151696878,
+        "mse": 60.661553800803254,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.788552741094025
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__ITA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.356853250232365,
+        "mae": 5.699440919765137,
+        "mse": 60.02716307407803,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.747719862906637
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__JOR",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1934897514720433e-14,
+        "mae": 7.450987638885324,
+        "mse": 104.71304406037247,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.23293917016868
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__JOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.07446699709499725,
+        "mae": 5.633480817111407,
+        "mse": 50.97892590191589,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.1399527940957634
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__JOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.35237513994832353,
+        "mae": 5.7230740878644015,
+        "mse": 60.6091836711075,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.785190021515692
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__JOR",
+      "metrics": {
+        "bias_pred_minus_observed": -0.03826703433419203,
+        "mae": 5.093952695304597,
+        "mse": 48.37285718933857,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.955059826438488
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__JPN",
+      "metrics": {
+        "bias_pred_minus_observed": -9.797718192317006e-15,
+        "mae": 7.519333810111018,
+        "mse": 103.02294616216714,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.150021978408084
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__JPN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1439607774477486,
+        "mae": 5.682696024348683,
+        "mse": 51.4517164492852,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.172985183958294
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__JPN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.11692229851591815,
+        "mae": 5.536274817615196,
+        "mse": 55.086205358674725,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.4220081756001
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__JPN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.2669661221431735,
+        "mae": 5.414925447089687,
+        "mse": 53.92183499275474,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.34314884724222
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__KAZ",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1601830607332886e-14,
+        "mae": 7.819698078395711,
+        "mse": 112.4434167299163,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.603934021386417
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__KAZ",
+      "metrics": {
+        "bias_pred_minus_observed": 0.018683047944082806,
+        "mae": 5.6089755699977335,
+        "mse": 48.94111989712009,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.995793014170737
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__KAZ",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4062009038625485,
+        "mae": 6.170715146067612,
+        "mse": 69.06061260630216,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.310271512189127
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__KAZ",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3173508566370513,
+        "mae": 5.744179922580089,
+        "mse": 61.160947879241746,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.820546520495978
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__KOR",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1463052729254741e-14,
+        "mae": 7.767070047652129,
+        "mse": 111.01283252101221,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.536262739748484
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__KOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.06025867945095563,
+        "mae": 5.840464201898776,
+        "mse": 52.269516091845205,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.229765977667964
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__KOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.47845167589401505,
+        "mae": 6.204374082269051,
+        "mse": 69.4205868628815,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.331901755474647
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__KOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4189627575699663,
+        "mae": 5.8970581603520245,
+        "mse": 63.82871456223957,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.98928748777008
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__LTU",
+      "metrics": {
+        "bias_pred_minus_observed": -1.149080830487037e-14,
+        "mae": 7.867240259144354,
+        "mse": 112.57673535917793,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.610218440690932
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__LTU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.02237521859615481,
+        "mae": 5.717782834812415,
+        "mse": 49.78736845678957,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.056016472258945
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__LTU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3668734161771975,
+        "mae": 5.953320506369807,
+        "mse": 65.63669063214869,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.101647402358898
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__LTU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.332830536139594,
+        "mae": 5.737320541065011,
+        "mse": 60.77011095742558,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.795518645826305
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__MAR",
+      "metrics": {
+        "bias_pred_minus_observed": -1.226796442210798e-14,
+        "mae": 7.267419973942098,
+        "mse": 97.39005919793169,
+        "mse_improvement_vs_m0": null,
+        "rmse": 9.868640189911257
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__MAR",
+      "metrics": {
+        "bias_pred_minus_observed": -0.037306544622625185,
+        "mae": 5.6912623645620535,
+        "mse": 50.34463316327415,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.095395208392141
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__MAR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4292280491602254,
+        "mae": 5.830132203803436,
+        "mse": 61.380581543120385,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.834576028294089
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__MAR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10800169578995085,
+        "mae": 5.434009804823813,
+        "mse": 52.05560209813333,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.214956832728338
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__MEX",
+      "metrics": {
+        "bias_pred_minus_observed": -1.2823075934420558e-14,
+        "mae": 7.954629392528434,
+        "mse": 113.17368731123437,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.638312239788526
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__MEX",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10184988760210571,
+        "mae": 5.755889527508603,
+        "mse": 50.90520653906703,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.134788471921717
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__MEX",
+      "metrics": {
+        "bias_pred_minus_observed": 0.08565273489878741,
+        "mae": 5.687668653938246,
+        "mse": 61.37461321032609,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.834195122048345
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__MEX",
+      "metrics": {
+        "bias_pred_minus_observed": 0.41189324776670483,
+        "mae": 5.772449146361109,
+        "mse": 63.274813259746836,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.954546703599573
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__NLD",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1352030426792226e-14,
+        "mae": 7.777525533726685,
+        "mse": 110.91396287180166,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.531569819917715
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__NLD",
+      "metrics": {
+        "bias_pred_minus_observed": 0.0978037857569587,
+        "mae": 5.742383529778068,
+        "mse": 50.92258794779478,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.136006442527556
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__NLD",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4082632893745711,
+        "mae": 6.059174971717613,
+        "mse": 67.5968695541258,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.221731542328891
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__NLD",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4063833720659454,
+        "mae": 5.80991614620774,
+        "mse": 63.187513274471684,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.949057382763801
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__NOR",
+      "metrics": {
+        "bias_pred_minus_observed": -6.522560269672795e-15,
+        "mae": 7.711144543844755,
+        "mse": 108.96672257106391,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.438712687446854
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__NOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.09001111036756632,
+        "mae": 5.625831930599392,
+        "mse": 48.7101015871828,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.979262252357537
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__NOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.11752374393618985,
+        "mae": 5.648166844678524,
+        "mse": 59.840086049203734,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.735637404196485
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__NOR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.37547277286145253,
+        "mae": 5.663894822176554,
+        "mse": 58.72703700384412,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.663356771274851
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__OMN",
+      "metrics": {
+        "bias_pred_minus_observed": -1.4127587988355117e-14,
+        "mae": 7.911816547648175,
+        "mse": 113.06533825891135,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.6332186217961
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__OMN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.014392117341261501,
+        "mae": 5.622339972750443,
+        "mse": 49.401725056226354,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.028636073679327
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__OMN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.42845592861838494,
+        "mae": 6.145633620608701,
+        "mse": 68.22378937684311,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.25976932951781
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__OMN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.4184582394179716,
+        "mae": 5.88191308611748,
+        "mse": 64.23913680062192,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.014932114536087
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__PER",
+      "metrics": {
+        "bias_pred_minus_observed": -1.2601031329495527e-14,
+        "mae": 7.897391735411317,
+        "mse": 112.86350058752649,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.623723480377606
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__PER",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10323835829953767,
+        "mae": 5.5455724761126906,
+        "mse": 47.83691684380853,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.916423703317237
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__PER",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10683756762677996,
+        "mae": 5.415024750749855,
+        "mse": 56.16126037307122,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.494081689778356
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__PER",
+      "metrics": {
+        "bias_pred_minus_observed": 0.19407428660786685,
+        "mae": 5.344910771552884,
+        "mse": 52.69465371372032,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.259108327730089
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__PHL",
+      "metrics": {
+        "bias_pred_minus_observed": -1.2573275753879898e-14,
+        "mae": 7.9169163224984045,
+        "mse": 113.0037846575514,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.630323826561042
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__PHL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.10593190319111816,
+        "mae": 5.457585584278356,
+        "mse": 45.22576087710831,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.725010102379647
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__PHL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.06993228560958215,
+        "mae": 5.128708691669711,
+        "mse": 50.87269251299022,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.132509552253696
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__PHL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3079129746350623,
+        "mae": 5.1355868403102765,
+        "mse": 50.35304258989778,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.095987781126584
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__POL",
+      "metrics": {
+        "bias_pred_minus_observed": 1.304512053934559e-15,
+        "mae": 7.730929703578493,
+        "mse": 108.47944857116192,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.41534678112841
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__POL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.09994896701419761,
+        "mae": 5.690590663545098,
+        "mse": 49.58445872599812,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.041623301909732
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__POL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.379873391837023,
+        "mae": 6.011435686320906,
+        "mse": 66.03220435450473,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.126020203919303
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__POL",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3302516676491936,
+        "mae": 5.655963236135267,
+        "mse": 60.15271758465097,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.75581830528868
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 50,
+      "predicted_cell_count": 50,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__QAT",
+      "metrics": {
+        "bias_pred_minus_observed": -1.0907941216942163e-14,
+        "mae": 7.842853538561539,
+        "mse": 112.64537974026499,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.6134527718488
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__QAT",
+      "metrics": {
+        "bias_pred_minus_observed": 0.09814587754457833,
+        "mae": 5.578164432552813,
+        "mse": 48.427901587467524,
+        "mse_improvement_vs_m0": null,
+        "rmse": 6.959015849059946
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__QAT",
+      "metrics": {
+        "bias_pred_minus_observed": 0.385546798824445,
+        "mae": 6.141797152696409,
+        "mse": 67.06996593516476,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.18962550640533
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__QAT",
+      "metrics": {
+        "bias_pred_minus_observed": 0.17310883752160067,
+        "mae": 5.51053191082091,
+        "mse": 56.815930123752636,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.537634252452996
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__RUS",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1601830607332886e-14,
+        "mae": 7.808514505763255,
+        "mse": 111.77383492390659,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.572314549043014
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__RUS",
+      "metrics": {
+        "bias_pred_minus_observed": 0.09477621697623095,
+        "mae": 5.774444429672113,
+        "mse": 51.04500594120484,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.14457877983054
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__RUS",
+      "metrics": {
+        "bias_pred_minus_observed": 0.11801928240202067,
+        "mae": 5.8097059790458685,
+        "mse": 63.18860435976287,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.949126012321283
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__RUS",
+      "metrics": {
+        "bias_pred_minus_observed": 0.24725080415154982,
+        "mae": 5.721381831716253,
+        "mse": 58.971315495781546,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.679278318682137
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__SAU",
+      "metrics": {
+        "bias_pred_minus_observed": -6.6058269965196814e-15,
+        "mae": 7.732236392570388,
+        "mse": 110.41587649229005,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.5078959117556
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__SAU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.13267489609799238,
+        "mae": 5.6366439358815015,
+        "mse": 49.772574024229144,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.054968038498059
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__SAU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1677391854846068,
+        "mae": 5.732427268804594,
+        "mse": 59.64440039637659,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.722978725619837
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__SAU",
+      "metrics": {
+        "bias_pred_minus_observed": 0.5008710222747247,
+        "mae": 5.747163703720041,
+        "mse": 61.00857207026438,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.810798427194519
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__SRB",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1518563880485999e-14,
+        "mae": 7.903309812040526,
+        "mse": 112.9097920763453,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.625901941781004
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__SRB",
+      "metrics": {
+        "bias_pred_minus_observed": 0.01654545812210531,
+        "mae": 5.9955786760802,
+        "mse": 53.93746005711282,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.344212691440303
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__SRB",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3701004865131254,
+        "mae": 6.087119212744038,
+        "mse": 66.07618768822425,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.12872608028
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__SRB",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1682534302093538,
+        "mae": 5.633479331712669,
+        "mse": 58.81946826107357,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.669385129270375
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__SVN",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1018963519404679e-14,
+        "mae": 7.808443548993337,
+        "mse": 111.77266946725122,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.572259430568813
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__SVN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.07083055419324472,
+        "mae": 5.900253948910371,
+        "mse": 52.957308223756854,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.277177215360147
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__SVN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.487920642553226,
+        "mae": 6.204724702612799,
+        "mse": 69.15165365734711,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.31574733005682
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__SVN",
+      "metrics": {
+        "bias_pred_minus_observed": 0.41683605497883136,
+        "mae": 5.893539346082152,
+        "mse": 63.757364326310935,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.98482087002025
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__UKR",
+      "metrics": {
+        "bias_pred_minus_observed": -1.2073675392798577e-14,
+        "mae": 7.939926406525716,
+        "mse": 113.15853968594543,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.637600278537704
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__UKR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.05239065269849691,
+        "mae": 5.877589568452779,
+        "mse": 53.21846423400292,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.295098644569717
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__UKR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.3670267809516676,
+        "mae": 6.0578129350471865,
+        "mse": 66.16857020625652,
+        "mse_improvement_vs_m0": null,
+        "rmse": 8.13440656755344
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__UKR",
+      "metrics": {
+        "bias_pred_minus_observed": 0.36923990437531606,
+        "mae": 5.816126858765623,
+        "mse": 62.101479611264466,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.880449201109316
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__USA",
+      "metrics": {
+        "bias_pred_minus_observed": -1.1907141939104804e-14,
+        "mae": 7.9134343009599135,
+        "mse": 112.98138172871585,
+        "mse_improvement_vs_m0": null,
+        "rmse": 10.629270046843097
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__USA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.09739202077307034,
+        "mae": 5.7394748395383175,
+        "mse": 50.76510724186115,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.124963666002877
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__USA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.1465020932642537,
+        "mae": 5.82979934032834,
+        "mse": 63.128711544850894,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.9453578613458875
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__USA",
+      "metrics": {
+        "bias_pred_minus_observed": 0.42759047446729165,
+        "mae": 5.837646818058407,
+        "mse": 63.60173041865758,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.97506930494385
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 52,
+      "predicted_cell_count": 52,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M0__reference__ZAF",
+      "metrics": {
+        "bias_pred_minus_observed": 3.969047313034935e-15,
+        "mae": 7.342437375603304,
+        "mse": 99.16271110027553,
+        "mse_improvement_vs_m0": null,
+        "rmse": 9.95804755463015
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M1__ridge__ZAF",
+      "metrics": {
+        "bias_pred_minus_observed": -0.04724883524351742,
+        "mae": 5.732938914107462,
+        "mse": 52.00799848403786,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.211657124686244
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M2__ridge__ZAF",
+      "metrics": {
+        "bias_pred_minus_observed": 0.2994829224446588,
+        "mae": 5.903140233774373,
+        "mse": 61.21301887999591,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.823874927425407
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    },
+    {
+      "complete": true,
+      "job_id": "PRIMARY_DELETE__HLO_to_P__primary_5y__M3__ridge__ZAF",
+      "metrics": {
+        "bias_pred_minus_observed": 0.40733841977740165,
+        "mae": 5.767063278256446,
+        "mse": 61.49300345403738,
+        "mse_improvement_vs_m0": null,
+        "rmse": 7.841747474513406
+      },
+      "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+      "planned_cell_count": 51,
+      "predicted_cell_count": 51,
+      "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "status": "complete"
+    }
+  ],
+  "jobs_complete": 252,
+  "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+  "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773"
+}

@@ -1,0 +1,12 @@
+Output,Result
+"Score correlation, Pearson (66 economies)",.795
+"Rank correlation, Spearman",.791
+Absolute rank displacement: mean / median / maximum,9.52 / 7 / 34 places
+Strict pair reversals,"432 / 2,145"
+Upper / lower group overlap,4 / 7; 2 / 7
+QNW–GDP correlation (65 economies),.616
+HLO–GDP correlation (65 economies),.690
+"GDP correlation difference, QNW minus HLO",\textminus{}.074
+Williams two-sided p,.218
+Zou 95% interval for the difference,"[\textminus{}.207, .045]"
+Paired BCa bootstrap 95% interval,"[\textminus{}.247, .066]"

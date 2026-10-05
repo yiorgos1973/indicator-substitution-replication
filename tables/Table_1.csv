@@ -1,0 +1,5 @@
+Indicator,Evidence and date scope,Construction,Use
+Published QNW,Selected psychometric samples; source-specific full history,"Published NIQ v1.3.5 corrected and weighted score, including seven source composition formulas","Fixed-sample score, rank and GDP comparisons"
+Aggregate HLO,"Student assessments, 2000–2017",Years within subject and level; subjects within level; equal primary and secondary levels,"Fixed-sample score, rank and GDP comparisons"
+Period-specific P,Selected psychometric records within each window,Corrected score weighted by the source-defined QN factors for that window,Historical prediction target or predictor
+Period-specific HLO,Student assessments within each window,Same subject-and-level hierarchy as aggregate HLO,Historical prediction target or predictor

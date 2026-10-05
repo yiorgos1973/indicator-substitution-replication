@@ -1,0 +1,341 @@
+{
+  "checks": [
+    {
+      "check_id": "PROTOCOL_EXPECTED_HASH",
+      "detail": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "passed": true
+    },
+    {
+      "check_id": "PROTOCOL_CANONICAL_HASH",
+      "detail": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "passed": true
+    },
+    {
+      "check_id": "APPROVAL_STATUS",
+      "detail": "approved",
+      "passed": true
+    },
+    {
+      "check_id": "APPROVAL_SCOPE",
+      "detail": "empirical_prediction",
+      "passed": true
+    },
+    {
+      "check_id": "APPROVAL_HASH",
+      "detail": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "passed": true
+    },
+    {
+      "check_id": "APPROVAL_PROTOCOL_BYTES",
+      "detail": "9f563c1ef058d95c2acf5ef5b23463e462a84a3a855eb5f3d53dd2a749471750",
+      "passed": true
+    },
+    {
+      "check_id": "INPUT_HASH::numerical_decisions_addendum",
+      "detail": "94a6a60399827cb769b0bc56597b38dd2d3d82056f6c39970b47b9e879e6fb93",
+      "passed": true
+    },
+    {
+      "check_id": "INPUT_HASH::frozen_annual_wdi_panel",
+      "detail": "5089ae20401f497322dff379e1f85831cf25f9bb300576f4d6ae695925bbb788",
+      "passed": true
+    },
+    {
+      "check_id": "INPUT_HASH::eligible_measurement_cells",
+      "detail": "77503cda229dcbb622e995b68dd5a9f7c50e9625699520ae09b6c57539ec3f62",
+      "passed": true
+    },
+    {
+      "check_id": "INPUT_HASH::block_coverage",
+      "detail": "581c1852f57103df7558ce30e0134816870ac8bbdb41440a38ca084458f53c67",
+      "passed": true
+    },
+    {
+      "check_id": "INPUT_HASH::assessment_annual_ledger",
+      "detail": "884b6d7205ea55ad3f36bccc475d8df41da973be0f7dc9b15f1cb32ec3cac476",
+      "passed": true
+    },
+    {
+      "check_id": "INPUT_HASH::assessment_historical_coverage",
+      "detail": "986e222ad4488004c10c6305b2826c68e9a3ed4f719cede6f08e3d83fac70eaf",
+      "passed": true
+    },
+    {
+      "check_id": "FROZEN_HASH::sample_manifest",
+      "detail": "01371c52862383655b5e2b9833638b386b616ae03d8527f8ebba94c4e17038c0",
+      "passed": true
+    },
+    {
+      "check_id": "FROZEN_HASH::coverage_and_imputation_summary",
+      "detail": "db071ab800b22c36fc410f6f8201342cbdf63744c437694cca6698308de0c0ef",
+      "passed": true
+    },
+    {
+      "check_id": "FROZEN_HASH::coverage_threshold_corrections",
+      "detail": "d7e69ae99db0b0899e097781169232fc9fdc1c87d6ff94dc8c6ee6a734ad316e",
+      "passed": true
+    },
+    {
+      "check_id": "FROZEN_HASH::scenario_summary",
+      "detail": "05db1dacd31a0f5ea8cb6fafc04b1704b1d1af5f011a24222f9726b0402c0e4f",
+      "passed": true
+    },
+    {
+      "check_id": "FROZEN_HASH::scenario_window_summary",
+      "detail": "f75cbe46688e28a0dc009fc85d172e9a0bda20811d4c07b550f2f1e8b046354e",
+      "passed": true
+    },
+    {
+      "check_id": "PHASE_A_OUTPUT_HASH::rewrite/analysis/protocol_final/scenario_sample_manifest.csv",
+      "detail": "dac81beb571a37db4aaa5af92d8a981f243caf20de5db6b36697678906510f7e",
+      "passed": true
+    },
+    {
+      "check_id": "PHASE_A_OUTPUT_HASH::rewrite/analysis/protocol_final/scenario_feature_manifest.csv",
+      "detail": "13938d9ff3baec7c1d28a3b1b96d10a7a8bd61168747e60bb32b9ac497cbb2ac",
+      "passed": true
+    },
+    {
+      "check_id": "PHASE_A_OUTPUT_HASH::rewrite/analysis/protocol_final/scenario_summary.csv",
+      "detail": "05db1dacd31a0f5ea8cb6fafc04b1704b1d1af5f011a24222f9726b0402c0e4f",
+      "passed": true
+    },
+    {
+      "check_id": "PHASE_A_OUTPUT_HASH::rewrite/analysis/protocol_final/input_hashes.csv",
+      "detail": "244626477140460ce090c1421284b8e913cd17acf25cbadb91a4eaf277105970",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_RECORD_SHA256_RECORDED",
+      "detail": "690d5612ff23a4c05533cb297ed2b1a67b957a28f5a75d34dd97a16856ec64bb",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_PROTOCOL_HASH",
+      "detail": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_OVERALL_STATUS",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_PROTOCOL_BYTES",
+      "detail": "9f563c1ef058d95c2acf5ef5b23463e462a84a3a855eb5f3d53dd2a749471750",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_01",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_02",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_03",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_04",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_05",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_06",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_07",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_08",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_09",
+      "detail": "passed",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/protocol/Numerical_Decisions_Addendum.md",
+      "detail": "94a6a60399827cb769b0bc56597b38dd2d3d82056f6c39970b47b9e879e6fb93",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::data/processed/wdi_bridge_1980_2017_long.csv",
+      "detail": "5089ae20401f497322dff379e1f85831cf25f9bb300576f4d6ae695925bbb788",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/temporal/temporal_eligible_cells.csv",
+      "detail": "77503cda229dcbb622e995b68dd5a9f7c50e9625699520ae09b6c57539ec3f62",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/context/aligned_cell_block_preceding_coverage_long.csv",
+      "detail": "581c1852f57103df7558ce30e0134816870ac8bbdb41440a38ca084458f53c67",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/context/assessment_specific_annual_provenance_ledger.csv",
+      "detail": "884b6d7205ea55ad3f36bccc475d8df41da973be0f7dc9b15f1cb32ec3cac476",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/context/assessment_specific_coverage_long.csv",
+      "detail": "986e222ad4488004c10c6305b2826c68e9a3ed4f719cede6f08e3d83fac70eaf",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/protocol/author_approval/sample_manifest.csv",
+      "detail": "01371c52862383655b5e2b9833638b386b616ae03d8527f8ebba94c4e17038c0",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/protocol/author_approval/coverage_and_imputation_summary.csv",
+      "detail": "db071ab800b22c36fc410f6f8201342cbdf63744c437694cca6698308de0c0ef",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/protocol_final/coverage_threshold_corrections.csv",
+      "detail": "d7e69ae99db0b0899e097781169232fc9fdc1c87d6ff94dc8c6ee6a734ad316e",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/protocol_final/scenario_summary.csv",
+      "detail": "05db1dacd31a0f5ea8cb6fafc04b1704b1d1af5f011a24222f9726b0402c0e4f",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/analysis/protocol_final/scenario_window_summary.csv",
+      "detail": "f75cbe46688e28a0dc009fc85d172e9a0bda20811d4c07b550f2f1e8b046354e",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::data/raw/niq/v135/NIQ-DATA (V1.3.5).xlsx",
+      "detail": "add22c511eaf3808be8cd48de9ab838df8db6caaf7323bd72e6a64caa7a4ee7e",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::data/raw/niq/v135/MANUAL (V1.3.5).txt",
+      "detail": "1f56c77ec59811cfc5393c9267eb18815b6684e40e749e6d91cbcc370e6ca277",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::data/raw/hlo_official_replication/official_filtered_hlo.dta",
+      "detail": "46aa4b601800cf96a43b4961c8953a4afccf9c9b1c77281fcc9f39d082ef299a",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::outputs/headline_analysis_rq1_exact_sample.csv",
+      "detail": "3572af775b747cfa30e64ad2ac0acd3b9653971097f3c4de50fb613236c1285e",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::outputs/headline_analysis_rq2_exact_sample.csv",
+      "detail": "2dcbe34ae88d546256bf4201e37715ff0ff379462affea24190958d293e7ba72",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::outputs/headline_analysis_ranking_summary.csv",
+      "detail": "8f9385c8fb983d902e85f8931209c401c9bcdb7e9f2ddc572421ba021a401c61",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::outputs/headline_analysis_correlation_difference.csv",
+      "detail": "10314140df48b0c067589c261122eeb52e2c8d8cbb320e2543cc17362dd9b9ce",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/independent_validate_phase_b_gate.py",
+      "detail": "6150597e29a8d9e303ac66fcbff5f6b55ccdeecbe3b6e2f6153db657d49f9738",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/validation_results.csv",
+      "detail": "4338f4c6fc75d96a756c2271cab0a31cedf6cda9e7f79cc08ec28af6b098814d",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/frozen_input_hashes.csv",
+      "detail": "166167a3307faf63663c835068b7a1a417c23739d5d7785202c1f5b4978c1def",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/frozen_artifact_hashes.csv",
+      "detail": "ec8a7e3df1c193e950ae70ac1af39244108cf7bc73c0600c21e8310b2aaee56f",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/measurement_source_hashes.csv",
+      "detail": "c0e8b4db254059b77a4d1f84d63ab5cc58372e029f3e39bc0e3b825ddb3423ad",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_01_source_identity.csv",
+      "detail": "2ea5611eea4336635e8e3a7b2c2ee7cd2fd131c8967b47511d9e67edb6114a2d",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_02_construction_weights.csv",
+      "detail": "9bb12dc4e29a2c0cb79fc6e0778d718cfb35cee9bc4bc940267f624ece40c5eb",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_03_dates_and_boundaries.csv",
+      "detail": "b3eb38e0b6cefe4ba6463c94be6390a26738e8dfc5be8e8e862872a7e4fb35cf",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_04_duplicates_and_overlap.csv",
+      "detail": "01e1a1f728fec5c452acc4e7b5c2bb13e84ad57aacfaedfca3d16fae0e9c9ca0",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_05_composition_exceptions.csv",
+      "detail": "a74802b0913040d9d77dee38ec9e41b2a3a812c2ac3a6edda5f145200d5084c4",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_06_hlo_component_coverage.csv",
+      "detail": "0fce94fec724b608e817eb742e94b4930c83444d873553d3a7c5f839e56cc84a",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_07_context_endpoints_coverage.csv",
+      "detail": "5e3571a989de4817ea20723bbf8543d5ab025cdfe81979de8cef1fa2e89eb815",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_08_missingness.csv",
+      "detail": "46b603f76a4adf55d33e93450d01fa978227ddabe8a7d63c1cca3d563a05f419",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/meas_09_leakage.csv",
+      "detail": "fe3c767e1f814324a477cbdde5fbe3198b0ee39637aedaa7d2661c5fbb267667",
+      "passed": true
+    },
+    {
+      "check_id": "MEAS_EVIDENCE_HASH::rewrite/validation/phase_b_gate/INDEPENDENT_PHASE_B_GATE_REPORT.md",
+      "detail": "84d60b6a191ad17d72d10e2be8e6aa9f704f02e514e0c27b36793c6231fef1dd",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773"
+}

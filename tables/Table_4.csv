@@ -1,0 +1,5 @@
+Feature set,HLO \to P MSE,Reduction from reference,P \to HLO MSE,Reduction from reference
+Mean-only reference (M0),110.086,—,"5,682.209",—
+Other indicator (M1 Ridge),51.974,52.8%,"2,408.481",57.6%
+Seven context features (M2 Ridge),64.223,41.7%,"1,299.342",77.1%
+Other indicator and context (M3 Ridge),61.795,43.9%,"1,130.524",80.1%

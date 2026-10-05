@@ -1,0 +1,13 @@
+{
+  "status": "approved_before_predictive_fitting",
+  "approval_status": "approved",
+  "approval_record_status": "author_approved",
+  "scope": "empirical_prediction",
+  "empirical_modelling_approved": true,
+  "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+  "protocol_file_sha256": "9f563c1ef058d95c2acf5ef5b23463e462a84a3a855eb5f3d53dd2a749471750",
+  "source_approval_record_git_blob": "15f2a3825f64dea56f4fa82903bd7cf4632467f1",
+  "source_commit": "bb155d5b0af05b8b8f209042ae02b02d4d0430a9",
+  "identity_metadata": "Omitted from this derived summary.",
+  "note": "The unchanged proposal documents preceded the separate approval record; their pending status is historical."
+}

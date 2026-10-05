@@ -1,0 +1,23 @@
+{
+  "files": {
+    "CALIBRATION.csv": "ac5dfbccaebfac13dfe855b518409681952fe6d06badee15e99806d7bba1bf2a",
+    "FAILURES.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "FITS.json": "b1b70e1889f9a86aa724c2751c86aab08a28be4819db695b2a51d5263eb2263d",
+    "METRICS.csv": "36116c8fe55bd25b6cc86a1bd84c25b43c9d46fa654c7d806f44d7c51b41b048",
+    "PAIRED_COMPLETENESS.csv": "757cc1c34373b7896b49470e9344fd3c608a95d0a8aa2b2a986390c0058e6961",
+    "PREDICTIONS.csv": "daeb6d3dc82841e9746ad45d14200d80479d1d88e5954421d87f6e0244011af3",
+    "PREPROCESSING.csv": "d4eb35642f3eb7d430adfb6fd22ad2fe24e1b368bed66412b92e123662f3a239",
+    "RANK_LEDGER.csv": "0a5eff02afaea548d407f1c30761f9fca70231deaa8317889de5259897b65466",
+    "RUN_SETTINGS.json": "2b66807e5428c4619562495897f586019d1ef2af502bf30c91e2647922d44691",
+    "RUN_STATUS.json": "ac5ea459b21437214ebc0c3632f021356ae5ec70478a230774c61f99c461da7a",
+    "SPLITS.csv": "5b0af4c20a08ea3578040afbdae7852dfac4b49b147eed84edba7ce14ebe562a",
+    "TAIL_GROUPS.csv": "be64a5aa78e2c1a0c4b1d2de3d886248f8f61f5fa51b466b69ad7db7350d8d88",
+    "TUNING.csv": "4963c953daa6d4b8ff96e82dd721e858db4f97c61e42e3293b3a053b85982d11",
+    "execution_plan.csv": "ba8cd7ac5ea5ae641a04a768476b5f1348e5e0f49f8b88b09a22398265bc3ba2",
+    "gate_results.json": "5c1e54658dcff3b3b7050a56889c522da9601c1d1e9ea54514e4589104c8cef3",
+    "matrix_manifest.csv": "f6f55153cf18cde3da15a6cfc393e558a0c4ac9628165becffc1d12ec78bacf1",
+    "preflight_status.json": "296a1d562df0f71074e770c6b35aa5c0c6ebd731766a13e2f7779486d4283c68"
+  },
+  "plan_hash": "9e4653f14fdbe35227c1d4d281afa5859a76c384f3438a50dadeb62ecfd69ab6",
+  "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773"
+}

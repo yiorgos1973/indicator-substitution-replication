@@ -1,0 +1,6 @@
+column_name,observed_serialized_type,nullable_observed,description,units_or_format,source_csv,dictionary_status
+quantity,text,false,Serialized field `quantity`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_reconciliation.csv,schema_audited_semantics_source_defined
+fresh_value,number,false,Serialized field `fresh_value`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_reconciliation.csv,schema_audited_semantics_source_defined
+archived_value,number,false,Serialized field `archived_value`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_reconciliation.csv,schema_audited_semantics_source_defined
+absolute_difference,number,false,Serialized field `absolute_difference`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_reconciliation.csv,schema_audited_semantics_source_defined
+passes_tolerance_1e_12,boolean,false,Serialized field `passes_tolerance_1e_12`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_reconciliation.csv,schema_audited_semantics_source_defined

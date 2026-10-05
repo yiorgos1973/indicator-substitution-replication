@@ -1,0 +1,17 @@
+section,scenario,metric,estimate,lower,upper,interval_or_test,n_economies
+Primary,QNW-GDP,Pearson correlation,0.6159047248355085,,,none,65
+Primary,HLO-GDP,Pearson correlation,0.6895192024555441,,,none,65
+Primary contrast,QNW minus HLO,Difference in dependent correlations,-0.0736144776200355,-0.2070758677812342,0.0450794626460688,Zou 95% interval,65
+Primary contrast,QNW minus HLO,Difference in dependent correlations,-0.0736144776200355,-0.2368210302573669,0.0726842604389463,Paired economy bootstrap percentile 95%,65
+Primary contrast,QNW minus HLO,Difference in dependent correlations,-0.0736144776200355,-0.2466768478571278,0.0658163288695618,Paired economy bootstrap BCa 95%,65
+Primary test,QNW minus HLO,Williams two-sided p,0.218207083565368,,,Williams test,65
+Fixed-sample sensitivity,Primary reference,QNW-GDP minus HLO-GDP,-0.0736144776200354,,,none,65
+Fixed-sample sensitivity,QNW v1.3.3,QNW-GDP minus HLO-GDP,-0.0823312686149478,,,none,65
+Fixed-sample sensitivity,Latest-period HLO,QNW-GDP minus HLO-GDP,-0.0936690355944895,,,none,65
+Coverage-changing sensitivity,UN member-observer population,QNW-GDP minus HLO-GDP,-0.0757247040945577,,,none,64
+Coverage-changing sensitivity,QNW plus SAS,QNW-GDP minus HLO-GDP,0.0092059855084667,,,none,80
+Coverage-changing sensitivity,QNW plus SAS plus geographic imputation,QNW-GDP minus HLO-GDP,0.0092059855084667,,,none,80
+Coverage-changing sensitivity,Balanced all-six HLO,QNW-GDP minus HLO-GDP,-0.0344977598402215,,,none,41
+Coverage-changing sensitivity,All-available published HLO,QNW-GDP minus HLO-GDP,-0.0052443722351421,,,none,107
+Weighting sensitivity,Equal-economy association,QNW-GDP minus HLO-GDP,-0.0736144776200352,,,none,65
+Weighting sensitivity,Population-weighted association,QNW-GDP minus HLO-GDP,-0.1327255202603208,,,none,65

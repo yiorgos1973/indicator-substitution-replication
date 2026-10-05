@@ -1,0 +1,7 @@
+REVIEW-ONLY NOTICE
+
+This archive is supplied confidentially for editorial and peer-review verification of the accompanying manuscript. The authors grant reviewers and journal staff permission to extract, execute, inspect, and retain the archive for that purpose.
+
+No rights are granted to redistribute third-party data or publications. Third-party materials remain subject to their providers' terms. Processed values included for confidential review must not be republished separately from the manuscript without a separate rights assessment.
+
+The analysis code authored for this project may be inspected and executed for review. A public archival release and its final license will follow the journal's identity-disclosure and third-party data-licensing requirements.

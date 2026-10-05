@@ -1,0 +1,67 @@
+iso3,canonical_economy_name,rank_qnw,rank_hlo,rank_displacement_hlo_minus_qnw,absolute_rank_displacement,normalized_absolute_rank_displacement,top_qnw,top_hlo,bottom_qnw,bottom_hlo
+ARE,United Arab Emirates,59.0,43.0,-16.0,16.0,0.2461538461538461,False,False,False,False
+ARG,Argentina,23.0,49.0,26.0,26.0,0.4,False,False,False,False
+AUS,Australia,11.0,14.0,3.0,3.0,0.0461538461538461,False,False,False,False
+AUT,Austria,7.0,19.0,12.0,12.0,0.1846153846153846,True,False,False,False
+BGR,Bulgaria,45.0,32.0,-13.0,13.0,0.2,False,False,False,False
+BHR,Bahrain,49.0,45.0,-4.0,4.0,0.0615384615384615,False,False,False,False
+BRA,Brazil,54.0,50.0,-4.0,4.0,0.0615384615384615,False,False,False,False
+BWA,Botswana,64.0,57.0,-7.0,7.0,0.1076923076923077,False,False,True,False
+CAN,Canada,15.0,8.0,-7.0,7.0,0.1076923076923077,False,False,False,False
+CHL,Chile,37.0,40.0,3.0,3.0,0.0461538461538461,False,False,False,False
+COL,Colombia,51.0,51.0,0.0,0.0,0.0,False,False,False,False
+CRI,Costa Rica,40.0,44.0,4.0,4.0,0.0615384615384615,False,False,False,False
+CYP,Cyprus,22.0,36.0,14.0,14.0,0.2153846153846154,False,False,False,False
+DEU,Germany,6.0,11.0,5.0,5.0,0.0769230769230769,True,False,False,False
+DNK,Denmark,18.0,13.0,-5.0,5.0,0.0769230769230769,False,False,False,False
+DOM,Dominican Republic,39.0,62.0,23.0,23.0,0.3538461538461538,False,False,False,True
+EGY,"Egypt, Arab Rep.",50.0,63.0,13.0,13.0,0.2,False,False,False,True
+ESP,Spain,28.0,28.0,0.0,0.0,0.0,False,False,False,False
+FIN,Finland,16.0,6.0,-10.0,10.0,0.1538461538461538,False,True,False,False
+GHA,Ghana,66.0,66.0,0.0,0.0,0.0,False,False,True,True
+GRC,Greece,43.0,29.0,-14.0,14.0,0.2153846153846154,False,False,False,False
+HKG,"Hong Kong SAR, China",3.0,3.0,0.0,0.0,0.0,True,True,False,False
+HRV,Croatia,30.0,25.0,-5.0,5.0,0.0769230769230769,False,False,False,False
+HUN,Hungary,12.0,15.0,3.0,3.0,0.0461538461538461,False,False,False,False
+IDN,Indonesia,60.0,53.0,-7.0,7.0,0.1076923076923077,False,False,True,False
+IRL,Ireland,36.0,9.0,-27.0,27.0,0.4153846153846154,False,False,False,False
+IRN,"Iran, Islamic Rep.",61.0,48.0,-13.0,13.0,0.2,False,False,True,False
+ISL,Iceland,9.0,24.0,15.0,15.0,0.2307692307692307,False,False,False,False
+ISR,Israel,33.0,30.0,-3.0,3.0,0.0461538461538461,False,False,False,False
+ITA,Italy,32.0,26.0,-6.0,6.0,0.0923076923076923,False,False,False,False
+JOR,Jordan,63.0,55.0,-8.0,8.0,0.123076923076923,False,False,True,False
+JPN,Japan,2.0,4.0,2.0,2.0,0.0307692307692307,True,True,False,False
+KAZ,Kazakhstan,55.0,33.0,-22.0,22.0,0.3384615384615385,False,False,False,False
+KGZ,Kyrgyz Republic,47.0,58.0,11.0,11.0,0.1692307692307692,False,False,False,False
+KOR,"Korea, Rep.",17.0,1.0,-16.0,16.0,0.2461538461538461,False,True,False,False
+KWT,Kuwait,42.0,60.0,18.0,18.0,0.2769230769230769,False,False,False,True
+LTU,Lithuania,25.0,22.0,-3.0,3.0,0.0461538461538461,False,False,False,False
+LVA,Latvia,31.0,17.0,-14.0,14.0,0.2153846153846154,False,False,False,False
+MAR,Morocco,65.0,64.0,-1.0,1.0,0.0153846153846153,False,False,True,True
+MEX,Mexico,34.0,46.0,12.0,12.0,0.1846153846153846,False,False,False,False
+MLT,Malta,27.0,38.0,11.0,11.0,0.1692307692307692,False,False,False,False
+MNG,Mongolia,13.0,47.0,34.0,34.0,0.5230769230769231,False,False,False,False
+MUS,Mauritius,48.0,42.0,-6.0,6.0,0.0923076923076923,False,False,False,False
+NLD,Netherlands,10.0,7.0,-3.0,3.0,0.0461538461538461,False,True,False,False
+NOR,Norway,5.0,31.0,26.0,26.0,0.4,True,False,False,False
+NZL,New Zealand,8.0,20.0,12.0,12.0,0.1846153846153846,False,False,False,False
+OMN,Oman,56.0,52.0,-4.0,4.0,0.0615384615384615,False,False,False,False
+PER,Peru,53.0,54.0,1.0,1.0,0.0153846153846153,False,False,False,False
+PHL,Philippines,29.0,61.0,32.0,32.0,0.4923076923076923,False,False,False,True
+POL,Poland,26.0,18.0,-8.0,8.0,0.123076923076923,False,False,False,False
+PRT,Portugal,38.0,23.0,-15.0,15.0,0.2307692307692307,False,False,False,False
+QAT,Qatar,52.0,59.0,7.0,7.0,0.1076923076923077,False,False,False,False
+ROU,Romania,57.0,37.0,-20.0,20.0,0.3076923076923077,False,False,False,False
+RUS,Russian Federation,20.0,12.0,-8.0,8.0,0.123076923076923,False,False,False,False
+SAU,Saudi Arabia,62.0,56.0,-6.0,6.0,0.0923076923076923,False,False,True,False
+SGP,Singapore,4.0,2.0,-2.0,2.0,0.0307692307692307,True,True,False,False
+SRB,Serbia,44.0,34.0,-10.0,10.0,0.1538461538461538,False,False,False,False
+SVK,Slovak Republic,24.0,27.0,3.0,3.0,0.0461538461538461,False,False,False,False
+SVN,Slovenia,14.0,21.0,7.0,7.0,0.1076923076923077,False,False,False,False
+SWE,Sweden,19.0,16.0,-3.0,3.0,0.0461538461538461,False,False,False,False
+THA,Thailand,35.0,41.0,6.0,6.0,0.0923076923076923,False,False,False,False
+TUR,Turkiye,46.0,39.0,-7.0,7.0,0.1076923076923077,False,False,False,False
+TWN,"Taiwan, China",1.0,5.0,4.0,4.0,0.0615384615384615,True,True,False,False
+UKR,Ukraine,41.0,35.0,-6.0,6.0,0.0923076923076923,False,False,False,False
+USA,United States,21.0,10.0,-11.0,11.0,0.1692307692307692,False,False,False,False
+ZAF,South Africa,58.0,65.0,7.0,7.0,0.1076923076923077,False,False,False,True

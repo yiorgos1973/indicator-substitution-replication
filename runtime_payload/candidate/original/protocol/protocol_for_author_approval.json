@@ -1,0 +1,1864 @@
+{
+  "specification_id": "niq_hlo_integrated_protocol_numerically_complete_v2_2026-09-30",
+  "specification_status": "fully_specified_pending_author_approval",
+  "execution_scope": "protocol_preparation_and_synthetic_validation_only",
+  "empirical_modelling_approved": false,
+  "authority": {
+    "accepted_scientific_plan": "docs/rewrite/docs/NIQ_HLO_Revision_Plan.md",
+    "implementation_context": "docs/rewrite/docs/Implementation_Brief.md",
+    "master_runbook": "rewrite/docs/CODEX_MASTER_RUNBOOK.md",
+    "integrated_review": "rewrite/protocol/agent2/Protocol_Review.md Section 4",
+    "numerical_amendment": "rewrite/protocol/Numerical_Decisions_Addendum.md version 1.0",
+    "proposal_is_not_approval": true,
+    "selection_basis": "Prespecified scientific meaning and outcome-blind coverage only; no empirical predictive result was inspected."
+  },
+  "scientific_scope": {
+    "question": "Whether temporal alignment and historical country context improve prediction between period-specific P and HLO on declared outputs.",
+    "claim_limits": [
+      "Does not identify true national cognitive ability.",
+      "Does not establish construct equivalence.",
+      "Does not establish a causal effect or causal lag.",
+      "Does not validate either indicator for unobserved countries.",
+      "Does not constitute real-time historical forecasting from retrospectively revised WDI data."
+    ],
+    "frozen_core_unchanged": true
+  },
+  "assessment_design": {
+    "primary_scheme": "five_year",
+    "windows": [
+      {
+        "window_start": 2000,
+        "window_end": 2004,
+        "partial_terminal_window": false
+      },
+      {
+        "window_start": 2005,
+        "window_end": 2009,
+        "partial_terminal_window": false
+      },
+      {
+        "window_start": 2010,
+        "window_end": 2014,
+        "partial_terminal_window": false
+      },
+      {
+        "window_start": 2015,
+        "window_end": 2017,
+        "partial_terminal_window": true
+      }
+    ],
+    "measurement_scheme_sensitivity": "four_year",
+    "annual_design": "feasibility_audit_only_do_not_manufacture_targets"
+  },
+  "context_timing": {
+    "primary": {
+      "construction": "block_preceding",
+      "history_years": 5,
+      "endpoint_rule": "History ends before the assessment-window start."
+    },
+    "timing_sensitivities": [
+      {
+        "construction": "block_preceding",
+        "history_years": 10
+      },
+      {
+        "construction": "block_preceding",
+        "history_years": 12
+      },
+      {
+        "construction": "assessment_specific_fixed_contribution",
+        "history_years": 5
+      }
+    ],
+    "same_window_context": {
+      "status": "descriptive_coverage_comparator_only",
+      "predictive_evaluation_allowed": false,
+      "exception": "May be evaluated predictively only after separate explicit approval."
+    },
+    "timing_comparison_sample_rule": "For any timing comparison, refit the primary specification on the exact common country-period intersection; do not compare unmatched performance samples."
+  },
+  "predictor_vector": {
+    "context_feature_order": [
+      "SE.PRM.ENRR",
+      "SE.SEC.ENRR",
+      "SE.XPD.TOTL.GD.ZS",
+      "SH.DYN.MORT",
+      "SP.DYN.TFRT.IN",
+      "SP.URB.TOTL.IN.ZS",
+      "IT.NET.USER.ZS"
+    ],
+    "combined_model_order": [
+      "required_other_indicator",
+      "SE.PRM.ENRR",
+      "SE.SEC.ENRR",
+      "SE.XPD.TOTL.GD.ZS",
+      "SH.DYN.MORT",
+      "SP.DYN.TFRT.IN",
+      "SP.URB.TOTL.IN.ZS",
+      "IT.NET.USER.ZS"
+    ],
+    "retain_all_seven": true,
+    "excluded": [
+      "GDP",
+      "population",
+      "country identifiers",
+      "region",
+      "calendar year or window indicators",
+      "ranks",
+      "coverage or missingness flags",
+      "uncertainty or audit quantities"
+    ],
+    "nonlinear_terms": false,
+    "interactions": false,
+    "feature_selection": false,
+    "positivity_constraints": false,
+    "prediction_clipping": false
+  },
+  "historical_feature_construction": {
+    "primary": "five_year_block_preceding",
+    "annual_observation_unit": "one unique calendar year per country-feature",
+    "duplicate_rule": "duplicate country-feature-year rows require explicit source reconciliation and are never double-counted",
+    "coverage_rule": "5 * observed_year_count >= 4 * requested_year_count",
+    "minimum_observed_years_formula": "(4 * requested_year_count + 4) // 5",
+    "thresholds": {
+      "5_year": 4,
+      "10_year": 8,
+      "12_year": 10
+    },
+    "usable_mean": "arithmetic mean of available requested annual values after threshold passes",
+    "missing_values_are_zero": false,
+    "retain_requested_and_observed_year_ledger": true,
+    "assessment_specific_fixed_contribution": {
+      "positive_weight_requirement": "every positive-weight target contribution must have a usable history for the feature",
+      "failure_action": "mark combined context feature missing",
+      "renormalize_context_weights": false,
+      "target_contributions_changed": false,
+      "direction_specific_schedule": true
+    },
+    "historical_renormalized_candidate": "preserved_and_labelled_not_executed"
+  },
+  "row_and_missingness_rules": {
+    "minimum_usable_context_features": 5,
+    "total_context_features": 7,
+    "maximum_missing_context_features": 2,
+    "same_planned_rows_for_M0_to_M3": true,
+    "required_target": "observed_only_never_imputed",
+    "required_other_indicator": "observed_only_never_imputed",
+    "wdi_missingness_changes_target_contributions": false,
+    "context_imputation": {
+      "method": "ordinary_unweighted_training_subset_median",
+      "even_count_rule": "mean_of_two_middle_order_statistics",
+      "fit_on_training_only": true,
+      "apply_training_median_unchanged_to_training_and_holdout": true,
+      "missingness_indicators": false,
+      "all_missing_training_feature": "structurally_infeasible_fit"
+    }
+  },
+  "directions": {
+    "primary": {
+      "direction_id": "HLO_to_P",
+      "target": "period-specific P",
+      "required_other_indicator": "period-specific HLO"
+    },
+    "secondary": {
+      "direction_id": "P_to_HLO",
+      "target": "period-specific HLO",
+      "required_other_indicator": "period-specific P",
+      "status": "prespecified_secondary"
+    }
+  },
+  "model_comparison": {
+    "M0": {
+      "predictors": [],
+      "fit": "equal_country_weighted_outer_training_target_mean_in_original_units",
+      "role": "score_error_reference_only",
+      "rank_baseline": false
+    },
+    "M1": {
+      "predictors": [
+        "required_other_indicator"
+      ]
+    },
+    "M2": {
+      "predictors": [
+        "SE.PRM.ENRR",
+        "SE.SEC.ENRR",
+        "SE.XPD.TOTL.GD.ZS",
+        "SH.DYN.MORT",
+        "SP.DYN.TFRT.IN",
+        "SP.URB.TOTL.IN.ZS",
+        "IT.NET.USER.ZS"
+      ]
+    },
+    "M3": {
+      "predictors": [
+        "required_other_indicator",
+        "SE.PRM.ENRR",
+        "SE.SEC.ENRR",
+        "SE.XPD.TOTL.GD.ZS",
+        "SH.DYN.MORT",
+        "SP.DYN.TFRT.IN",
+        "SP.URB.TOTL.IN.ZS",
+        "IT.NET.USER.ZS"
+      ]
+    },
+    "ridge": {
+      "role": "primary",
+      "objective": "sum(weight * residual**2) + alpha * sum(beta**2)",
+      "solver": "svd",
+      "fit_intercept": true,
+      "positive": false,
+      "grid": [
+        0.001,
+        0.01,
+        0.1,
+        1,
+        10,
+        100,
+        1000,
+        10000
+      ]
+    },
+    "weighted_ols": {
+      "role": "primary_sample_benchmark",
+      "design": "sqrt(weight) multiplied augmented [1, Z] and standardized target",
+      "solver": "SVD_minimum_norm_least_squares",
+      "rcond": 1e-12,
+      "record": [
+        "numerical_rank",
+        "singular_values",
+        "rank_deficiency_warning"
+      ]
+    },
+    "lasso": {
+      "role": "primary_sample_benchmark",
+      "objective": "sum(weight * residual**2) / (2 * N) + alpha * sum(abs(beta))",
+      "fit_intercept": true,
+      "selection": "cyclic",
+      "positive": false,
+      "warm_start": false,
+      "precompute": false,
+      "tol": 1e-08,
+      "max_iter": 100000,
+      "grid": [
+        0.001,
+        0.003,
+        0.01,
+        0.03,
+        0.1,
+        0.3,
+        1
+      ],
+      "retry": {
+        "allowed_once_on_convergence_warning": true,
+        "fresh_estimator": true,
+        "max_iter": 1000000,
+        "persistent_nonconvergence": "failed_fit"
+      },
+      "record": [
+        "attempts",
+        "n_iter",
+        "dual_gap"
+      ]
+    },
+    "outer_performance_algorithm_selection": false
+  },
+  "transformations": {
+    "nonlinear_transformations": "none",
+    "interactions": "none",
+    "outcome_driven_transformations_or_selection": "none",
+    "feature_standardization": "fit within each relevant training fold only",
+    "target_standardization": "fit within each relevant training fold only",
+    "prediction_reporting": "inverse-transform predictions and score errors to original target units"
+  },
+  "tuning": {
+    "scope": "within_each_outer_training_set",
+    "candidate_prediction_units": "original_target_units_after_inverse_transform",
+    "candidate_score": "mean_of_validation_country_MSE_after_concatenating_all_five_inner_holdouts",
+    "fold_MSE_unweighted_average_prohibited": true,
+    "tie_rule": "candidate <= L_min + 1e-10 + 1e-8 * max(1, abs(L_min))",
+    "tie_choice": "largest_alpha",
+    "all_inner_folds_required": true,
+    "partial_candidate_scoring": false,
+    "no_valid_candidate_action": "model_run_incomplete",
+    "outer_refit": "rebuild_preprocessing_and_estimator_from_scratch_on_full_outer_training_set",
+    "grid_boundary_action": "report_without_expanding_grid"
+  },
+  "validation": {
+    "outer_design": "leave_one_country_out",
+    "outer_order": "ISO3_ascending_ASCII",
+    "all_country_periods_held_out_together": true,
+    "repeated_outer_splits": false,
+    "inner_folds": 5,
+    "inner_group": "country",
+    "inner_hash_string": "NIQ-HLO-inner|20260930|<ISO3>",
+    "inner_hash": "SHA-256 over UTF-8",
+    "inner_order": "hex_digest_ascending_then_ISO3_ascending_ASCII",
+    "inner_assignment": "zero_based_sorted_position_modulo_5",
+    "balanced_unit": "country_count_not_row_count",
+    "same_allocation_for_models_on_same_country_set": true,
+    "rebuild_after_scenario_or_deletion_change": true,
+    "save_every_realized_allocation": true,
+    "minimum_scenario_countries": 7,
+    "below_minimum_action": "mark_infeasible_do_not_reduce_folds"
+  },
+  "weighting": {
+    "training_weight": "N / (C * m_i)",
+    "training_weight_sum": "N",
+    "training_country_total": "N / C",
+    "recalculate_within_each_training_subset": true,
+    "evaluation_weight": "1 / (C * m_i)",
+    "evaluation_weight_sum": 1,
+    "evaluation_country_total": "1 / C",
+    "use_for_fitting_and_predictor_target_scaling": true,
+    "prohibited_additional_weights": [
+      "population",
+      "psychometric sample size",
+      "QN factor",
+      "number of tests",
+      "measurement precision"
+    ]
+  },
+  "evaluation": {
+    "score_metrics": {
+      "MAE": "mean_over_countries(mean_over_country_cells(abs(pred-y)))",
+      "MSE": "mean_over_countries(mean_over_country_cells((pred-y)**2))",
+      "RMSE": "sqrt(MSE)",
+      "bias": "mean_over_countries(mean_over_country_cells(pred-y))",
+      "unitless_MSE_improvement_vs_M0": "1 - MSE_model / MSE_M0; null when MSE_M0 is zero"
+    },
+    "direction_units_kept_separate": true,
+    "global_test_target_standardization": false,
+    "calibration": {
+      "equation": "observed_y = intercept + slope * outer_held_out_prediction",
+      "fit": "equal_country_weighted_least_squares_in_original_target_units",
+      "pooled": "one_per_direction_labelled_as_mixing_periods",
+      "period_specific_minimum_countries": 3,
+      "period_specific_prediction_variation": "must_exceed_constant_threshold",
+      "undefined_slope": "null_with_reason",
+      "adjust_scored_predictions": false,
+      "p_values_or_standard_errors": false
+    }
+  },
+  "uncertainty": {
+    "prediction_intervals": false,
+    "cross_validation_significance_tests": false,
+    "new_coefficient_inference": false,
+    "original_GDP_uncertainty": "unchanged",
+    "country_deletion": {
+      "scope": "primary_five_year_HLO_to_P_Ridge_M0_to_M3_only",
+      "delete": "all_cells_of_each_primary_sample_country_in_turn",
+      "refit": "full_nested_LOCO_including_preprocessing_tuning_and_refitting",
+      "recalculate": [
+        "evaluation_weights",
+        "within_period_ranks",
+        "M3_minus_baseline_comparisons"
+      ],
+      "summary": [
+        "minimum",
+        "median",
+        "maximum",
+        "number_of_sign_changes"
+      ],
+      "interpretation": "sensitivity_not_confidence_interval",
+      "other_directions_estimators_or_sensitivities": false
+    }
+  },
+  "required_saved_artifacts_after_approval": [
+    "exact input hashes and row identities",
+    "outer and inner country split assignments",
+    "training-country-set identifiers",
+    "fold-specific imputation and scaling records",
+    "candidate tuning scores and selected penalties",
+    "held-out predictions for every evaluated cell and model",
+    "failure and exclusion ledger",
+    "original-unit and scaled error ledger",
+    "period-specific rank ledger",
+    "run settings and protocol hash"
+  ],
+  "measurement_gate": {
+    "required_checks": {
+      "MEAS_01": "source_and_exact_row_identity",
+      "MEAS_02": "P_and_HLO_construction_weights",
+      "MEAS_03": "date_and_period_boundaries",
+      "MEAS_04": "duplicate_and_overlap_audit",
+      "MEAS_05": "composition_adjustment_exceptions",
+      "MEAS_06": "HLO_component_coverage_and_eligibility",
+      "MEAS_07": "historical_context_endpoints_and_coverage",
+      "MEAS_08": "target_and_predictor_missingness",
+      "MEAS_09": "absence_of_GDP_identifier_rank_outcome_derived_audit_and_coverage_leakage"
+    },
+    "status": "matching_protocol_hash_and_all_passed_required_before_empirical_execution"
+  },
+  "approval_gate": {
+    "current_state": "closed",
+    "empirical_modelling_approved": false,
+    "self_approval_prohibited": true,
+    "approval_record": "separate_author_controlled_record_referencing_exact_protocol_hash",
+    "matching_measurement_record": "must_reference_same_hash_and_pass_MEAS_01_through_MEAS_09",
+    "hash_design": "canonical_UTF8_JSON_recursively_sorted_keys_compact_separators_SHA256_excluding_only_protocol_hash",
+    "gate_must_refuse_when": [
+      "approval_status_is_not_approved",
+      "approval_scope_is_not_empirical_prediction",
+      "approval_hash_differs",
+      "measurement_record_hash_differs",
+      "any_required_measurement_check_is_absent_or_not_passed"
+    ]
+  },
+  "protocol_status": "fully_specified_pending_author_approval",
+  "implementation_readiness": {
+    "data_construction_rules_implemented_and_checked": true,
+    "numerical_conventions_encoded_and_synthetically_tested": true,
+    "empirical_execution_allowed": false,
+    "reason": "Author approval and a matching passed measurement-gate record are still absent."
+  },
+  "protocol_hash_algorithm": "sha256_canonical_json_v1_excluding_protocol_hash",
+  "protocol_hash": "13fb577533c28acc88613fcf84549784e130bd658139ea7bbbfc7f77a3b8e773",
+  "preprocessing": {
+    "order": [
+      "training_median_imputation",
+      "weighted_standardization"
+    ],
+    "weighted_mean": "sum(weight * x) / sum(weight)",
+    "weighted_variance": "sum(weight * (x - mean)**2) / sum(weight)",
+    "variance_divisor": "sum_of_weights_population_form",
+    "target_standardized_with_same_training_rule": true,
+    "predictions_inverse_transformed_before_scoring": true,
+    "constant_threshold": "weighted_sd <= 1e-12 * max(1, abs(weighted_mean))",
+    "constant_predictor_action": "preserve_schema_position_set_standardized_train_and_holdout_column_to_zero_and_flag",
+    "constant_target_action": "predict_weighted_training_mean_and_leave_selected_alpha_null",
+    "inner_constant_target_action": "same_constant_predictions_score_every_alpha"
+  },
+  "numerical_execution": {
+    "array_storage": "dense",
+    "dtype": "float64",
+    "row_order": [
+      "ISO3_ascending_ASCII",
+      "window_start_ascending",
+      "window_end_ascending"
+    ],
+    "unique_row_key": [
+      "ISO3",
+      "window_start",
+      "window_end"
+    ],
+    "intercept": "unpenalized",
+    "thread_pools": 1,
+    "environment": {
+      "python": "3.12.8",
+      "implementation": "CPython",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit_learn": "1.5.1",
+      "pandas": "2.2.2"
+    }
+  },
+  "rank_order_and_tail_evaluation": {
+    "scope": "within_scenario_period_direction_on_identical_evaluated_country_set",
+    "rank_one": "highest",
+    "ties": "average_ranks_for_exact_full_precision_ties",
+    "pre_rank_rounding": false,
+    "normalized_absolute_displacement": "abs(rank_prediction-rank_target)/(n-1)",
+    "aggregation": "within_country_across_periods_then_across_countries",
+    "one_country_period": "rank_undefined_but_retained_for_score_metrics",
+    "raw_source_and_fitted_M1_separate": true,
+    "improvement": "loss_baseline - loss_M3",
+    "percentage_improvement": "100 * difference / loss_baseline only when loss_baseline > 0",
+    "correlations": [
+      "Spearman_per_period",
+      "Kendall_tau_b_per_period"
+    ],
+    "constant_correlation": "null",
+    "strict_reversals": "exclude_pairs_tied_on_either_variable_and_report_numerator_denominator_fraction",
+    "correlation_p_values": false,
+    "tail_percentiles": [
+      10,
+      90
+    ],
+    "tail_interpolation": "linear",
+    "tail_inclusion": "at_or_beyond_own_variable_threshold",
+    "tail_outputs": [
+      "target_count",
+      "prediction_count",
+      "intersection",
+      "target_recall",
+      "Jaccard"
+    ],
+    "tail_small_group_flag": "either_group_count_below_3",
+    "all_score_tie_flag": true,
+    "M0_rank_or_tail": false,
+    "flag_repeated_intercept_only_models": true
+  },
+  "finite_analysis_manifest": {
+    "primary": {
+      "directions": [
+        "HLO_to_P",
+        "P_to_HLO"
+      ],
+      "models": [
+        "M0",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "estimators_M1_to_M3": [
+        "Ridge",
+        "weighted_OLS",
+        "Lasso"
+      ]
+    },
+    "ridge_only_sensitivities_both_directions_M0_to_M3": {
+      "S10": "ten_year_block_preceding",
+      "S12": "twelve_year_block_preceding",
+      "SA5": "five_year_assessment_specific_fixed_contribution",
+      "SCC": "complete_seven_feature_primary_cells_no_imputation",
+      "SCOMP": "remove_BRA_CAN_KAZ_MEX_SRB_USA_ZAF",
+      "STERM": "remove_2015_2017_cells",
+      "S4": "four_year_targets_2000_2003_2004_2007_2008_2011_2012_2015_2016_2017_with_preceding_five_year_context"
+    },
+    "matched_intersection_rules": {
+      "S10_S12_SA5": "freeze exact primary-and-alternative eligible intersection before fitting; refit both constructions with identical splits and weights",
+      "SA5": "direction_specific_intersections",
+      "SCC_SCOMP_STERM": "conditional_refits_on_restricted_samples",
+      "S4": "within_scheme_comparisons_only"
+    },
+    "diagnostics_without_new_models": [
+      "single_vs_multiple_study",
+      "date_uncertain_vs_exact_date",
+      "HLO_component_depth",
+      "number_of_imputed_features",
+      "target_metadata_availability",
+      "coefficients",
+      "selected_alphas",
+      "grid_edge_selections",
+      "convergence_flags",
+      "calibration"
+    ],
+    "disabled": [
+      "life_expectancy_replacement",
+      "same_window_predictive_models",
+      "new_forward_period_tests",
+      "bootstrap_intervals",
+      "synthetic_missing_target_experiments",
+      "other_algorithms",
+      "new_variables"
+    ]
+  },
+  "failure_handling": {
+    "planned_test_cells_identical_for_M0_to_M3": true,
+    "valid_fit": "finite_complete_training_only_pipeline_with_declared_convergence_status",
+    "failed_rows_dropped_for_one_model_only": false,
+    "required_Ridge_failure": "mark_scenario_incomplete_keep_partial_diagnostics_no_primary_paired_loss",
+    "OLS_or_Lasso_failure": "mark_benchmark_incomplete_do_not_suppress_Ridge_or_substitute_estimator",
+    "sensitivity_failure": "report_without_invalidating_unrelated_scenarios",
+    "below_seven_countries": "infeasible_from_coverage",
+    "numerical_retries": "only_predeclared_Lasso_retry",
+    "implementation_bug": "versioned_change_log_full_affected_rerun_independent_verification",
+    "post_result_scientific_change": "dated_amendment_labelled_post_result"
+  },
+  "remaining_scientific_or_numerical_choices": [],
+  "remaining_author_action": "explicitly approve this exact new protocol hash in a separate record",
+  "data_reconciliation": {
+    "selection_was_outcome_blind": true,
+    "scenario_summary": [
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y",
+        "retained_cells": 53,
+        "retained_countries": 38,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y",
+        "retained_cells": 53,
+        "retained_countries": 38,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_10y",
+        "retained_cells": 48,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "retained_cells": 48,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_10y",
+        "retained_cells": 48,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "retained_cells": 48,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_12y",
+        "retained_cells": 42,
+        "retained_countries": 33,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "retained_cells": 42,
+        "retained_countries": 33,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_12y",
+        "retained_cells": 42,
+        "retained_countries": 33,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "retained_cells": 42,
+        "retained_countries": 33,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "HLO_to_P",
+        "construction_role": "four_year_preceding_5y",
+        "retained_cells": 49,
+        "retained_countries": 33,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "P_to_HLO",
+        "construction_role": "four_year_preceding_5y",
+        "retained_cells": 49,
+        "retained_countries": 33,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "assessment_specific_5y_fixed",
+        "retained_cells": 51,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "retained_cells": 51,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "assessment_specific_5y_fixed",
+        "retained_cells": 51,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "retained_cells": 51,
+        "retained_countries": 36,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "retained_cells": 29,
+        "retained_countries": 23,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "retained_cells": 29,
+        "retained_countries": 23,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "retained_cells": 45,
+        "retained_countries": 32,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "retained_cells": 45,
+        "retained_countries": 32,
+        "windows": 4,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "retained_cells": 44,
+        "retained_countries": 34,
+        "windows": 3,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "retained_cells": 44,
+        "retained_countries": 34,
+        "windows": 3,
+        "below_seven_country_floor": false,
+        "nested_design_feasible": true
+      }
+    ],
+    "scenario_window_summary": [
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 7,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 7,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "PRIMARY",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_10y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_10y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 14,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_10y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_10y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 14,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_10y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_10y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 14,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_10y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_10y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 14,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S10",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_12y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 3,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_12y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 13,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_12y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 18,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "alternative_12y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 8,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 3,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 13,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 18,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 8,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_12y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 3,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_12y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 13,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_12y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 18,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "alternative_12y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 8,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 3,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 13,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 18,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S12",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 8,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "HLO_to_P",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2000,
+        "window_end": 2003,
+        "candidate_cells": 10,
+        "retained_cells": 7,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "HLO_to_P",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2004,
+        "window_end": 2007,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "HLO_to_P",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2008,
+        "window_end": 2011,
+        "candidate_cells": 19,
+        "retained_cells": 19,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "HLO_to_P",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2012,
+        "window_end": 2015,
+        "candidate_cells": 19,
+        "retained_cells": 18,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "HLO_to_P",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2016,
+        "window_end": 2017,
+        "candidate_cells": 0,
+        "retained_cells": 0,
+        "window_status": "no_eligible_measurement_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "P_to_HLO",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2000,
+        "window_end": 2003,
+        "candidate_cells": 10,
+        "retained_cells": 7,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "P_to_HLO",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2004,
+        "window_end": 2007,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "P_to_HLO",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2008,
+        "window_end": 2011,
+        "candidate_cells": 19,
+        "retained_cells": 19,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "P_to_HLO",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2012,
+        "window_end": 2015,
+        "candidate_cells": 19,
+        "retained_cells": 18,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "S4",
+        "target_direction": "P_to_HLO",
+        "construction_role": "four_year_preceding_5y",
+        "window_start": 2016,
+        "window_end": 2017,
+        "candidate_cells": 0,
+        "retained_cells": 0,
+        "window_status": "no_eligible_measurement_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "HLO_to_P",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "assessment_specific_5y_fixed",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SA5",
+        "target_direction": "P_to_HLO",
+        "construction_role": "primary_5y_matched",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 2,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 12,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 10,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 2,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 12,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 10,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCC",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 16,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 15,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 5,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 16,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 15,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "SCOMP",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 9,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 7,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "HLO_to_P",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 0,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2000,
+        "window_end": 2004,
+        "candidate_cells": 10,
+        "retained_cells": 7,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2005,
+        "window_end": 2009,
+        "candidate_cells": 18,
+        "retained_cells": 17,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2010,
+        "window_end": 2014,
+        "candidate_cells": 21,
+        "retained_cells": 20,
+        "window_status": "observed_candidate_cells"
+      },
+      {
+        "scenario_id": "STERM",
+        "target_direction": "P_to_HLO",
+        "construction_role": "restricted_primary_5y",
+        "window_start": 2015,
+        "window_end": 2017,
+        "candidate_cells": 9,
+        "retained_cells": 0,
+        "window_status": "observed_candidate_cells"
+      }
+    ],
+    "coverage_threshold_correction_count": 18,
+    "input_hashes": [
+      {
+        "input_role": "numerical_decisions_addendum",
+        "repository_relative_path": "rewrite/protocol/Numerical_Decisions_Addendum.md",
+        "sha256": "94a6a60399827cb769b0bc56597b38dd2d3d82056f6c39970b47b9e879e6fb93",
+        "bytes": 27689
+      },
+      {
+        "input_role": "frozen_annual_wdi_panel",
+        "repository_relative_path": "data/processed/wdi_bridge_1980_2017_long.csv",
+        "sha256": "5089ae20401f497322dff379e1f85831cf25f9bb300576f4d6ae695925bbb788",
+        "bytes": 2175045
+      },
+      {
+        "input_role": "eligible_measurement_cells",
+        "repository_relative_path": "rewrite/analysis/temporal/temporal_eligible_cells.csv",
+        "sha256": "77503cda229dcbb622e995b68dd5a9f7c50e9625699520ae09b6c57539ec3f62",
+        "bytes": 64334
+      },
+      {
+        "input_role": "block_coverage",
+        "repository_relative_path": "rewrite/analysis/context/aligned_cell_block_preceding_coverage_long.csv",
+        "sha256": "581c1852f57103df7558ce30e0134816870ac8bbdb41440a38ca084458f53c67",
+        "bytes": 807613
+      },
+      {
+        "input_role": "assessment_annual_ledger",
+        "repository_relative_path": "rewrite/analysis/context/assessment_specific_annual_provenance_ledger.csv",
+        "sha256": "884b6d7205ea55ad3f36bccc475d8df41da973be0f7dc9b15f1cb32ec3cac476",
+        "bytes": 36526346
+      },
+      {
+        "input_role": "assessment_historical_coverage",
+        "repository_relative_path": "rewrite/analysis/context/assessment_specific_coverage_long.csv",
+        "sha256": "986e222ad4488004c10c6305b2826c68e9a3ed4f719cede6f08e3d83fac70eaf",
+        "bytes": 651985
+      }
+    ],
+    "target_or_source_indicator_imputation_performed": false,
+    "context_imputation_performed": false,
+    "empirical_modelling_performed": false
+  },
+  "frozen_scientific_artifacts": {
+    "sample_manifest": {
+      "repository_relative_path": "rewrite/protocol/author_approval/sample_manifest.csv",
+      "sha256": "01371c52862383655b5e2b9833638b386b616ae03d8527f8ebba94c4e17038c0",
+      "bytes": 244250
+    },
+    "coverage_and_imputation_summary": {
+      "repository_relative_path": "rewrite/protocol/author_approval/coverage_and_imputation_summary.csv",
+      "sha256": "db071ab800b22c36fc410f6f8201342cbdf63744c437694cca6698308de0c0ef",
+      "bytes": 16138
+    },
+    "coverage_threshold_corrections": {
+      "repository_relative_path": "rewrite/analysis/protocol_final/coverage_threshold_corrections.csv",
+      "sha256": "d7e69ae99db0b0899e097781169232fc9fdc1c87d6ff94dc8c6ee6a734ad316e",
+      "bytes": 6630
+    },
+    "scenario_summary": {
+      "repository_relative_path": "rewrite/analysis/protocol_final/scenario_summary.csv",
+      "sha256": "05db1dacd31a0f5ea8cb6fafc04b1704b1d1af5f011a24222f9726b0402c0e4f",
+      "bytes": 1315
+    },
+    "scenario_window_summary": {
+      "repository_relative_path": "rewrite/analysis/protocol_final/scenario_window_summary.csv",
+      "sha256": "f75cbe46688e28a0dc009fc85d172e9a0bda20811d4c07b550f2f1e8b046354e",
+      "bytes": 6853
+    }
+  },
+  "governing_document_hashes": [
+    {
+      "repository_relative_path": "docs/rewrite/docs/NIQ_HLO_Revision_Plan.md",
+      "sha256": "199a9820f3ac197869d84dbc8e525d66b387f81b60c25b6d5ec095b8a5b8f43c",
+      "bytes": 27084
+    },
+    {
+      "repository_relative_path": "docs/rewrite/docs/Implementation_Brief.md",
+      "sha256": "1bb9bd615de0d371dd69ef9151b7aa5a3aebacadf9c6875ce7090febb8931d2e",
+      "bytes": 16670
+    },
+    {
+      "repository_relative_path": "rewrite/docs/CODEX_MASTER_RUNBOOK.md",
+      "sha256": "70d7e2552a8430af22786ee088a09679076fbd8e542878320c5a8a5e05cb1f58",
+      "bytes": 36007
+    },
+    {
+      "repository_relative_path": "rewrite/protocol/agent2/Protocol_Review.md",
+      "sha256": "49a52c328f7ae5e7ddcbbd4b27336dd92cf421a6e92e604b0ef8eb9be62f4f80",
+      "bytes": 12085
+    },
+    {
+      "repository_relative_path": "rewrite/protocol/Numerical_Decisions_Addendum.md",
+      "sha256": "94a6a60399827cb769b0bc56597b38dd2d3d82056f6c39970b47b9e879e6fb93",
+      "bytes": 27689
+    }
+  ],
+  "provenance": {
+    "predecessor_protocol_hash": "113537313ea06ebb91dc718a5e7498b7d37aa3c52588c6f7b279ed34567e28f1",
+    "predecessor_protocol_file": {
+      "repository_relative_path": "rewrite/protocol/archive/author_approval_pre_numerical_addendum_2026-09-30/protocol_for_author_approval.json",
+      "sha256": "1f36d564eec14ac88dcecd103680686fa82e9a33650d59a6259fa0106898a4a7",
+      "bytes": 22659
+    },
+    "predecessor_package_archive": "rewrite/protocol/archive/author_approval_pre_numerical_addendum_2026-09-30",
+    "addendum_sha256": "94a6a60399827cb769b0bc56597b38dd2d3d82056f6c39970b47b9e879e6fb93",
+    "git_branch_at_build": "wdi-and-code-only-2026-09-21",
+    "git_commit_at_build": "e01a8fb5239766bf8b97077b76863490c8b61642"
+  },
+  "implementation_identifiers": {
+    "package_builder": {
+      "repository_relative_path": "rewrite/src/protocol_final/build_final_approval_package.py",
+      "sha256": "9b05572069f1e18ff710512e75c5992ec08a7ec3a2172c3d36a23c371da29890",
+      "bytes": 33260
+    },
+    "numerical_convention_modules": [
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/__init__.py",
+        "sha256": "ab24cc7f0272963b5e1305d308cb325c98d611c464dc95d23124982a798fbb39",
+        "bytes": 623
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/context_manifest.py",
+        "sha256": "ee5df4a4afb5fdb43f805c22619b14348141bf38d4c1d8cae972100535b7649a",
+        "bytes": 33440
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/core.py",
+        "sha256": "fa6b0988cce8b5e0699086bb46eb3000af964bd22f8d564ecd5678660b1a3aa2",
+        "bytes": 8099
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/evaluation.py",
+        "sha256": "8611ad58dd7442b6bbbd0ff7e577f2a3ede55182e667f415ca89376e82cf6133",
+        "bytes": 6928
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/failures.py",
+        "sha256": "930accbb954676abccc1f87a84170edbcccaee49118d6f75340dafc5f17f3672",
+        "bytes": 965
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/models.py",
+        "sha256": "2ddd220969621e6bb901e08c16bc7e2ae7c23434b488aa69d13d24f41bf64acc",
+        "bytes": 5256
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/runtime.py",
+        "sha256": "f51d651ebf4c1598d4ca6ed3b9ca094df3975429196e27da30c0e4187542418f",
+        "bytes": 1175
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/scenario.py",
+        "sha256": "ffee94670d5924cef0f39fcdf02b94be709667e97f67b9087dce93c7aa328a66",
+        "bytes": 4341
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/synthetic.py",
+        "sha256": "3c2e11e860c720aeb4e98b5cf45414bda2909e8535ee0457f190b8d30a9a5f21",
+        "bytes": 1387
+      },
+      {
+        "repository_relative_path": "rewrite/src/protocol_final/tuning.py",
+        "sha256": "28a30ae0d544994c469e500c06c3859e7aa5b554913900bc339e01af73d475ff",
+        "bytes": 5706
+      }
+    ],
+    "synthetic_test_modules": [
+      {
+        "repository_relative_path": "rewrite/validation/protocol_final_synthetic/test_protocol_final.py",
+        "sha256": "07abb668da857ee8dc7dc5ca6086a5f226bfc723d9c31a2510d2c50fe7fdc0b4",
+        "bytes": 11961
+      }
+    ],
+    "empirical_runner_executed": false
+  }
+}

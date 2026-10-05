@@ -1,0 +1,218 @@
+iso3,world_bank_economy_name,world_bank_region,income_group,gdp_pc_ppp_2017,population_2017,canonical_economy_name,hlo_published_primary,direct_qnw_v135,gate_world_bank_api_economy,gate_hlo_record,gate_primary_hlo,gate_direct_qnw,gate_gdp_2017,log_population_2017,log_gdp_pc_ppp_2017,first_exclusion_reason,final_included_rq2
+ABW,Aruba,Latin America & Caribbean ,High income,38213.2892388309,108735.0,,,,True,False,False,False,False,11.596669008403088,10.55093861992969,no_matched_hlo_record,False
+AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",Low income,2952.99891598909,35688935.0,Afghanistan,False,False,True,True,False,False,False,17.390351254729715,7.99057651465584,fails_primary_hlo_component_rule,False
+AGO,Angola,Sub-Saharan Africa ,Lower middle income,10565.1676483607,30234839.0,Angola,False,True,True,True,False,False,False,17.22450542672075,9.2653177982026,fails_primary_hlo_component_rule,False
+ALB,Albania,Europe & Central Asia,Upper middle income,15359.3974577025,2648285.0,Albania,False,False,True,True,False,False,False,14.789422818646306,9.639482777918063,fails_primary_hlo_component_rule,False
+AND,Andorra,Europe & Central Asia,High income,63239.6577711911,73763.0,,,,True,False,False,False,False,11.208612529854566,11.054686879721022,no_matched_hlo_record,False
+ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",High income,72529.0423512365,9223225.0,United Arab Emirates,True,True,True,True,True,True,True,16.037235317453195,11.19174234478534,included_rq2,True
+ARG,Argentina,Latin America & Caribbean ,Upper middle income,28334.904184742,44288894.0,Argentina,True,True,True,True,True,True,True,17.606244503810657,10.251849687081927,included_rq2,True
+ARM,Armenia,Europe & Central Asia,Upper middle income,14243.8749003795,2979400.0,Armenia,True,False,True,True,True,False,False,14.90723249592763,9.56408226174042,not_direct_qnw_v135,False
+ASM,American Samoa,East Asia & Pacific,High income,,51586.0,,,,True,False,False,False,False,10.851005596826855,,no_matched_hlo_record,False
+ATG,Antigua and Barbuda,Latin America & Caribbean ,High income,27199.1952402262,90468.0,,,,True,False,False,False,False,11.412751475999702,10.210942665090002,no_matched_hlo_record,False
+AUS,Australia,East Asia & Pacific,High income,56881.8569859104,24592588.0,Australia,True,True,True,True,True,True,True,17.017955654689374,10.948731711375824,included_rq2,True
+AUT,Austria,Europe & Central Asia,High income,62535.8105711345,8797566.0,Austria,True,True,True,True,True,True,True,15.989985650281024,11.0434946407785,included_rq2,True
+AZE,Azerbaijan,Europe & Central Asia,Upper middle income,19659.0048562768,9854033.0,Azerbaijan,True,False,True,True,True,False,False,16.10339137097429,9.886290774733205,not_direct_qnw_v135,False
+BDI,Burundi,Sub-Saharan Africa ,Low income,1020.8498275719,11506762.0,Burundi,False,False,True,True,False,False,False,16.258445420529213,6.9283907236757925,fails_primary_hlo_component_rule,False
+BEL,Belgium,Europe & Central Asia,High income,58529.3302957537,11375158.0,Belgium,False,True,True,True,False,False,False,16.24694241281471,10.9772832801517,fails_primary_hlo_component_rule,False
+BEN,Benin,Sub-Saharan Africa ,Lower middle income,3041.77929984989,12039780.0,Benin,False,True,True,True,False,False,False,16.30372672525276,8.020197919184621,fails_primary_hlo_component_rule,False
+BFA,Burkina Faso,Sub-Saharan Africa ,Low income,2232.28781490944,19894407.0,Burkina Faso,False,True,True,True,False,False,False,16.805949194914902,7.710782264520137,fails_primary_hlo_component_rule,False
+BGD,Bangladesh,South Asia,Lower middle income,6005.70718781048,162186147.0,Bangladesh,False,True,True,True,False,False,False,18.904255289093157,8.700465494076488,fails_primary_hlo_component_rule,False
+BGR,Bulgaria,Europe & Central Asia,High income,26691.758001902,6803468.0,Bulgaria,True,True,True,True,True,True,True,15.732943040140537,10.192110107666725,included_rq2,True
+BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",High income,53859.7749589601,1501116.0,Bahrain,True,True,True,True,True,True,True,14.221719389441638,10.894139188097672,included_rq2,True
+BHS,"Bahamas, The",Latin America & Caribbean ,High income,33050.0350128611,390485.0,,,,True,False,False,False,False,12.875144835232174,10.405777904669923,no_matched_hlo_record,False
+BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,15554.6587430766,3428682.0,Bosnia and Herzegovina,False,True,True,True,False,False,False,15.047686488736886,9.652115470362478,fails_primary_hlo_component_rule,False
+BLR,Belarus,Europe & Central Asia,Upper middle income,25503.9809845207,9458989.0,,,,True,False,False,False,False,16.062476064281004,10.146589836001548,no_matched_hlo_record,False
+BLZ,Belize,Latin America & Caribbean ,Upper middle income,11572.3007931461,373202.0,Belize,False,False,True,True,False,False,False,12.829875106997772,9.356369658944011,fails_primary_hlo_component_rule,False
+BMU,Bermuda,North America,High income,96441.2718767256,63578.0,,,,True,False,False,False,False,11.060022777537188,11.476689520477798,no_matched_hlo_record,False
+BOL,Bolivia,Latin America & Caribbean ,Lower middle income,11755.2556195885,11344587.0,,,,True,False,False,False,False,16.244251271831377,9.372055706342884,no_matched_hlo_record,False
+BRA,Brazil,Latin America & Caribbean ,Upper middle income,17724.4799577784,204703445.0,Brazil,True,True,True,True,True,True,True,19.1370728799965,9.78270201149338,included_rq2,True
+BRB,Barbados,Latin America & Caribbean ,High income,19966.3202405154,280171.0,,,,True,False,False,False,False,12.543155410027024,9.90180214506031,no_matched_hlo_record,False
+BRN,Brunei Darussalam,East Asia & Pacific,High income,78966.8643142346,432772.0,,,,True,False,False,False,False,12.977966309412354,11.27678360439967,no_matched_hlo_record,False
+BTN,Bhutan,South Asia,Lower middle income,13482.3425280358,754335.0,,,,True,False,False,False,False,13.533591845401595,9.50913614741284,no_matched_hlo_record,False
+BWA,Botswana,Sub-Saharan Africa ,Upper middle income,17352.8958451454,2266747.0,Botswana,True,True,True,True,True,True,True,14.633856322026672,9.761514678948672,included_rq2,True
+CAF,Central African Republic,Sub-Saharan Africa ,Low income,1103.86609318724,4793511.0,,,,True,False,False,False,False,15.38277368627073,7.00657392707766,no_matched_hlo_record,False
+CAN,Canada,North America,High income,56612.3062191777,36545075.0,Canada,True,True,True,True,True,True,True,17.414056988158855,10.943981664925118,included_rq2,True
+CHE,Switzerland,Europe & Central Asia,High income,79333.7437810881,8451840.0,Switzerland,False,True,True,True,False,False,False,15.949894727108234,11.281418837683312,fails_primary_hlo_component_rule,False
+CHI,Channel Islands,Europe & Central Asia,High income,,164319.0,,,,True,False,False,False,False,12.009564939457402,,no_matched_hlo_record,False
+CHL,Chile,Latin America & Caribbean ,High income,27899.5979777012,18558868.0,Chile,True,True,True,True,True,True,True,16.73645829208297,10.23636755830425,included_rq2,True
+CHN,China,East Asia & Pacific,Upper middle income,16758.0463976858,1396215000.0,China,False,True,True,True,False,False,False,21.05703084088936,9.726633803858132,fails_primary_hlo_component_rule,False
+CIV,Cote d'Ivoire,Sub-Saharan Africa ,Lower middle income,5556.1547631509,26733372.0,Cote d'Ivoire,False,False,True,True,False,False,False,17.101423230551628,8.622661558625039,fails_primary_hlo_component_rule,False
+CMR,Cameroon,Sub-Saharan Africa ,Lower middle income,4797.97544185544,24128601.0,Cameroon,False,False,True,True,False,False,False,16.99890845829923,8.475949324973753,fails_primary_hlo_component_rule,False
+COD,"Congo, Dem. Rep.",Sub-Saharan Africa ,Low income,1395.71961761712,87083398.0,"Congo, Dem. Rep.",False,True,True,True,False,False,False,18.28237681515864,7.2411654161707215,fails_primary_hlo_component_rule,False
+COG,"Congo, Rep.",Sub-Saharan Africa ,Lower middle income,7372.77046737599,5351011.0,"Congo, Rep.",False,True,True,True,False,False,False,15.492796072981854,8.905548825994948,fails_primary_hlo_component_rule,False
+COL,Colombia,Latin America & Caribbean ,Upper middle income,16986.0334182842,48131078.0,Colombia,True,True,True,True,True,True,True,17.689438638701436,9.740146721739656,included_rq2,True
+COM,Comoros,Sub-Saharan Africa ,Lower middle income,3472.07858942366,756669.0,Comoros,False,False,True,True,False,False,False,13.53668118448516,8.152508710726735,fails_primary_hlo_component_rule,False
+CPV,Cabo Verde,Sub-Saharan Africa ,Upper middle income,8234.56000312459,512893.0,,,,True,False,False,False,False,13.147822525399649,9.01609521108407,no_matched_hlo_record,False
+CRI,Costa Rica,Latin America & Caribbean ,High income,22633.7648663302,4913177.0,Costa Rica,True,True,True,True,True,True,True,15.407431337369328,10.027198090955984,included_rq2,True
+CUB,Cuba,Latin America & Caribbean ,Upper middle income,,11247829.0,Cuba,False,True,True,True,False,False,False,16.235685690214318,,fails_primary_hlo_component_rule,False
+CUW,Curacao,Latin America & Caribbean ,High income,29729.1013639498,160175.0,,,,True,False,False,False,False,11.984022246507225,10.299881688961136,no_matched_hlo_record,False
+CYM,Cayman Islands,Latin America & Caribbean ,High income,74599.6799559357,64535.0,,,,True,False,False,False,False,11.074962991269288,11.21989149604774,no_matched_hlo_record,False
+CYP,Cyprus,Europe & Central Asia,High income,41417.98828125,1254275.0,Cyprus,True,True,True,True,True,True,True,14.042068274378272,10.631470564992911,included_rq2,True
+CZE,Czechia,Europe & Central Asia,High income,45177.5226053634,10594438.0,Czechia,True,False,True,True,True,False,False,16.175839704389034,10.71835495463993,not_direct_qnw_v135,False
+DEU,Germany,Europe & Central Asia,High income,61965.4342904965,82657002.0,Germany,True,True,True,True,True,True,True,18.230210097336165,11.034331997116333,included_rq2,True
+DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,5421.95649149613,1054841.0,,,,True,False,False,False,False,13.8689006026338,8.598212005588223,no_matched_hlo_record,False
+DMA,Dominica,Latin America & Caribbean ,Upper middle income,16314.2295558891,68496.0,,,,True,False,False,False,False,11.134530628384727,9.699792984859304,no_matched_hlo_record,False
+DNK,Denmark,Europe & Central Asia,High income,64989.4459872347,5764980.0,Denmark,True,True,True,True,True,True,True,15.567312242468525,11.081980166267272,included_rq2,True
+DOM,Dominican Republic,Latin America & Caribbean ,Upper middle income,19501.8743054078,10666843.0,Dominican Republic,True,True,True,True,True,True,True,16.18265070320925,9.878265858158818,included_rq2,True
+DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,15427.6641894713,41689299.0,Algeria,True,False,True,True,True,False,False,17.54575503513178,9.64391755278784,not_direct_qnw_v135,False
+ECU,Ecuador,Latin America & Caribbean ,Upper middle income,14179.1537503305,16759519.0,Ecuador,False,True,True,True,False,False,False,16.63447695332237,9.559528119203028,fails_primary_hlo_component_rule,False
+EGY,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,14018.3605934411,103696057.0,"Egypt, Arab Rep.",True,True,True,True,True,True,True,18.456974649333173,9.548123220330586,included_rq2,True
+ERI,Eritrea,Sub-Saharan Africa ,Low income,,3150347.0,,,,True,False,False,False,False,14.963023163464948,,no_matched_hlo_record,False
+ESP,Spain,Europe & Central Asia,High income,45446.2508575695,46571232.0,Spain,True,True,True,True,True,True,True,17.656493569407864,10.72428560682078,included_rq2,True
+EST,Estonia,Europe & Central Asia,High income,39529.785973279,1317384.0,Estonia,False,True,True,True,False,False,False,14.09115850998062,10.58480974199019,fails_primary_hlo_component_rule,False
+ETH,Ethiopia,Sub-Saharan Africa ,Low income,2222.82824478259,109666481.0,Ethiopia,False,True,True,True,False,False,False,18.512954327050984,7.7065356481734195,fails_primary_hlo_component_rule,False
+FIN,Finland,Europe & Central Asia,High income,55637.2262781223,5508214.0,Finland,True,True,True,True,True,True,True,15.52175099065401,10.926607793574822,included_rq2,True
+FJI,Fiji,East Asia & Pacific,Upper middle income,12597.327485488,918759.0,,,,True,False,False,False,False,13.730779125379572,9.441239966115916,no_matched_hlo_record,False
+FRA,France,Europe & Central Asia,High income,51895.5662985838,66918020.0,France,True,False,True,True,True,False,False,18.01897884607793,10.856988637731869,not_direct_qnw_v135,False
+FRO,Faroe Islands,Europe & Central Asia,High income,65461.9113301074,50179.0,,,,True,False,False,False,False,10.823351891463572,11.089223746072342,no_matched_hlo_record,False
+FSM,"Micronesia, Fed. Sts.",East Asia & Pacific,Upper middle income,3838.04534289261,109481.0,,,,True,False,False,False,False,11.603506297201315,8.252718490696036,no_matched_hlo_record,False
+GAB,Gabon,Sub-Saharan Africa ,Upper middle income,19555.707882916,2156900.0,Gabon,False,False,True,True,False,False,False,14.584182563610463,9.881022486121028,fails_primary_hlo_component_rule,False
+GBR,United Kingdom,Europe & Central Asia,High income,52429.1275538988,65964000.0,United Kingdom,False,True,True,True,False,False,False,18.004619696630797,10.86721758522021,fails_primary_hlo_component_rule,False
+GEO,Georgia,Europe & Central Asia,Upper middle income,16237.6242230275,3728004.0,Georgia,True,False,True,True,True,False,False,15.131383527748415,9.695086311328495,not_direct_qnw_v135,False
+GHA,Ghana,Sub-Saharan Africa ,Lower middle income,5993.63085211077,30008354.0,Ghana,True,True,True,True,True,True,True,17.21698636752845,8.698452659745659,included_rq2,True
+GIB,Gibraltar,Europe & Central Asia,High income,,34245.0,,,,True,False,False,False,False,10.441295847632006,,no_matched_hlo_record,False
+GIN,Guinea,Sub-Saharan Africa ,Lower middle income,3332.76576150531,12385659.0,Guinea,False,False,True,True,False,False,False,16.332049829017674,8.11155779726182,fails_primary_hlo_component_rule,False
+GMB,"Gambia, The",Sub-Saharan Africa ,Low income,2533.18683710276,2342189.0,"Gambia, The",False,True,True,True,False,False,False,14.6665965201399,7.837233408474804,fails_primary_hlo_component_rule,False
+GNB,Guinea-Bissau,Sub-Saharan Africa ,Low income,2342.56110535416,1877072.0,,,,True,False,False,False,False,14.4452236739166,7.759000099302414,no_matched_hlo_record,False
+GNQ,Equatorial Guinea,Sub-Saharan Africa ,Upper middle income,22250.4389230263,1562396.0,,,,True,False,False,False,False,14.261731098377478,10.0101170142774,no_matched_hlo_record,False
+GRC,Greece,Europe & Central Asia,High income,31995.4108838386,10754679.0,Greece,True,True,True,True,True,True,True,16.190851473655563,10.37334776161764,included_rq2,True
+GRD,Grenada,Latin America & Caribbean ,Upper middle income,16291.4894625979,115438.0,,,,True,False,False,False,False,11.656488868280348,9.698398131584314,no_matched_hlo_record,False
+GRL,Greenland,Europe & Central Asia,High income,66297.1790691281,56172.0,,,,True,False,False,False,False,10.93617369108807,11.101902627291812,no_matched_hlo_record,False
+GTM,Guatemala,Latin America & Caribbean ,Upper middle income,11005.4592851719,16567357.0,Guatemala,False,True,True,True,False,False,False,16.622944871550697,9.306146727317056,fails_primary_hlo_component_rule,False
+GUM,Guam,East Asia & Pacific,High income,,163490.0,,,,True,False,False,False,False,12.004507105369456,,no_matched_hlo_record,False
+GUY,Guyana,Latin America & Caribbean ,High income,12801.6408529346,768479.0,Guyana,False,False,True,True,False,False,False,13.552168515627764,9.457328633327378,fails_primary_hlo_component_rule,False
+HKG,"Hong Kong SAR, China",East Asia & Pacific,High income,65662.8543379575,7393200.0,"Hong Kong SAR, China",True,True,True,True,True,True,True,15.816071216790665,11.09228866159957,included_rq2,True
+HND,Honduras,Latin America & Caribbean ,Lower middle income,6099.60734919414,9588137.0,Honduras,True,False,True,True,True,False,False,16.076037163128532,8.715979679105063,not_direct_qnw_v135,False
+HRV,Croatia,Europe & Central Asia,High income,32348.5888556174,4041407.0,Croatia,True,True,True,True,True,True,True,15.212103456633075,10.38432567782205,included_rq2,True
+HTI,Haiti,Latin America & Caribbean ,Lower middle income,3453.97142164659,10817754.0,Haiti,False,True,True,True,False,False,False,16.196699231276973,8.147279984684724,fails_primary_hlo_component_rule,False
+HUN,Hungary,Europe & Central Asia,High income,33828.714942571,9726756.0,Hungary,True,True,True,True,True,True,True,16.090390996721485,10.429065275317866,included_rq2,True
+IDN,Indonesia,East Asia & Pacific,Upper middle income,11772.5743296107,267346658.0,Indonesia,True,True,True,True,True,True,True,19.404056718813333,9.373527895931772,included_rq2,True
+IMN,Isle of Man,Europe & Central Asia,High income,,83609.0,,,,True,False,False,False,False,11.333906448780748,,no_matched_hlo_record,False
+IND,India,South Asia,Lower middle income,7116.03659185396,1359657400.0,India,False,True,True,True,False,False,False,21.03049859319457,8.870106190966709,fails_primary_hlo_component_rule,False
+IRL,Ireland,Europe & Central Asia,High income,87731.7897045734,4827445.0,Ireland,True,True,True,True,True,True,True,15.389827900159316,11.38203959505767,included_rq2,True
+IRN,"Iran, Islamic Rep.","Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,16167.9677224227,85026754.0,"Iran, Islamic Rep.",True,True,True,True,True,True,True,18.25847651787145,9.690787262694942,included_rq2,True
+IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,14417.6306896454,39337353.0,Iraq,False,True,True,True,False,False,False,17.48768508345554,9.576207090102232,fails_primary_hlo_component_rule,False
+ISL,Iceland,Europe & Central Asia,High income,65462.5033306299,343400.0,Iceland,True,True,True,True,True,True,True,12.746651227445511,11.089232789466182,included_rq2,True
+ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,42895.585129847,8713300.0,Israel,True,True,True,True,True,True,True,15.980361151930218,10.66652418889426,included_rq2,True
+ITA,Italy,Europe & Central Asia,High income,48849.2183534756,60002252.0,Italy,True,True,True,True,True,True,True,17.90989265281535,10.79649365639052,included_rq2,True
+JAM,Jamaica,Latin America & Caribbean ,Upper middle income,10391.0378224678,2815764.0,Jamaica,False,True,True,True,False,False,False,14.8507441859299,9.248698965771707,fails_primary_hlo_component_rule,False
+JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,10220.492781193,10234226.0,Jordan,True,True,True,True,True,True,True,16.14124815135525,9.232150079933144,included_rq2,True
+JPN,Japan,East Asia & Pacific,High income,45693.3776080987,126972000.0,Japan,True,True,True,True,True,True,True,18.6594771476743,10.729708656274562,included_rq2,True
+KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,31524.4416339794,18651931.0,Kazakhstan,True,True,True,True,True,True,True,16.741460237568315,10.358518448827873,included_rq2,True
+KEN,Kenya,Sub-Saharan Africa ,Lower middle income,4846.86210851932,49197766.0,Kenya,False,True,True,True,False,False,False,17.711358773927564,8.486086786610356,fails_primary_hlo_component_rule,False
+KGZ,Kyrgyz Republic,Europe & Central Asia,Lower middle income,5861.22200040503,6306696.0,Kyrgyz Republic,True,True,True,True,True,True,True,15.65712248407187,8.676113393323506,included_rq2,True
+KHM,Cambodia,East Asia & Pacific,Lower middle income,5632.03125629342,16073372.0,Cambodia,False,True,True,True,False,False,False,16.59267454768711,8.636225447590487,fails_primary_hlo_component_rule,False
+KIR,Kiribati,East Asia & Pacific,Lower middle income,2822.02092296284,120275.0,Kiribati,False,False,True,True,False,False,False,11.697536066567654,7.945208546617322,fails_primary_hlo_component_rule,False
+KNA,St. Kitts and Nevis,Latin America & Caribbean ,High income,29948.9200065682,47050.0,,,,True,False,False,False,False,10.758966145013526,10.30724854301256,no_matched_hlo_record,False
+KOR,"Korea, Rep.",East Asia & Pacific,High income,47536.7898568851,51361911.0,"Korea, Rep.",True,True,True,True,True,True,True,17.754407424597705,10.76925921353719,included_rq2,True
+KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",High income,52285.5871175696,4154812.0,Kuwait,True,True,True,True,True,True,True,15.239777738557288,10.864476031147602,included_rq2,True
+LAO,Lao PDR,East Asia & Pacific,Lower middle income,7432.4596330485,7018147.0,Lao PDR,False,True,True,True,False,False,False,15.76400978104443,8.91361212371704,fails_primary_hlo_component_rule,False
+LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,16128.5838196051,6160128.0,Lebanon,False,True,True,True,False,False,False,15.633608114514598,9.688348369348184,fails_primary_hlo_component_rule,False
+LBR,Liberia,Sub-Saharan Africa ,Low income,1661.30290782171,4848925.0,Liberia,False,False,True,True,False,False,False,15.394267588861252,7.415357457719986,fails_primary_hlo_component_rule,False
+LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,15428.1164411854,6738770.0,,,,True,False,False,False,False,15.72338797365309,9.64394686669304,no_matched_hlo_record,False
+LCA,St. Lucia,Latin America & Caribbean ,Upper middle income,22207.2131041263,176342.0,,,,True,False,False,False,False,12.080180570302913,10.008172429687336,no_matched_hlo_record,False
+LIE,Liechtenstein,Europe & Central Asia,High income,,37962.0,Liechtenstein,False,False,True,True,False,False,False,10.54434093837494,,fails_primary_hlo_component_rule,False
+LKA,Sri Lanka,South Asia,Upper middle income,14572.4858214616,21453000.0,Sri Lanka,False,True,True,True,False,False,False,16.881375053698644,9.586890496953824,fails_primary_hlo_component_rule,False
+LSO,Lesotho,Sub-Saharan Africa ,Lower middle income,2924.68096193272,2157110.0,Lesotho,False,False,True,True,False,False,False,14.584279920825756,7.980940680873567,fails_primary_hlo_component_rule,False
+LTU,Lithuania,Europe & Central Asia,High income,38789.2463179035,2842639.0,Lithuania,True,True,True,True,True,True,True,14.860243404026887,10.565898330441268,included_rq2,True
+LUX,Luxembourg,Europe & Central Asia,High income,132169.829576174,596336.0,Luxembourg,True,False,True,True,True,False,False,13.298559545584688,11.791842962322058,not_direct_qnw_v135,False
+LVA,Latvia,Europe & Central Asia,High income,33036.3915943437,1942248.0,Latvia,True,True,True,True,True,True,True,14.47935662307858,10.405365008424456,included_rq2,True
+MAC,"Macao SAR, China",East Asia & Pacific,High income,133322.632677744,648400.0,"Macao SAR, China",True,False,True,True,True,False,False,13.382263068843658,11.800527279284491,not_direct_qnw_v135,False
+MAF,St. Martin (French part),Latin America & Caribbean ,High income,,36837.0,,,,True,False,False,False,False,10.514258053828623,,no_matched_hlo_record,False
+MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,8450.0087890625,35446392.0,Morocco,True,True,True,True,True,True,True,17.38353202861185,9.041922760476416,included_rq2,True
+MCO,Monaco,Europe & Central Asia,High income,,37678.0,,,,True,False,False,False,False,10.53683164872532,,no_matched_hlo_record,False
+MDA,Moldova,Europe & Central Asia,Upper middle income,13118.8219369605,2755189.0,Moldova,True,False,True,True,True,False,False,14.82899660075694,9.481803267076383,not_direct_qnw_v135,False
+MDG,Madagascar,Sub-Saharan Africa ,Low income,1669.72764267278,26788375.0,Madagascar,False,False,True,True,False,False,False,17.103478582719532,7.420415803890578,fails_primary_hlo_component_rule,False
+MDV,Maldives,South Asia,Upper middle income,20036.7165354949,458287.0,,,,True,False,False,False,False,13.035250904395578,9.905321696240469,no_matched_hlo_record,False
+MEX,Mexico,Latin America & Caribbean ,Upper middle income,21777.5225127275,123400057.0,Mexico,True,True,True,True,True,True,True,18.630942131347936,9.98863363945339,included_rq2,True
+MHL,Marshall Islands,East Asia & Pacific,Upper middle income,5200.01066532485,46529.0,,,,True,False,False,False,False,10.747831053096895,8.556415955591426,no_matched_hlo_record,False
+MKD,North Macedonia,Europe & Central Asia,Upper middle income,20121.0510180726,1898657.0,North Macedonia,True,False,True,True,True,False,False,14.456657352100745,9.909521860328104,not_direct_qnw_v135,False
+MLI,Mali,Sub-Saharan Africa ,Low income,2816.19423901587,19813011.0,Mali,False,True,True,True,False,False,False,16.80184940106728,7.943141691822384,fails_primary_hlo_component_rule,False
+MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",High income,51628.2677400365,467106.0,Malta,True,True,True,True,True,True,True,13.054311491622858,10.85182462588795,included_rq2,True
+MMR,Myanmar,East Asia & Pacific,Lower middle income,5877.87465558175,51894938.0,Myanmar,False,False,True,True,False,False,False,17.764731809660706,8.678950522420388,fails_primary_hlo_component_rule,False
+MNE,Montenegro,Europe & Central Asia,Upper middle income,22513.7807637171,625982.0,Montenegro,False,False,True,True,False,False,False,13.34707689567522,10.0218828790916,fails_primary_hlo_component_rule,False
+MNG,Mongolia,East Asia & Pacific,Upper middle income,14401.5375067562,3148917.0,Mongolia,True,True,True,True,True,True,True,14.962569142161962,9.575090251166955,included_rq2,True
+MNP,Northern Mariana Islands,East Asia & Pacific,High income,,49959.0,,,,True,False,False,False,False,10.81895794802638,,no_matched_hlo_record,False
+MOZ,Mozambique,Sub-Saharan Africa ,Low income,1532.0073576114,28166393.0,Mozambique,False,False,True,True,False,False,False,17.15364008763576,7.334334152907411,fails_primary_hlo_component_rule,False
+MRT,Mauritania,Sub-Saharan Africa ,Lower middle income,6050.62180325299,4210600.0,Mauritania,False,False,True,True,False,False,False,15.253115713318593,8.707916323140841,fails_primary_hlo_component_rule,False
+MUS,Mauritius,Sub-Saharan Africa ,Upper middle income,24258.988821567,1264887.0,Mauritius,True,True,True,True,True,True,True,14.050493348090528,10.096542500737652,included_rq2,True
+MWI,Malawi,Sub-Saharan Africa ,Low income,1613.0593571462,18039715.0,Malawi,False,True,True,True,False,False,False,16.708086274247794,7.385887876670825,fails_primary_hlo_component_rule,False
+MYS,Malaysia,East Asia & Pacific,Upper middle income,29551.5457597197,32355644.0,Malaysia,False,True,True,True,False,False,False,17.292299030463333,10.29389133143972,fails_primary_hlo_component_rule,False
+NAM,Namibia,Sub-Saharan Africa ,Lower middle income,11408.7253099967,2506853.0,Namibia,False,True,True,True,False,False,False,14.73453873960158,9.342133719700046,fails_primary_hlo_component_rule,False
+NCL,New Caledonia,East Asia & Pacific,High income,,283546.0,,,,True,False,False,False,False,12.555129646483213,,no_matched_hlo_record,False
+NER,Niger,Sub-Saharan Africa ,Low income,1515.48307317618,21435446.0,Niger,False,False,True,True,False,False,False,16.880556464888954,7.323489527300662,fails_primary_hlo_component_rule,False
+NGA,Nigeria,Sub-Saharan Africa ,Lower middle income,8396.78452243227,200254579.0,Nigeria,False,True,True,True,False,False,False,19.11510001006829,9.035604116598178,fails_primary_hlo_component_rule,False
+NIC,Nicaragua,Latin America & Caribbean ,Lower middle income,7391.19638215265,6316231.0,Nicaragua,False,True,True,True,False,False,False,15.65863322746974,8.90804489287604,fails_primary_hlo_component_rule,False
+NLD,Netherlands,Europe & Central Asia,High income,65665.9910229578,17131296.0,Netherlands,True,True,True,True,True,True,True,16.656417524181034,11.092336430008594,included_rq2,True
+NOR,Norway,Europe & Central Asia,High income,89664.9086415829,5276968.0,Norway,True,True,True,True,True,True,True,15.478862248317874,11.40383476349596,included_rq2,True
+NPL,Nepal,South Asia,Lower middle income,4071.70431755798,28011258.0,Nepal,False,True,True,True,False,False,False,17.14811705875899,8.311816942027555,fails_primary_hlo_component_rule,False
+NRU,Naoero,East Asia & Pacific,High income,10633.2766406018,11324.0,,,,True,False,False,False,False,9.33467964623179,9.271743668485769,no_matched_hlo_record,False
+NZL,New Zealand,East Asia & Pacific,High income,46285.9810980642,4813600.0,New Zealand,True,True,True,True,True,True,True,15.38695580288828,10.74259441016689,included_rq2,True
+OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",High income,38691.1077105097,4537396.0,Oman,True,True,True,True,True,True,True,15.32786383718238,10.56336507769334,included_rq2,True
+PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,5031.56060738433,223273967.0,Pakistan,False,True,True,True,False,False,False,19.223910126941952,8.523485474890492,fails_primary_hlo_component_rule,False
+PAN,Panama,Latin America & Caribbean ,High income,31979.8246437748,4098707.0,Panama,True,False,True,True,True,False,False,15.22618211608261,10.372860503063809,not_direct_qnw_v135,False
+PER,Peru,Latin America & Caribbean ,Upper middle income,15067.489279382,31324637.0,Peru,True,True,True,True,True,True,True,17.259915470490913,9.620294673850855,included_rq2,True
+PHL,Philippines,East Asia & Pacific,Upper middle income,8584.13622709699,108119693.0,Philippines,True,True,True,True,True,True,True,18.49874943993083,9.057671154070093,included_rq2,True
+PLW,Palau,East Asia & Pacific,High income,19693.4082379382,17812.0,,,,True,False,False,False,False,9.787627666441592,9.888039251521338,no_matched_hlo_record,False
+PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,4322.77662200998,9178714.0,Papua New Guinea,False,False,True,True,False,False,False,16.032397665637582,8.371653211347851,fails_primary_hlo_component_rule,False
+POL,Poland,Europe & Central Asia,High income,34354.5987616319,37974826.0,Poland,True,True,True,True,True,True,True,17.452434024473796,10.444491168212922,included_rq2,True
+PRI,Puerto Rico (US),Latin America & Caribbean ,High income,41479.9977732034,3410837.0,,,,True,False,False,False,False,15.042468273686117,10.63296660865984,no_matched_hlo_record,False
+PRK,"Korea, Dem. People's Rep.",East Asia & Pacific,Low income,,25817709.0,,,,True,False,False,False,False,17.066571209779134,,no_matched_hlo_record,False
+PRT,Portugal,Europe & Central Asia,High income,37943.1150505677,10300300.0,Portugal,True,True,True,True,True,True,True,16.147683578989298,10.543843344772467,included_rq2,True
+PRY,Paraguay,Latin America & Caribbean ,Upper middle income,15318.4012187276,6338660.0,Paraguay,False,False,True,True,False,False,False,15.662177947607606,9.636810078757906,fails_primary_hlo_component_rule,False
+PSE,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,6426.79521615335,4454805.0,State of Palestine,False,True,True,True,False,False,False,15.309493846885296,8.768231281809868,fails_primary_hlo_component_rule,False
+PYF,French Polynesia,East Asia & Pacific,High income,,280087.0,,,,True,False,False,False,False,12.542855548175414,,no_matched_hlo_record,False
+QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",High income,115064.943662853,2545820.0,Qatar,True,True,True,True,True,True,True,14.749963356464288,11.653251975449887,included_rq2,True
+ROU,Romania,Europe & Central Asia,High income,32852.6355672255,19588715.0,Romania,True,True,True,True,True,True,True,16.79046419307813,10.399787251051414,included_rq2,True
+RUS,Russian Federation,Europe & Central Asia,High income,35570.703125,145293260.0,Russian Federation,True,True,True,True,True,True,True,18.794264740678653,10.479277632107264,included_rq2,True
+RWA,Rwanda,Sub-Saharan Africa ,Low income,2441.08540816509,12202060.0,Rwanda,False,False,True,True,False,False,False,16.31711534790853,7.80019805878745,fails_primary_hlo_component_rule,False
+SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",High income,57942.5484983044,30977355.0,Saudi Arabia,True,True,True,True,True,True,True,17.248767011645107,10.96720725548382,included_rq2,True
+SDN,Sudan,Sub-Saharan Africa ,Low income,4061.01831054688,42714306.0,Sudan,False,True,True,True,False,False,False,17.57004445721592,8.309189036552489,fails_primary_hlo_component_rule,False
+SEN,Senegal,Sub-Saharan Africa ,Lower middle income,3871.45146786374,15475002.0,Senegal,False,False,True,True,False,False,False,16.554736505775637,8.261384772003336,fails_primary_hlo_component_rule,False
+SGP,Singapore,East Asia & Pacific,High income,117492.967994526,5612253.0,Singapore,True,True,True,True,True,True,True,15.54046280115554,11.674133763920358,included_rq2,True
+SLB,Solomon Islands,East Asia & Pacific,Lower middle income,2704.00988015555,685672.0,Solomon Islands,False,False,True,True,False,False,False,13.438154658254671,7.902491091059859,fails_primary_hlo_component_rule,False
+SLE,Sierra Leone,Sub-Saharan Africa ,Low income,2753.42719762222,7379299.0,Sierra Leone,False,True,True,True,False,False,False,15.814189205615293,7.920601668411908,fails_primary_hlo_component_rule,False
+SLV,El Salvador,Latin America & Caribbean ,Upper middle income,10064.7934942601,6213533.0,El Salvador,True,False,True,True,True,False,False,15.642240213230416,9.2167988206513,not_direct_qnw_v135,False
+SMR,San Marino,Europe & Central Asia,High income,59524.5606827202,33825.0,,,,True,False,False,False,False,10.42895545303899,10.994144290945137,no_matched_hlo_record,False
+SOM,"Somalia, Fed. Rep.",Sub-Saharan Africa ,Low income,1527.66029071648,14916629.0,,,,True,False,False,False,False,16.517987188874176,7.331492622179553,no_matched_hlo_record,False
+SRB,Serbia,Europe & Central Asia,Upper middle income,19438.9917129776,7020858.0,Serbia,True,True,True,True,True,True,True,15.76439599075569,9.875036210052931,included_rq2,True
+SSD,South Sudan,Sub-Saharan Africa ,Low income,,10259154.0,South Sudan,False,True,True,True,False,False,False,16.143680938166852,,fails_primary_hlo_component_rule,False
+STP,Sao Tome and Principe,Sub-Saharan Africa ,Lower middle income,5521.20249597413,206970.0,,,,True,False,False,False,False,12.240329134208263,8.616350959020272,no_matched_hlo_record,False
+SUR,Suriname,Latin America & Caribbean ,Upper middle income,22070.5137570835,593713.0,,,,True,False,False,False,False,13.294151316599804,10.001997777506508,no_matched_hlo_record,False
+SVK,Slovak Republic,Europe & Central Asia,High income,35042.7858925618,5439232.0,Slovak Republic,True,True,True,True,True,True,True,15.509148432395202,10.46432504795615,included_rq2,True
+SVN,Slovenia,Europe & Central Asia,High income,41700.651085028,2066388.0,Slovenia,True,True,True,True,True,True,True,14.541312713545976,10.638272021214837,included_rq2,True
+SWE,Sweden,Europe & Central Asia,High income,59769.0136237,10057698.0,Sweden,True,True,True,True,True,True,True,16.12384886941319,10.99824263881614,included_rq2,True
+SWZ,Eswatini,Sub-Saharan Africa ,Lower middle income,9660.55161538086,1158195.0,Eswatini,False,False,True,True,False,False,False,13.96237331672082,9.175806028617744,fails_primary_hlo_component_rule,False
+SXM,Sint Maarten (Dutch part),Latin America & Caribbean ,High income,46088.3583839152,38996.0,,,,True,False,False,False,False,10.571214355749165,10.738315667460688,no_matched_hlo_record,False
+SYC,Seychelles,Sub-Saharan Africa ,High income,31595.6680570505,95843.0,Seychelles,False,True,True,True,False,False,False,11.470466715029657,10.360775303375547,fails_primary_hlo_component_rule,False
+SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",Low income,5083.65173888422,19224668.0,Syrian Arab Republic,False,True,True,True,False,False,False,16.771704804026115,8.533785128563375,fails_primary_hlo_component_rule,False
+TCA,Turks and Caicos Islands,Latin America & Caribbean ,High income,29540.3537473151,39913.0,,,,True,False,False,False,False,10.594457364348266,10.293512531210524,no_matched_hlo_record,False
+TCD,Chad,Sub-Saharan Africa ,Low income,2496.26213643158,15622759.0,Chad,False,False,True,True,False,False,False,16.564239319300533,7.822549746583636,fails_primary_hlo_component_rule,False
+TGO,Togo,Sub-Saharan Africa ,Lower middle income,2708.61122396846,7324386.0,Togo,False,False,True,True,False,False,False,15.806719886828503,7.904191319039186,fails_primary_hlo_component_rule,False
+THA,Thailand,East Asia & Pacific,Upper middle income,20096.8605455164,71160187.0,Thailand,True,True,True,True,True,True,True,18.080444048639286,9.90831889008261,included_rq2,True
+TJK,Tajikistan,Europe & Central Asia,Lower middle income,3312.71202243506,9085946.0,Tajikistan,False,True,True,True,False,False,False,16.022239382074492,8.10552247501898,fails_primary_hlo_component_rule,False
+TKM,Turkmenistan,Europe & Central Asia,Upper middle income,13963.4045877295,6507061.0,,,,True,False,False,False,False,15.688398452952928,9.544195228224584,no_matched_hlo_record,False
+TLS,Timor-Leste,East Asia & Pacific,Lower middle income,4290.02709296562,1251703.0,Timor-Leste,False,False,True,True,False,False,False,14.040015582053677,8.364048327278722,fails_primary_hlo_component_rule,False
+TON,Tonga,East Asia & Pacific,Upper middle income,6863.54796430087,105356.0,Tonga,False,False,True,True,False,False,False,11.565100370624338,8.833979782982423,fails_primary_hlo_component_rule,False
+TTO,Trinidad and Tobago,Latin America & Caribbean ,High income,34095.9899256152,1356633.0,Trinidad and Tobago,True,False,True,True,True,False,False,14.120516452717936,10.43693505886719,not_direct_qnw_v135,False
+TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,12955.4014814241,11650498.0,Tunisia,True,False,True,True,True,False,False,16.27085948384348,9.46926808297716,not_direct_qnw_v135,False
+TUR,Turkiye,Europe & Central Asia,Upper middle income,28194.688309381,80312698.0,Turkiye,True,True,True,True,True,True,True,18.201438298420424,10.246888881361274,included_rq2,True
+TUV,Tuvalu,East Asia & Pacific,Upper middle income,4668.54376684727,10869.0,Tuvalu,False,False,True,True,False,False,False,9.293669979563187,8.448602474807158,fails_primary_hlo_component_rule,False
+TZA,Tanzania,Sub-Saharan Africa ,Lower middle income,3318.28833007813,55652890.0,Tanzania,False,True,True,True,False,False,False,17.834644566053505,8.107204365732636,fails_primary_hlo_component_rule,False
+UGA,Uganda,Sub-Saharan Africa ,Low income,2543.84754394956,40177388.0,Uganda,False,True,True,True,False,False,False,17.508814907771583,7.841432994971494,fails_primary_hlo_component_rule,False
+UKR,Ukraine,Europe & Central Asia,Upper middle income,16310.3603515625,45436041.0,Ukraine,True,True,True,True,True,True,True,17.63181620270121,9.699555789274273,included_rq2,True
+URY,Uruguay,Latin America & Caribbean ,High income,29762.4220666605,3388438.0,Uruguay,True,False,True,True,True,False,False,15.035879606209264,10.301001872283852,not_direct_qnw_v135,False
+USA,United States,North America,High income,66164.0320014289,326608609.0,United States,True,True,True,True,True,True,True,19.60427309761435,11.099892271030289,included_rq2,True
+UZB,Uzbekistan,Europe & Central Asia,Lower middle income,8413.29975299494,31819178.0,,,,True,False,False,False,False,17.27557974773069,9.037569036655176,no_matched_hlo_record,False
+VCT,St. Vincent and the Grenadines,Latin America & Caribbean ,Upper middle income,15533.2212821544,105663.0,,,,True,False,False,False,False,11.56801006327378,9.6507363178244,no_matched_hlo_record,False
+VEN,"Venezuela, RB",Latin America & Caribbean ,Lower middle income,,30565323.0,"Venezuela, RB",False,True,True,True,False,False,False,17.235376689031856,,fails_primary_hlo_component_rule,False
+VGB,British Virgin Islands,Latin America & Caribbean ,High income,,32699.0,,,,True,False,False,False,False,10.39509977537798,,no_matched_hlo_record,False
+VIR,Virgin Islands (U.S.),Latin America & Caribbean ,High income,43277.1546523522,107281.0,,,,True,False,False,False,False,11.583206839314055,10.675380168576222,no_matched_hlo_record,False
+VNM,Viet Nam,East Asia & Pacific,Upper middle income,10290.5487142244,95176977.0,Viet Nam,False,True,True,True,False,False,False,18.37124863227872,9.23898115240388,fails_primary_hlo_component_rule,False
+VUT,Vanuatu,East Asia & Pacific,Lower middle income,3947.67824193203,278507.0,Vanuatu,False,False,True,True,False,False,False,12.537198472683516,8.280882898228104,fails_primary_hlo_component_rule,False
+WSM,Samoa,East Asia & Pacific,Upper middle income,6919.90225366914,205415.0,,,,True,False,False,False,False,12.232787602047749,8.842156923319633,no_matched_hlo_record,False
+XKX,Kosovo,Europe & Central Asia,Upper middle income,10856.2902074239,1791019.0,Kosovo,False,False,True,True,False,False,False,14.398295289585128,9.292499933602487,fails_primary_hlo_component_rule,False
+YEM,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",Low income,,33090921.0,"Yemen, Rep.",False,True,True,True,False,False,False,17.31476951269269,,fails_primary_hlo_component_rule,False
+ZAF,South Africa,Sub-Saharan Africa ,Upper middle income,14573.5980840004,57635162.0,South Africa,True,True,True,True,True,True,True,17.869643390805354,9.586966820246031,included_rq2,True
+ZMB,Zambia,Sub-Saharan Africa ,Lower middle income,3612.50597664593,17441320.0,Zambia,False,False,True,True,False,False,False,16.674352661654304,8.192156986854178,fails_primary_hlo_component_rule,False
+ZWE,Zimbabwe,Sub-Saharan Africa ,Lower middle income,5234.4065377844,14812482.0,Zimbabwe,False,True,True,True,False,False,False,16.51098076166901,8.563008752558341,fails_primary_hlo_component_rule,False

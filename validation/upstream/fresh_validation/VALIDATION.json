@@ -1,0 +1,11 @@
+{
+  "core_comparisons": 24,
+  "prediction_jobs": 252,
+  "prediction_comparisons": 1008,
+  "independent_checks": 11,
+  "full_ledger_comparison": "PASS",
+  "status": "PASS",
+  "mode": "frozen",
+  "manifest_files_checked": 196,
+  "elapsed_seconds": 877.5286684999883
+}

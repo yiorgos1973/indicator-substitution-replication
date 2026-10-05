@@ -1,7 +1,0 @@
-path,bytes,sha256,material,use
-candidate/original/data/core/core_rq1_exact_sample.csv,11382,c542b3558e2b13fabb668b6da26ccb163e4a87d93579a190e49599c415bc336c,NIQ-dependent values; mixed HLO/WDI where applicable,exact frozen full-input capsule dependency; omitted from distributed review ZIP
-candidate/original/data/core/core_rq2_exact_sample.csv,11225,efa6a9fb34391534932e7e40684eed767d60354cf6131efeab18a3567ebb76d4,NIQ-dependent values; mixed HLO/WDI where applicable,exact frozen full-input capsule dependency; omitted from distributed review ZIP
-candidate/original/data/prediction/model_matrices.csv,214822,8fac343020ed23a69bcd4c35b0ad891094ee54d43610b2ab00fd06d2bf403bb5,NIQ-dependent values; mixed HLO/WDI where applicable,exact frozen full-input capsule dependency; omitted from distributed review ZIP
-expected_empirical/PREDICTIONS.csv,3571681,daeb6d3dc82841e9746ad45d14200d80479d1d88e5954421d87f6e0244011af3,NIQ-dependent values; mixed HLO/WDI where applicable,exact frozen full-input capsule dependency; omitted from distributed review ZIP
-expected_empirical/PREPROCESSING.csv,10812231,d4eb35642f3eb7d430adfb6fd22ad2fe24e1b368bed66412b92e123662f3a239,NIQ-dependent values; mixed HLO/WDI where applicable,exact frozen full-input capsule dependency; omitted from distributed review ZIP
-expected_empirical/TAIL_GROUPS.csv,261686,be64a5aa78e2c1a0c4b1d2de3d886248f8f61f5fa51b466b69ad7db7350d8d88,NIQ-dependent values; mixed HLO/WDI where applicable,exact frozen full-input capsule dependency; omitted from distributed review ZIP

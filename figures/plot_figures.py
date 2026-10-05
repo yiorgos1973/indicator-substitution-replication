@@ -28,7 +28,7 @@ def ranks():
     axes[0].set_title('A  Reported point-score ranks', loc='left', fontsize=10)
     bins = np.arange(-.5, 36.5, 2)
     axes[1].hist(data.absolute_rank_displacement, bins=bins, color='#24445f', edgecolor='white')
-    axes[1].axvline(data.absolute_rank_displacement.mean(), color='#a34722', linestyle='--', label='Mean 9.52')
+    axes[1].axvline(data.absolute_rank_displacement.mean(), color='#a34722', linestyle='--', label=f'Mean {data.absolute_rank_displacement.mean():.2f}')
     axes[1].set(xlabel='Absolute rank displacement (places)', ylabel='Number of economies', xlim=(-1, 36))
     axes[1].set_title('B  Distribution across 66 economies', loc='left', fontsize=10)
     axes[1].legend(frameon=False, fontsize=9)

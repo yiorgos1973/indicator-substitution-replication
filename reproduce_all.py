@@ -2,10 +2,7 @@ from pathlib import Path
 import argparse
 import csv
 import hashlib
-import importlib.util
 import json
-import shutil
-import subprocess
 import sys
 import time
 
@@ -76,66 +73,15 @@ def verify_results():
     return {'status': 'PASS', 'scope': 'archived results, exact sample identities and deterministic folds; no model refit', 'core_comparisons_checked': 24, 'loss_comparisons_checked': 1008, 'prediction_jobs': 252, 'model_matrices': len(manifest), 'split_rows': len(splits), 'fold_groups': fold_groups, 'primary_cells': 53, 'primary_countries': 38, 'absolute_tolerance': 1e-10, 'relative_tolerance': 1e-8, 'fold_tolerance': 0, 'models_refitted': False}
 
 
-def prepare_runtime(authorized_root, output):
-    required = list(csv.DictReader((ROOT / 'ACQUIRED_INPUTS_REQUIRED.csv').open(encoding='utf-8')))
-    missing = []
-    for row in required:
-        path = authorized_root / row['path'] if authorized_root else ROOT / row['path']
-        if not path.is_file():
-            missing.append({**row, 'status': 'missing'})
-        elif digest(path) != row['sha256']:
-            missing.append({**row, 'status': 'hash_mismatch'})
-    output.mkdir(parents=True)
-    with (output / 'MISSING_INPUTS.csv').open('w', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(required[0]) + ['status'])
-        writer.writeheader()
-        writer.writerows(missing)
-    if missing:
-        raise FileNotFoundError(f'{len(missing)} exact inputs missing or changed; see {output.name}/MISSING_INPUTS.csv and ACQUISITION_AND_RECONSTRUCTION.md')
-    runtime = output / 'authorized_runtime'
-    shutil.copytree(ROOT / 'runtime_payload', runtime, ignore=shutil.ignore_patterns('__pycache__'))
-    for row in required:
-        target = runtime / row['path']
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(authorized_root / row['path'], target)
-    files = [{'path': p.relative_to(runtime).as_posix(), 'bytes': p.stat().st_size, 'sha256': digest(p)} for p in sorted(runtime.rglob('*')) if p.is_file() and '__pycache__' not in p.parts]
-    with (runtime / 'MANIFEST.csv').open('w', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=['path', 'bytes', 'sha256'])
-        writer.writeheader()
-        writer.writerows(files)
-    module_path = runtime / 'reproduce_all.py'
-    spec = importlib.util.spec_from_file_location('frozen_wrapper', module_path)
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    root_files = module.verify_manifest()
-    sys.path.insert(0, str(runtime / 'candidate'))
-    import reproduce
-    candidate_files = reproduce.check_manifest()
-    frame = __import__('pandas').read_csv(runtime / 'candidate/original/data/prediction/model_matrices.csv')
-    primary = frame[(frame.scenario_id == 'PRIMARY') & (frame.target_direction == 'HLO_to_P')]
-    assert len(primary) == 53 and primary.iso3.nunique() == 38
-    return runtime, {'status': 'PASS', 'restored_exact_files': len(required), 'runtime_manifest_files': root_files, 'original_candidate_manifest_files': candidate_files, 'models_refitted': False}
-
-
 def main():
-    parser = argparse.ArgumentParser(description='Verify the distributed results or reproduce with separately authorized exact inputs; no network downloads.')
-    parser.add_argument('--mode', choices=['verify', 'prepare', 'frozen'], default='verify')
+    parser = argparse.ArgumentParser(description='Check archived results and deterministic sample/fold identities without refitting.')
     parser.add_argument('--output', type=Path, required=True)
-    parser.add_argument('--authorized-input-root', type=Path)
     args = parser.parse_args()
     start = time.perf_counter()
     files = verify_manifest()
-    if args.mode == 'verify':
-        args.output.mkdir(parents=True)
-        results = verify_results()
-    else:
-        runtime, results = prepare_runtime(args.authorized_input_root, args.output)
-        if args.mode == 'frozen':
-            print('Prior full run: 877.53 seconds. The unchanged engine reports progress and ETA; costs vary by job.', flush=True)
-            subprocess.run([sys.executable, str(runtime / 'reproduce_all.py'), '--mode', 'frozen', '--output', str((args.output / 'refitted').resolve())], check=True)
-            results = json.loads((args.output / 'refitted/VALIDATION.json').read_text())
-            results['models_refitted'] = True
-    results.update(mode=args.mode, packaged_files_verified=files, elapsed_seconds=time.perf_counter() - start)
+    args.output.mkdir(parents=True)
+    results = verify_results()
+    results.update(packaged_files_verified=files, elapsed_seconds=time.perf_counter() - start)
     (args.output / 'VALIDATION.json').write_text(json.dumps(results, indent=2) + '\n', encoding='utf-8')
     print(json.dumps(results, indent=2))
 

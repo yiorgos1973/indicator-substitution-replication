@@ -1,0 +1,165 @@
+iso3,canonical_economy_name,include_primary_reporting_economy,include_sensitivity_un_member_observer
+AFG,Afghanistan,True,True
+AGO,Angola,True,True
+ALB,Albania,True,True
+ARE,United Arab Emirates,True,True
+ARG,Argentina,True,True
+ARM,Armenia,True,True
+AUS,Australia,True,True
+AUT,Austria,True,True
+AZE,Azerbaijan,True,True
+BDI,Burundi,True,True
+BEL,Belgium,True,True
+BEN,Benin,True,True
+BFA,Burkina Faso,True,True
+BGD,Bangladesh,True,True
+BGR,Bulgaria,True,True
+BHR,Bahrain,True,True
+BIH,Bosnia and Herzegovina,True,True
+BLZ,Belize,True,True
+BRA,Brazil,True,True
+BWA,Botswana,True,True
+CAN,Canada,True,True
+CHE,Switzerland,True,True
+CHL,Chile,True,True
+CHN,China,True,True
+CIV,Cote d'Ivoire,True,True
+CMR,Cameroon,True,True
+COD,"Congo, Dem. Rep.",True,True
+COG,"Congo, Rep.",True,True
+COL,Colombia,True,True
+COM,Comoros,True,True
+CRI,Costa Rica,True,True
+CUB,Cuba,True,True
+CYP,Cyprus,True,True
+CZE,Czechia,True,True
+DEU,Germany,True,True
+DNK,Denmark,True,True
+DOM,Dominican Republic,True,True
+DZA,Algeria,True,True
+ECU,Ecuador,True,True
+EGY,"Egypt, Arab Rep.",True,True
+ESP,Spain,True,True
+EST,Estonia,True,True
+ETH,Ethiopia,True,True
+FIN,Finland,True,True
+FRA,France,True,True
+GAB,Gabon,True,True
+GBR,United Kingdom,True,True
+GEO,Georgia,True,True
+GHA,Ghana,True,True
+GIN,Guinea,True,True
+GMB,"Gambia, The",True,True
+GRC,Greece,True,True
+GTM,Guatemala,True,True
+GUY,Guyana,True,True
+HKG,"Hong Kong SAR, China",True,False
+HND,Honduras,True,True
+HRV,Croatia,True,True
+HTI,Haiti,True,True
+HUN,Hungary,True,True
+IDN,Indonesia,True,True
+IND,India,True,True
+IRL,Ireland,True,True
+IRN,"Iran, Islamic Rep.",True,True
+IRQ,Iraq,True,True
+ISL,Iceland,True,True
+ISR,Israel,True,True
+ITA,Italy,True,True
+JAM,Jamaica,True,True
+JOR,Jordan,True,True
+JPN,Japan,True,True
+KAZ,Kazakhstan,True,True
+KEN,Kenya,True,True
+KGZ,Kyrgyz Republic,True,True
+KHM,Cambodia,True,True
+KIR,Kiribati,True,True
+KOR,"Korea, Rep.",True,True
+KWT,Kuwait,True,True
+LAO,Lao PDR,True,True
+LBN,Lebanon,True,True
+LBR,Liberia,True,True
+LIE,Liechtenstein,True,True
+LKA,Sri Lanka,True,True
+LSO,Lesotho,True,True
+LTU,Lithuania,True,True
+LUX,Luxembourg,True,True
+LVA,Latvia,True,True
+MAC,"Macao SAR, China",True,False
+MAR,Morocco,True,True
+MDA,Moldova,True,True
+MDG,Madagascar,True,True
+MEX,Mexico,True,True
+MKD,North Macedonia,True,True
+MLI,Mali,True,True
+MLT,Malta,True,True
+MMR,Myanmar,True,True
+MNE,Montenegro,True,True
+MNG,Mongolia,True,True
+MOZ,Mozambique,True,True
+MRT,Mauritania,True,True
+MUS,Mauritius,True,True
+MWI,Malawi,True,True
+MYS,Malaysia,True,True
+NAM,Namibia,True,True
+NER,Niger,True,True
+NGA,Nigeria,True,True
+NIC,Nicaragua,True,True
+NLD,Netherlands,True,True
+NOR,Norway,True,True
+NPL,Nepal,True,True
+NZL,New Zealand,True,True
+OMN,Oman,True,True
+PAK,Pakistan,True,True
+PAN,Panama,True,True
+PER,Peru,True,True
+PHL,Philippines,True,True
+PNG,Papua New Guinea,True,True
+POL,Poland,True,True
+PRT,Portugal,True,True
+PRY,Paraguay,True,True
+PSE,State of Palestine,True,True
+QAT,Qatar,True,True
+ROU,Romania,True,True
+RUS,Russian Federation,True,True
+RWA,Rwanda,True,True
+SAU,Saudi Arabia,True,True
+SCG,Serbia and Montenegro (historical entity),False,False
+SDN,Sudan,True,True
+SEN,Senegal,True,True
+SGP,Singapore,True,True
+SLB,Solomon Islands,True,True
+SLE,Sierra Leone,True,True
+SLV,El Salvador,True,True
+SRB,Serbia,True,True
+SSD,South Sudan,True,True
+SVK,Slovak Republic,True,True
+SVN,Slovenia,True,True
+SWE,Sweden,True,True
+SWZ,Eswatini,True,True
+SYC,Seychelles,True,True
+SYR,Syrian Arab Republic,True,True
+TCD,Chad,True,True
+TGO,Togo,True,True
+THA,Thailand,True,True
+TJK,Tajikistan,True,True
+TLS,Timor-Leste,True,True
+TON,Tonga,True,True
+TTO,Trinidad and Tobago,True,True
+TUN,Tunisia,True,True
+TUR,Turkiye,True,True
+TUV,Tuvalu,True,True
+TWN,"Taiwan, China",True,False
+TZA,Tanzania,True,True
+UGA,Uganda,True,True
+UKR,Ukraine,True,True
+URY,Uruguay,True,True
+USA,United States,True,True
+VEN,"Venezuela, RB",True,True
+VNM,Viet Nam,True,True
+VUT,Vanuatu,True,True
+XKX,Kosovo,True,False
+YEM,"Yemen, Rep.",True,True
+ZAF,South Africa,True,True
+ZMB,Zambia,True,True
+ZWE,Zimbabwe,True,True

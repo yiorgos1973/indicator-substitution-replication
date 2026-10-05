@@ -1,7 +1,7 @@
-# Exact inputs for numerical refits
+# Source acquisition and reconstruction
 
-`ACQUIRED_INPUTS_REQUIRED.csv` identifies six additional frozen, project-derived files by relative path, byte count and SHA-256 hash. They are dependencies of the existing numerical workflow, rather than provider-download filenames. Their public sharing route remains unresolved.
+Run `METHODOLOGY_Replication.ipynb` using Python 3.12. Its setup cell downloads the pinned public analysis code and installs the numerical requirements. The source cell downloads NIQ v1.3.5 and v1.3.3, the Measuring Human Capital HLO replication files, the published Warne supplementary workbook, and nine World Bank indicators.
 
-Place separately authorized copies beneath `ACQUIRED_FILES`, preserving every recorded relative path. Run the `prepare` command in README.md before the `frozen` command. Preparation checks all six hashes and reports absent or changed inputs in `MISSING_INPUTS.csv`, stopping before fitting.
+The notebook reconstructs NIQ and HLO aggregations, country samples, historical cells, contextual predictors and model matrices. It uses the original estimation, weighting, sample rules, country folds and tuning grids. The default uses current World Bank downloads; `DATA_VERSION = "paper"` selects the attributed archived World Bank extracts.
 
-Archived table inspection, archived-result verification and empirical plotting use the included files. Raw-source acquisition and reconstruction are outside this minimal frozen-input package.
+The paper's dated results remain the reference. Provider revisions may change subsequent estimates. Download hashes, retrieval dates, sample sizes and table/ledger differences are written to the run directory. No separate author-held input files are required by this workflow.

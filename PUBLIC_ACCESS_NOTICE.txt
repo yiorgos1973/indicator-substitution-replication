@@ -1,5 +1,10 @@
-DATA AND REPLICATION CODE ACCESS
+Public replication materials
 
-Included project-authored numerical code, result summaries and display assets are available for inspecting and running the documented replication workflow. No blanket reuse license has been selected. The six omitted dependencies retain their separate access/distribution requirements.
+The notebook obtains NIQ and publisher-hosted supplementary data from their public provider URLs. These source downloads retain their providers' terms. They are acquired by the reader rather than republished as raw NIQ or publisher workbooks in this repository.
 
-Source attribution: Becker (2023), The NIQ-dataset v1.3.5; Angrist, Djankov, Goldberg and Patrinos (2021), Measuring human capital using global learning data, Nature, DOI 10.1038/s41586-021-03323-7; World Bank, World Development Indicators; Warne (2023), DOI 10.1007/s40806-022-00351-y; Henss (2024), DOI 10.32388/6IBSKW. Provider endorsement is not implied. No provider source archive is included in this minimal package.
+NIQ: Becker, The NIQ-dataset, editions v1.3.5 (2023) and v1.3.3 (2019), viewoniq.org.
+HLO: Angrist, Djankov, Goldberg and Patrinos (2021), Nature, doi:10.1038/s41586-021-03323-7; Measuring Human Capital replication commit a61b6452555a080f113687ba6427927bba2d18f9. Study-specific selections and aggregations are adaptations.
+Source reconstruction: Warne (2023), doi:10.1007/s40806-022-00351-y, publisher supplementary workbook; Henss (2024), Qeios preprint v1 dated 6 May 2024, doi:10.32388/6IBSKW.
+World Bank: World Development Indicators, current public API extracts or July/September 2026 archived extracts. Archived ZIPs are attributed individually in data/wdi_frozen/ATTRIBUTION.csv under CC BY 4.0 and World Bank Dataset Terms; selections and aggregations are study adaptations. No provider endorsement is implied.
+
+The paper reports the results recorded for the submission package dated 5 October 2026. Subsequent source updates can change reproduced estimates. Each notebook run records its data version, retrieval timestamp and comparison with the archived results.

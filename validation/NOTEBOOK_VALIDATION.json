@@ -1,0 +1,113 @@
+{
+  "status": "COMPLETED",
+  "data_version": "current",
+  "source": "public provider downloads; paper mode uses attributed World Bank snapshots",
+  "core_economies": 66,
+  "GDP_economies": 65,
+  "primary_cells": 53,
+  "primary_countries": 38,
+  "matrices": 22,
+  "fitted_jobs": 252,
+  "main_tables": 4,
+  "supplementary_tables": 8,
+  "figures": 3,
+  "elapsed_minutes": 12.226009278333125,
+  "checks": [
+    {
+      "check": "core_results.csv",
+      "comparisons": 22,
+      "status": "MATCH"
+    },
+    {
+      "check": "Table_2.csv",
+      "comparisons": 24,
+      "status": "MATCH"
+    },
+    {
+      "check": "matrix_manifest.csv",
+      "comparisons": 22,
+      "status": "MATCH"
+    },
+    {
+      "check": "execution_plan.csv",
+      "comparisons": 252,
+      "status": "MATCH"
+    },
+    {
+      "check": "T_TEMPORAL_COVERAGE_source.csv",
+      "comparisons": 20,
+      "status": "MATCH"
+    },
+    {
+      "check": "T_GDP_CONTRAST_source.csv",
+      "comparisons": 16,
+      "status": "DIFFERENCE_REPORTED"
+    },
+    {
+      "check": "METRICS.csv",
+      "comparisons": 252,
+      "status": "MATCH"
+    },
+    {
+      "check": "SPLITS.csv",
+      "comparisons": 233688,
+      "status": "MATCH"
+    },
+    {
+      "check": "TUNING.csv",
+      "comparisons": 53100,
+      "status": "MATCH"
+    },
+    {
+      "check": "CALIBRATION.csv",
+      "comparisons": 1244,
+      "status": "DIFFERENCE_REPORTED"
+    },
+    {
+      "check": "RANK_LEDGER.csv",
+      "comparisons": 9531,
+      "status": "MATCH"
+    },
+    {
+      "check": "PAIRED_COMPLETENESS.csv",
+      "comparisons": 64,
+      "status": "MATCH"
+    },
+    {
+      "check": "PHASE_B_RANK_SUMMARY_SOURCE.csv",
+      "comparisons": 192,
+      "status": "MATCH"
+    },
+    {
+      "check": "TAIL_SUMMARIES.csv",
+      "comparisons": 1696,
+      "status": "MATCH"
+    },
+    {
+      "check": "Table_3.csv",
+      "comparisons": 22,
+      "status": "MATCH"
+    },
+    {
+      "check": "Table_4.csv",
+      "comparisons": 20,
+      "status": "MATCH"
+    },
+    {
+      "check": "main_table_display_cells",
+      "comparisons": 4,
+      "status": "GENERATED"
+    },
+    {
+      "check": "figures_generated_from_refitted_results",
+      "comparisons": 3,
+      "status": "PASS"
+    }
+  ],
+  "original_source_to_fit_and_report_minutes": 11.029768854999565,
+  "reporting_finalization_seconds": 71.77442540001357,
+  "prediction_sha256": "47764194a06815c7812cb61926aacaf1dcf39590daf1005d6e821ee14ab2cdaa",
+  "reporting_finalization_repeated_fits": 0,
+  "categorical_comparison_audit_seconds": 3.2311333999969065,
+  "comparison_audit_includes": "numeric values, missingness, categorical/boolean fields and row identities"
+}

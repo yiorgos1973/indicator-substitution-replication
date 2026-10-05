@@ -16,3 +16,5 @@ python reproduce_all.py --output verification_run
 ```
 
 The repository contains replication materials and archived scientific results. The manuscript and author records are held separately. Source attribution is in `PUBLIC_ACCESS_NOTICE.txt` and `data/wdi_frozen/ATTRIBUTION.csv`.
+
+The 5 October 2026 validation completed all 252 prediction jobs, retained the primary 53 cells in 38 countries, and reproduced all four main tables at their displayed precision. The full run took 11.03 minutes; a subsequent report-only correction took 71.77 seconds and repeated no fits. GDP and calibration differences were at numerical precision, with identical sample identities and categorical diagnostics. The clean notebook bootstrap, archived-data preparation and figure/table display cells passed. Detailed records are in `validation/NOTEBOOK_PREFLIGHT_QA.json` and `validation/NOTEBOOK_VALIDATION.json`.

@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "notebook": "public/METHODOLOGY_Replication.ipynb",
+  "notebook_sha256": "b9c018b60aca375c1cbf9ab54f87a55d295f0244d4277b73a18da28745680cc8",
+  "private_handoff_copy_matches_sha256": true,
+  "support_commit": "a8adf329852a47e84a741b50cb8204953f849b0c",
+  "python": "3.12.8",
+  "nbclient": "0.11.0",
+  "ipython": "9.17.1",
+  "bootstrap": {
+    "unauthenticated_codeload_fetch": "PASS",
+    "requirements_install": "PASS (all pinned requirements already satisfied)",
+    "public_archive_manifest_files": 93,
+    "public_archive_manifest_mismatches": 0,
+    "extracted_pipeline_sha256": "df867b15245760efb5394e1c8483ed49f9896a6d3d9d21ab3296bcdf2f16740e",
+    "staging_pipeline_sha256": "df867b15245760efb5394e1c8483ed49f9896a6d3d9d21ab3296bcdf2f16740e",
+    "notebook_setup_and_import": "PASS"
+  },
+  "paper_mode_preflight": {
+    "notebook_client_cells_executed": 5,
+    "stages": ["setup/bootstrap", "download", "reconstruct", "build_context", "gdp_results"],
+    "fit_executed": false,
+    "retrieved_utc": "2026-10-05T19:42:31.913884+00:00",
+    "fixed_provider_source_hashes_match": true,
+    "world_bank_frozen_hashes_match": true,
+    "core_economies": 66,
+    "gdp_economies": 65,
+    "modelling_matrices": 22,
+    "execution_jobs": 252,
+    "bootstrap_valid_replications": 99999,
+    "bootstrap_invalid_replications": 0,
+    "errors": []
+  },
+  "current_mode_full_run": {
+    "output": "public/test_current_full",
+    "full_source_to_fit_and_report_minutes": 11.029768854999565,
+    "reporting_repair_seconds": 71.77442540001357,
+    "elapsed_minutes_with_reporting_repair": 12.226009278333125,
+    "fitted_jobs": 252,
+    "repeated_fits_after_completion": 0,
+    "prediction_sha256_before_and_after_reporting_repair": "47764194a06815c7812cb61926aacaf1dcf39590daf1005d6e821ee14ab2cdaa",
+    "main_table_4_comparison": "MATCH (20 compared values)",
+    "table_4_display_values": {
+      "HLO_to_P_M0_mse": 110.086,
+      "HLO_to_P_M1_ridge_mse": 51.974,
+      "HLO_to_P_M2_ridge_mse": 64.223,
+      "HLO_to_P_M3_ridge_mse": 61.795,
+      "P_to_HLO_M0_mse": 5682.209,
+      "P_to_HLO_M1_ridge_mse": 2408.481,
+      "P_to_HLO_M2_ridge_mse": 1299.342,
+      "P_to_HLO_M3_ridge_mse": 1130.524
+    },
+    "completed_validation": "COMPLETED",
+    "checks": {
+      "main_tables_and_temporal_coverage": "MATCH",
+      "metrics": "MATCH (252 rows; max absolute mse_improvement_vs_m0 difference 7.22e-16)",
+      "gdp_contrasts": "DIFFERENCE_REPORTED (max estimate difference 1.88e-8; no sample or categorical differences)",
+      "calibration": "DIFFERENCE_REPORTED (max intercept difference 8.32e-10; no missingness or categorical differences)",
+      "fold_splits_and_tuning": "MATCH",
+      "no_missingness_or_categorical_disagreements": true
+    }
+  },
+  "display_cell": {
+    "target_output": "public/test_current_full",
+    "notebook_client_outputs": 14,
+    "rendered_table_displays": 6,
+    "rendered_svg_figures": 1,
+    "rendered_png_figures": 2,
+    "errors": []
+  },
+  "fit_code_sha256_used": "ab8edfb4986a4a4e2be4e53024039d36c662b5522addbac382c2c37df2dd4fea",
+  "published_pipeline_sha256": "df867b15245760efb5394e1c8483ed49f9896a6d3d9d21ab3296bcdf2f16740e",
+  "fit_code_sha256_exact_match": false,
+  "fit_pipeline_commit_delta": "The two pipeline versions differ only in report finalization/comparison logic and removal of an unused raw HLO_database download. The Replication.fit method and model-estimation implementation were unchanged; no fit was repeated during repair."
+}

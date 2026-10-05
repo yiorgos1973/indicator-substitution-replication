@@ -1,0 +1,15 @@
+file,url,sha256,bytes,matches_paper_source
+niq_v135.zip,https://viewoniq.org/wp-content/uploads/2023/10/NIQ-DATASET-V1.3.5.zip,e786460da3ff8a03065251160168b88bce8884321c1427901492e8842731666a,3826519,True
+niq_v133.zip,https://viewoniq.org/wp-content/uploads/2019/07/NIQ-DATASET-V1.3.3.zip,bfd444e1c7ad4c17a50c7b236f50d379464dd27fd58ba9be49a0850b27a14888,3994559,True
+HLO_database.dta,https://raw.githubusercontent.com/measuringhumancapital/MHC/a61b6452555a080f113687ba6427927bba2d18f9/raw%20data/HLO_database.dta,71b28204c214186af1f4883bb18b660cf234bcb7465ed6d514733effd77e294b,516955,True
+hlo_disag.dta,https://raw.githubusercontent.com/measuringhumancapital/MHC/a61b6452555a080f113687ba6427927bba2d18f9/analysis%20data/hlo_disag.dta,46aa4b601800cf96a43b4961c8953a4afccf9c9b1c77281fcc9f39d082ef299a,513859,True
+warne.xlsx,https://static-content.springer.com/esm/art%3A10.1007%2Fs40806-022-00351-y/MediaObjects/40806_2022_351_MOESM1_ESM.xlsx,9eb05090b71a4fd728e13872e788eed9bd382594871265a941acedc297c4989d,424047,True
+wdi/wdi_SE.PRM.ENRR.zip,https://api.worldbank.org/v2/en/indicator/SE.PRM.ENRR?downloadformat=csv,32da9fbf125b22ee0aeed80949e338be1b479398d0a4e74e4e278952dedaac1a,89279,False
+wdi/wdi_SE.SEC.ENRR.zip,https://api.worldbank.org/v2/en/indicator/SE.SEC.ENRR?downloadformat=csv,090405e261aa46b05cbd88da0ce5eebe19d8815fcc9b5dbc0245b81631cb1a97,83838,False
+wdi/wdi_SE.XPD.TOTL.GD.ZS.zip,https://api.worldbank.org/v2/en/indicator/SE.XPD.TOTL.GD.ZS?downloadformat=csv,93f5071b6c8bc9f9136dc7e8e75b0ee03bf659ba30d906de085ae2db965f1d40,68002,False
+wdi/wdi_SH.DYN.MORT.zip,https://api.worldbank.org/v2/en/indicator/SH.DYN.MORT?downloadformat=csv,8d42227acae52da919800fc8694879ef28ddac8f8ba9d5340f6008c40f6b7406,52124,False
+wdi/wdi_SP.DYN.TFRT.IN.zip,https://api.worldbank.org/v2/en/indicator/SP.DYN.TFRT.IN?downloadformat=csv,004fb3bac46c2fe8dd4ddf0444477687a6d4fd25528bef1fdb658d915eedbf93,73851,False
+wdi/wdi_SP.URB.TOTL.IN.ZS.zip,https://api.worldbank.org/v2/en/indicator/SP.URB.TOTL.IN.ZS?downloadformat=csv,86758ae734973384efa7795d25c83a7ff32774a74363f40fafbdfddd8e29448d,159240,False
+wdi/wdi_IT.NET.USER.ZS.zip,https://api.worldbank.org/v2/en/indicator/IT.NET.USER.ZS?downloadformat=csv,dd60d3f2b5ed4a9572a6287d65b234e8730b1e42654006e460b5b8d804afb4bc,49838,False
+wdi/wdi_NY.GDP.PCAP.PP.KD.zip,https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.PP.KD?downloadformat=csv,f5ab644e349e150bb46aa90af2d44232bdf6b6190acbef4852e522d6237a6323,93808,False
+wdi/wdi_SP.POP.TOTL.zip,https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL?downloadformat=csv,fa88887245cb873693c7b91efb8d11380b09715c5b0d90350550e5b086a2f006,89654,False

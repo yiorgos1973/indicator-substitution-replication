@@ -28,12 +28,12 @@ from phase_b.plan import build_execution_plan, plan_hash
 from phase_b.engine import run_job
 from phase_b.orchestrator import _matrix_for_job, _write_job, assemble_ledgers
 from phase_b_reporting.processor import compute_results
+from phase_b.finalize_run import _metrics, _reporting_ledgers, _paired
 
 
 SOURCES = {
     'niq_v135.zip': ('https://viewoniq.org/wp-content/uploads/2023/10/NIQ-DATASET-V1.3.5.zip', 'e786460da3ff8a03065251160168b88bce8884321c1427901492e8842731666a'),
     'niq_v133.zip': ('https://viewoniq.org/wp-content/uploads/2019/07/NIQ-DATASET-V1.3.3.zip', 'bfd444e1c7ad4c17a50c7b236f50d379464dd27fd58ba9be49a0850b27a14888'),
-    'HLO_database.dta': ('https://raw.githubusercontent.com/measuringhumancapital/MHC/a61b6452555a080f113687ba6427927bba2d18f9/raw%20data/HLO_database.dta', '71b28204c214186af1f4883bb18b660cf234bcb7465ed6d514733effd77e294b'),
     'hlo_disag.dta': ('https://raw.githubusercontent.com/measuringhumancapital/MHC/a61b6452555a080f113687ba6427927bba2d18f9/analysis%20data/hlo_disag.dta', '46aa4b601800cf96a43b4961c8953a4afccf9c9b1c77281fcc9f39d082ef299a'),
     'warne.xlsx': ('https://static-content.springer.com/esm/art%3A10.1007%2Fs40806-022-00351-y/MediaObjects/40806_2022_351_MOESM1_ESM.xlsx', '9eb05090b71a4fd728e13872e788eed9bd382594871265a941acedc297c4989d'),
 }
@@ -340,6 +340,13 @@ class Replication:
 
     def report(self):
         predictions = pd.read_csv(self.run / 'PREDICTIONS.csv')
+        plan = pd.read_csv(self.run / 'execution_plan.csv')
+        status = json.loads((self.run / 'RUN_STATUS.json').read_text())
+        csv(_metrics(plan, predictions), self.run / 'METRICS.csv')
+        calibration, ranks, tails = _reporting_ledgers(plan, predictions)
+        for name, frame in [('CALIBRATION.csv', calibration), ('RANK_LEDGER.csv', ranks), ('TAIL_GROUPS.csv', tails),
+                            ('PAIRED_COMPLETENESS.csv', _paired(plan, status))]:
+            csv(frame, self.run / name)
         results, sources = compute_results(predictions, 'download_reconstruction', sha256((self.run / 'PREDICTIONS.csv').read_bytes()).hexdigest())
         for name, frame in sources.items():
             csv(frame, self.output / 'reporting_sources' / name)

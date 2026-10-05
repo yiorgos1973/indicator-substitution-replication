@@ -451,9 +451,16 @@ class Replication:
             finite = np.isfinite(a) & np.isfinite(b)
             difference = float(np.max(np.abs(a[finite] - b[finite]))) if finite.any() else 0.0
             changes.append(dict(table=path.name, column=column, maximum_absolute_difference=difference,
+                                differing_categories=0,
                                 changed_missingness=int((np.isfinite(a) != np.isfinite(b)).sum()),
+                                identical_row_identities=same_ids, fresh_rows=len(fresh), paper_rows=len(expected)))
+        for column in expected.columns.difference(numeric).difference(keys):
+            a = paired[column + '_fresh'].fillna('').astype(str)
+            b = paired[column + '_paper'].fillna('').astype(str)
+            changes.append(dict(table=path.name, column=column, maximum_absolute_difference=0.0,
+                                differing_categories=int(a.ne(b).sum()), changed_missingness=0,
                                 identical_row_identities=same_ids, fresh_rows=len(fresh), paper_rows=len(expected)))
         if changes:
             csv(pd.DataFrame(changes), self.output / 'comparisons' / path.name)
-        matches = same_ids and all(x['maximum_absolute_difference'] <= 1e-10 and x['changed_missingness'] == 0 for x in changes)
-        self.checks.append(dict(check=path.name, comparisons=len(fresh), status='MATCH' if matches else 'UPDATED_DATA_DIFFERENCE'))
+        matches = same_ids and all(x['maximum_absolute_difference'] <= 1e-10 and x['changed_missingness'] == 0 and x['differing_categories'] == 0 for x in changes)
+        self.checks.append(dict(check=path.name, comparisons=len(fresh), status='MATCH' if matches else 'DIFFERENCE_REPORTED'))

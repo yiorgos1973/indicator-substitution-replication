@@ -1,7 +1,0 @@
-column_name,observed_serialized_type,nullable_observed,description,units_or_format,source_csv,dictionary_status
-output,text,false,Serialized field `output`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_CORE_SUBSTITUTION_source.csv,schema_audited_semantics_source_defined
-metric,text,false,Serialized field `metric`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_CORE_SUBSTITUTION_source.csv,schema_audited_semantics_source_defined
-estimate,number,false,Serialized field `estimate`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_CORE_SUBSTITUTION_source.csv,schema_audited_semantics_source_defined
-unit,text,false,Serialized field `unit`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_CORE_SUBSTITUTION_source.csv,schema_audited_semantics_source_defined
-n,integer,false,Serialized field `n`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_CORE_SUBSTITUTION_source.csv,schema_audited_semantics_source_defined
-denominator,text,false,Serialized field `denominator`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_CORE_SUBSTITUTION_source.csv,schema_audited_semantics_source_defined

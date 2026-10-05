@@ -1,3 +1,0 @@
-column_name,observed_serialized_type,nullable_observed,description,units_or_format,source_csv,dictionary_status
-result_id,text,false,Serialized field `result_id`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_results.csv,schema_audited_semantics_source_defined
-estimate,number,false,Serialized field `estimate`; consult the source artifact and generator for scientific semantics.,source-defined,data/core/core_results.csv,schema_audited_semantics_source_defined

@@ -1,9 +1,5 @@
-PUBLIC DATA AND REPLICATION CODE ACCESS - 5 OCTOBER 2026
+DATA AND REPLICATION CODE ACCESS
 
-The author requested public GitHub access limited to data and replication code. This release contains the selected project-authored replication code, supporting documentation, original result summaries and provider-licensed HLO/WDI inputs. It excludes manuscripts, identifying submission documents, complete author-only archives and the ten dependencies listed in ACQUIRED_INPUTS_REQUIRED.csv.
+Included project-authored numerical code, result summaries and display assets are available for inspecting and running the documented replication workflow. No blanket reuse license has been selected. The six omitted dependencies retain their separate access/distribution requirements.
 
-The selected project-authored materials are authorized for public access for inspecting and executing the replication workflow. Historical review-only restrictions in project-authored notices are superseded only for the materials actually included in this public repository. This authorization does not extend to omitted source inputs or complete private capsules and does not select a blanket open-source or CC-BY reuse license.
-
-HLO and WDI materials retain their own provider terms and attribution. Consult HLO_FILE_LINEAGE.csv, WDI_FROZEN_ATTRIBUTION.csv, WDI_LICENSE_EVIDENCE.csv, rights_evidence/ and DATA_SHARING_REVIEW.md. Cite the World Bank and its data providers; cite Angrist, Djankov, Goldberg and Patrinos (2021), Measuring human capital using global learning data, Nature, DOI 10.1038/s41586-021-03323-7. Study transformations and file lineage are recorded; provider endorsement is not implied.
-
-Archived-result verification and empirical-figure regeneration run with the distributed files. Full frozen-input refits require the exact ten separately authorized derived dependencies. Full upstream reconstruction additionally needs the documented original source workspace. Public access is independent of journal submission and repository deposit requirements imposed by a future journal.
+Source attribution: Becker (2023), The NIQ-dataset v1.3.5; Angrist, Djankov, Goldberg and Patrinos (2021), Measuring human capital using global learning data, Nature, DOI 10.1038/s41586-021-03323-7; World Bank, World Development Indicators; Warne (2023), DOI 10.1007/s40806-022-00351-y; Henss (2024), DOI 10.32388/6IBSKW. Provider endorsement is not implied. No provider source archive is included in this minimal package.

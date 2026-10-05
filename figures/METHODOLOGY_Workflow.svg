@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1387" viewBox="0 0 1200 1387" role="img" aria-labelledby="title desc">
+<title id="title">General indicator-substitution workflow and NIQ-HLO implementation</title>
+<desc id="desc">Six aligned stages map general methodological tasks to source reconstruction, matched fixed and historical samples, output comparisons, grouped prediction, sensitivity checks and evidence for use decisions.</desc>
+<rect width="1200" height="1387" fill="white"/>
+<g font-family="Times New Roman, Times, serif" font-size="26.25" fill="#111">
+<text x="307" y="35" text-anchor="middle" font-weight="bold">A. General workflow</text>
+<text x="893" y="35" text-anchor="middle" font-weight="bold">B. NIQ-HLO implementation</text>
+<rect x="35" y="64.00" width="545" height="144.84" fill="white" stroke="#222" stroke-width="2"/>
+<text x="53" y="112.42" font-weight="bold">1. Define use and criterion</text>
+<text x="53" y="144.42">Specify output, population, unit and period;</text>
+<text x="53" y="176.42">set acceptable change.</text>
+<rect x="620" y="64.00" width="545" height="144.84" fill="white" stroke="#222" stroke-width="2"/>
+<text x="638" y="112.42">Study uses: country ordering, extreme</text>
+<text x="638" y="144.42">groups, GDP association and retrospective</text>
+<text x="638" y="176.42">score recovery.</text>
+<path d="M307.5,208.84 V234.84" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="307.5,234.84 301.5,224.84 313.5,224.84" fill="#222"/>
+<path d="M892.5,208.84 V234.84" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="892.5,234.84 886.5,224.84 898.5,224.84" fill="#222"/>
+<rect x="35" y="238.84" width="545" height="175.44" fill="white" stroke="#222" stroke-width="2"/>
+<text x="53" y="302.56" font-weight="bold">2. Reconstruct indicators</text>
+<text x="53" y="334.56">Trace definitions, source populations,</text>
+<text x="53" y="366.56">construction, dates and shared inputs.</text>
+<rect x="620" y="238.84" width="545" height="175.44" fill="white" stroke="#222" stroke-width="2"/>
+<text x="638" y="302.56">Audit published comparisons. Published</text>
+<text x="638" y="334.56">full-history QNW and aggregate HLO; distinct</text>
+<text x="638" y="366.56">period-specific P/HLO; trace shared inputs.</text>
+<path d="M307.5,414.28 V440.28" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="307.5,440.28 301.5,430.28 313.5,430.28" fill="#222"/>
+<path d="M892.5,414.28 V440.28" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="892.5,440.28 886.5,430.28 898.5,430.28" fill="#222"/>
+<rect x="35" y="444.28" width="545" height="200.94" fill="white" stroke="#222" stroke-width="2"/>
+<text x="53" y="520.75" font-weight="bold">3. Match comparisons</text>
+<text x="53" y="552.75">Use common eligible observations, outcome</text>
+<text x="53" y="584.75">definitions and weighting rules.</text>
+<rect x="620" y="444.28" width="545" height="200.94" fill="white" stroke="#222" stroke-width="2"/>
+<text x="638" y="504.75">Fixed QNW-HLO: 66 economies; GDP: 65.</text>
+<text x="638" y="536.75">Period-specific P/HLO: 53 country-period</text>
+<text x="638" y="568.75">observations in 38 countries; HLO-to-P</text>
+<text x="638" y="600.75">primary, reverse secondary.</text>
+<path d="M307.5,645.22 V671.22" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="307.5,671.22 301.5,661.22 313.5,661.22" fill="#222"/>
+<path d="M892.5,645.22 V671.22" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="892.5,671.22 886.5,661.22 898.5,661.22" fill="#222"/>
+<rect x="35" y="675.22" width="545" height="257.04" fill="white" stroke="#222" stroke-width="2"/>
+<text x="53" y="747.74" font-weight="bold">4. Evaluate required outputs</text>
+<text x="53" y="779.74">Ordering/groups: rank movement and overlap.</text>
+<text x="53" y="811.74">External association: paired contrasts.</text>
+<text x="53" y="843.74">Score recovery: grouped held-out loss and</text>
+<text x="53" y="875.74">downstream checks.</text>
+<rect x="620" y="675.22" width="545" height="257.04" fill="white" stroke="#222" stroke-width="2"/>
+<text x="638" y="731.74">Ranks: displacement, reversals and tail</text>
+<text x="638" y="763.74">overlap. GDP: paired contrast and</text>
+<text x="638" y="795.74">conditional intervals. P/HLO: nested</text>
+<text x="638" y="827.74">whole-country holdout, training-only</text>
+<text x="638" y="859.74">preprocessing/tuning and equal-country</text>
+<text x="638" y="891.74">target-unit losses.</text>
+<path d="M307.5,932.26 V958.26" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="307.5,958.26 301.5,948.26 313.5,948.26" fill="#222"/>
+<path d="M892.5,932.26 V958.26" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="892.5,958.26 886.5,948.26 898.5,948.26" fill="#222"/>
+<rect x="35" y="962.26" width="545" height="183.09" fill="white" stroke="#222" stroke-width="2"/>
+<text x="53" y="1013.80" font-weight="bold">5. Check sensitivity</text>
+<text x="53" y="1045.80">Compare justified source, inclusion, history</text>
+<text x="53" y="1077.80">and estimator alternatives; assess relevant</text>
+<text x="53" y="1109.80">uncertainty.</text>
+<rect x="620" y="962.26" width="545" height="183.09" fill="white" stroke="#222" stroke-width="2"/>
+<text x="638" y="1013.80">Source, inclusion, weighting, history and</text>
+<text x="638" y="1045.80">estimator checks. History alternatives and</text>
+<text x="638" y="1077.80">references refitted on matched eligible</text>
+<text x="638" y="1109.80">intersections.</text>
+<path d="M307.5,1145.35 V1171.35" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="307.5,1171.35 301.5,1161.35 313.5,1161.35" fill="#222"/>
+<path d="M892.5,1145.35 V1171.35" fill="none" stroke="#222" stroke-width="2"/>
+<polygon points="892.5,1171.35 886.5,1161.35 898.5,1161.35" fill="#222"/>
+<rect x="35" y="1175.35" width="545" height="188.19" fill="white" stroke="#222" stroke-width="2"/>
+<text x="53" y="1229.44" font-weight="bold">6. Interpret for use</text>
+<text x="53" y="1261.44">Judge evidence against the criterion;</text>
+<text x="53" y="1293.44">support, restrict or refine the intended</text>
+<text x="53" y="1325.44">use.</text>
+<rect x="620" y="1175.35" width="545" height="188.19" fill="white" stroke="#222" stroke-width="2"/>
+<text x="638" y="1229.44">Observed changes and descriptive losses</text>
+<text x="638" y="1261.44">provide evidence. Application-defined</text>
+<text x="638" y="1293.44">margins and appropriate uncertainty complete</text>
+<text x="638" y="1325.44">the acceptance decision.</text>
+</g>
+</svg>

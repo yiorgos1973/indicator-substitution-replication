@@ -1,42 +1,44 @@
 # Indicator substitution replication
 
-Data, code and supporting documentation for an output-specific audit of national-IQ and Harmonized Learning Outcomes. This repository supports archived-result verification, empirical-figure regeneration and documented full-refit routes. Manuscripts are maintained privately.
+This package contains the data, existing numerical code and display inputs needed to verify the paper's results, regenerate its empirical graphs and run the documented frozen-input refits.
 
-## Install and verify
-
-Use **Python 3.12**. Run commands from the repository root and choose a new output directory for each run.
+Use **Python 3.12** and run commands from this directory. Choose a new output directory for each verification or refit.
 
 ```bash
 python -m pip install -r requirements.txt
 python reproduce_all.py --mode verify --output verification_run
-```
-
-Verification checks file hashes, 24 archived core comparisons, 1,008 archived loss comparisons, 252 job identities, 22 matrices, 233,688 split rows and 6,666 fold groups. It also checks the primary sample of 53 observations in 38 countries. A successful run writes `verification_run/VALIDATION.json` with `status: PASS`. This route checks archived evidence and deterministic identities without fitting models.
-
-## Regenerate empirical figures
-
-```bash
 python -m pip install -r requirements_figures.txt
 python figures/plot_figures.py
 ```
 
-This regenerates rank/displacement and normalized prediction-loss figures from the distributed CSVs, without fitting models. Outputs appear under `figures/`; the existing `INTELLIGENCE_Figure_*` filenames preserve the tested interface. For the optional `Reviewer_Walkthrough.ipynb`, install `requirements_notebook.txt`.
+Verification checks archived numerical comparisons, sample identities, country folds and file hashes. Plotting recreates the two empirical graphs under `figures/`. `figures/METHODOLOGY_Workflow.svg` is the editable methodological schematic.
 
-## Full frozen-input refits
+## Tables
 
-Full refits require **ten exact, separately authorized project-derived files** listed in [ACQUIRED_INPUTS_REQUIRED.csv](ACQUIRED_INPUTS_REQUIRED.csv). Preserve their relative paths beneath `ACQUIRED_FILES`. These are derived dependencies, not files downloadable under those names from providers. Their public distribution route remains unresolved.
+`tables/Table_1.csv` through `Table_4.csv` contain the exact archived main-table cells. The supplementary displays use these existing result ledgers and rules:
+
+| Table | Source and selection |
+| --- | --- |
+| S1 | `runtime_payload/expected_empirical/METRICS.csv`: PRIMARY; MSE/RMSE to three decimals |
+| S2 | Same ledger: scenarios other than PRIMARY and PRIMARY_DELETE; three decimals |
+| S3 | Same ledger: PRIMARY_DELETE; pivot MSE by country/model and form M1 minus M3 and M2 minus M3; three decimals |
+| S4 | `tables/archived/PHASE_B_RANK_SUMMARY_SOURCE.csv`: PRIMARY; rank loss to six decimals |
+| S5 | `runtime_payload/expected_empirical/CALIBRATION.csv`: PRIMARY, ridge/reference; three decimals and explicit undefined values |
+| S6 | `tables/archived/TAIL_SUMMARIES.csv`: primary Ridge jobs; counts, overlap and flags |
+| S7 | `tables/archived/T_GDP_CONTRAST_source.csv`: estimates/limits to six decimals, with interval/test labels |
+| S8 | `tables/archived/T_TEMPORAL_COVERAGE_source.csv`: first six columns |
+
+These are archived table values and display rules. The existing public entry point verifies results; it does not export formatted tables.
+
+## Numerical refits
+
+Refits require the **six exact additional files** listed in `ACQUIRED_INPUTS_REQUIRED.csv`, preserving their relative paths below `ACQUIRED_FILES`. Their public distribution route remains unresolved. See [input instructions](ACQUISITION_AND_RECONSTRUCTION.md).
 
 ```bash
 python reproduce_all.py --mode prepare --authorized-input-root ACQUIRED_FILES --output prepared_run
 python reproduce_all.py --mode frozen --authorized-input-root ACQUIRED_FILES --output refitted_run
 ```
 
-`prepare` verifies the required hashes and assembles the runtime without fitting. Missing or changed dependencies are recorded in `MISSING_INPUTS.csv`, and execution stops before fitting. `frozen` runs the unchanged numerical workflow once those exact files are supplied.
+`prepare` checks hashes without fitting. `frozen` reruns the unchanged 252-job workflow and compares numerical ledgers. The complete author-held run passed in approximately 21.45 minutes; the engine reports progress and estimated time.
 
-The complete author-held frozen-input workflow passed 252 jobs, 24 core comparisons, 1,008 loss comparisons and 11 independent empirical checks on 4 October 2026. The full run took approximately 21.45 minutes; actual duration depends on the machine.
-
-## Source reconstruction and attribution
-
-Full upstream reconstruction additionally requires the documented original **93-file source workspace**, construction code and dependency records. See [ACQUISITION_AND_RECONSTRUCTION.md](ACQUISITION_AND_RECONSTRUCTION.md), [OFFICIAL_SOURCE_REGISTRY.csv](OFFICIAL_SOURCE_REGISTRY.csv) and `runtime_payload/SOURCE_ALLOWLIST.csv`. The files under `reconstruction_reference/` preserve the existing transformation code for that separate workspace. Current provider downloads can differ from the hash-pinned historical versions.
-
-Frozen HLO and WDI data retain their recorded provider terms, attribution and notices. Original summaries, code and supporting records retain the validated scientific payload. [PUBLIC_ACCESS_NOTICE.txt](PUBLIC_ACCESS_NOTICE.txt) records the current publication scope; [PERMISSIONS_CURRENT.csv](PERMISSIONS_CURRENT.csv) records included materials and ten omissions. Historical notices retain their original dates and scope. Public access does not assign a blanket reuse license.
+Attribution and access terms are in [PUBLIC_ACCESS_NOTICE.txt](PUBLIC_ACCESS_NOTICE.txt).

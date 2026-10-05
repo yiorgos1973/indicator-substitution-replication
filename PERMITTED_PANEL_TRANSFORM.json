@@ -1,9 +1,0 @@
-{
-  "original_full_panel_sha256": "5089ae20401f497322dff379e1f85831cf25f9bb300576f4d6ae695925bbb788",
-  "distributed_panel_sha256": "dd5ce8338f2d42a47475374cc96b339eb8e2cf1cdc8b6a7111e2e8227991cefb",
-  "original_rows": 24700,
-  "distributed_rows": 22230,
-  "removed_indicator": "SP.DYN.LE00.IN",
-  "reason": "outside retained study block; no additional raw/indicator license check needed for this omitted unused series",
-  "transformation": "select the other nine frozen indicator series; retain all their values and missingness"
-}

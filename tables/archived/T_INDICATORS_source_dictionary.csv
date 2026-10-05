@@ -1,8 +1,0 @@
-column_name,observed_serialized_type,nullable_observed,description,units_or_format,source_csv,dictionary_status
-indicator,text,false,Serialized field `indicator`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
-role,text,false,Serialized field `role`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
-assessed_evidence,text,false,Serialized field `assessed_evidence`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
-date_scope,text,false,Serialized field `date_scope`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
-weighting,text,false,Serialized field `weighting`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
-analysis_coverage,text,false,Serialized field `analysis_coverage`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
-important_boundary,text,false,Serialized field `important_boundary`; consult the source artifact and generator for scientific semantics.,source-defined,tables/T_INDICATORS_source.csv,schema_audited_semantics_source_defined
